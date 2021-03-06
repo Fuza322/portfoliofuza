@@ -5,6 +5,9 @@ function App() {
     return (
         <div className="App">
             Try to deploy github pages
+        <div>
+            TEST TEST TEST
+        </div>
         </div>
     );
 }
