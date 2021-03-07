@@ -6,12 +6,12 @@
     background-color: gainsboro;
 }
 
-.icon {
-    height: 60px;
-    width: 60px;
+.skillIcon {
+    height: 100px;
+    width: 100px;
     background-color: #02b1b1;
 }
 
-.skillDescription {
+.skillDescriptionText {
     text-align: center;
 }

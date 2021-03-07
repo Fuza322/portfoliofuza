@@ -1,0 +1,40 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: gainsboro;
+}
+
+.projectImage {
+    height: 300px;
+    width: 500px;
+    background-color: #02b1b1;
+}
+
+.projectDescription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+
+.projectNameText {
+    padding: 15px;
+}
+
+.projectDescriptionText {
+    padding: 15px;
+}
+
+.projectButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.projectButton {
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+}
+
