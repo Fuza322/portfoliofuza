@@ -1,0 +1,17 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-color: gainsboro;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: #02b1b1;
+}
+
+.skillDescription {
+    text-align: center;
+}
