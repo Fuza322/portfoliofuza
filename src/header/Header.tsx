@@ -6,8 +6,7 @@ export function Header() {
     return (
         <div className={headerStyle.header}>
             <div className={headerStyle.divHeader}>
-                <div className={headerStyle.headerText}>
-                    <div>Header</div>
+                <div className={headerStyle.headerLogo}>
                 </div>
                 <Nav/>
             </div>

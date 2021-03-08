@@ -1,0 +1,38 @@
+.footerBlock {
+    height: 35vh;
+    background-color: #d7e0fc;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerTitle {
+    background-color: #eeeef5;
+    border: 1px solid;
+}
+
+.divFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 80px;
+    padding: 0;
+    border: 1px solid;
+}
+
+.footerRights {
+    border: 1px solid;
+}
