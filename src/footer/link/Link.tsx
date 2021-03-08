@@ -1,11 +1,12 @@
 import React from 'react';
 import linkStyle from './Link.module.css'
+import {LinkType} from "../../App";
 
 
-export function Link() {
+export function Link(props: LinkType) {
     return (
         <li className={linkStyle.link}>
-            <a href="#">Test_Link</a>
+            <a href="#">{props.linkTitle}</a>
         </li>
     )
 }

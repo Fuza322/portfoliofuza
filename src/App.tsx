@@ -19,12 +19,29 @@ export type SkillType = {
     skillDiscription: string
 }
 
+export type FooterType = {
+    links: Array<LinkType>
+}
+
+export type LinkType = {
+    id: string,
+    linkTitle: string
+}
+
+
 function App() {
 
-    let skills: Array<SkillType> = [
-        {id: '1', skillTitle: 'JavaScript', skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {id: '2', skillTitle: 'React', skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {id: '3', skillTitle: 'CSS', skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+    const skills: Array<SkillType> = [
+        {id: '1s', skillTitle: 'JavaScript', skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {id: '2s', skillTitle: 'React', skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {id: '3s', skillTitle: 'CSS', skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+    ]
+
+    const links: Array<LinkType> = [
+        {id: '1l', linkTitle: 'G-Mail'},
+        {id: '2l', linkTitle: 'GitHub'},
+        {id: '3l', linkTitle: 'Linkedin'},
+        {id: '4l', linkTitle: 'Code Wars'},
     ]
 
     return (
@@ -36,7 +53,9 @@ function App() {
             />
             <Projects/>
             <Contact/>
-            <Footer/>
+            <Footer
+                links={links}
+            />
         </div>
     );
 }
