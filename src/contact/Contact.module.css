@@ -15,4 +15,30 @@
 .contactForm {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 70%;
 }
+
+.divContactInput {
+    width: 100%;
+}
+
+.contactInput {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+}
+
+.contactTextArea {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+}
+
+.contactButton {
+    width: 200px;
+    height: 50px;
+}
+

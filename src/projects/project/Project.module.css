@@ -2,29 +2,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
+    width: 450px;
     background-color: gainsboro;
 }
 
 .projectImage {
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 450px;
     background-color: #02b1b1;
 }
 
 .projectDescription {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: #D9D9D9;
 }
 
 .projectNameText {
-    padding: 15px;
+    padding: 10px;
 }
 
 .projectDescriptionText {
-    padding: 15px;
+    padding: 10px;
 }
 
 .projectButtonContainer {
@@ -35,6 +34,6 @@
 .projectButton {
     width: 100px;
     height: 50px;
-    margin: 15px;
+    margin: 10px;
 }
 

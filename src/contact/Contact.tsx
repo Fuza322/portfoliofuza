@@ -8,20 +8,18 @@ export function Contact() {
             <div className={`${styleContainer.container} ${contactStyle.contactContainer}`}>
                 <h2 className={contactStyle.contactTitle}>Contact</h2>
                 <form className={contactStyle.contactForm}>
-                    <input placeholder='Name'
-                           type='text'
-                    />
-                    <input
-                        placeholder='E-mail'
-                        type='text'
-                    />
-                    <textarea
-                        id=""
-                        placeholder='Your message'
-                        name="">
-                    </textarea>
+                    <div className={contactStyle.divContactInput}>
+                        <input className={contactStyle.contactInput} placeholder='Name' type='text'/>
+                    </div>
+                    <div className={contactStyle.divContactInput}>
+                        <input className={contactStyle.contactInput} placeholder='E-mail' type='text'/>
+                    </div>
+                    <div className={contactStyle.divContactInput}>
+                        <textarea className={contactStyle.contactTextArea} id="" placeholder='Your message'
+                                  name=""></textarea>
+                    </div>
+                    <button className={contactStyle.contactButton}>Send</button>
                 </form>
-                <button>Send</button>
             </div>
         </div>
     )
