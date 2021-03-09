@@ -1,5 +1,6 @@
 .contactBlock {
-    height: 100vh;
+    /*height: 100vh;*/
+    height: 100%;
     background-color: #D7FCD7;
 }
 
@@ -18,10 +19,13 @@
     justify-content: space-between;
     align-items: center;
     width: 60%;
-    height: 70%;
+    height: 450px;
 }
 
 .divContactInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -41,4 +45,3 @@
     width: 200px;
     height: 50px;
 }
-

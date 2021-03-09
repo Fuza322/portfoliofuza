@@ -7,23 +7,24 @@
 }
 
 .projectImage {
-    height: 250px;
-    width: 450px;
+    height: 30vh;
+    width: 100%;
     background-color: #02b1b1;
 }
 
 .projectDescription {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #D9D9D9;
 }
 
 .projectNameText {
-    padding: 10px;
+
 }
 
 .projectDescriptionText {
-    padding: 10px;
+
 }
 
 .projectButtonContainer {

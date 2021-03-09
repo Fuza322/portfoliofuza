@@ -1,5 +1,6 @@
 .footerBlock {
-    height: 35vh;
+    /*height: 100vh;*/
+    height: 100%;
     background-color: #d7e0fc;
 }
 
