@@ -1,12 +1,10 @@
 .footerBlock {
-    /*height: 100vh;*/
     height: 100%;
     background-color: #d7e0fc;
 }
 
 .footerContainer {
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .footerTitle {

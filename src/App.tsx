@@ -19,7 +19,6 @@ export type SkillType = {
     skillDiscription: string
 }
 
-
 export type ProjectsType = {
     projects: Array<ProjectType>
 }
@@ -38,7 +37,6 @@ export type LinkType = {
     id: string,
     linkTitle: string
 }
-
 
 function App() {
 

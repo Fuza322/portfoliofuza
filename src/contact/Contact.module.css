@@ -1,5 +1,4 @@
 .contactBlock {
-    /*height: 100vh;*/
     height: 100%;
     background-color: #D7FCD7;
 }
@@ -22,13 +21,6 @@
     height: 450px;
 }
 
-.divContactInput {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
 .contactInput {
     width: 100%;
     height: 50px;
@@ -42,6 +34,6 @@
 }
 
 .contactButton {
-    width: 200px;
+    width: 150px;
     height: 50px;
 }
