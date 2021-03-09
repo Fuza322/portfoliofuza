@@ -1,12 +1,10 @@
 import React from 'react';
 import projectStyle from './Project.module.css'
+import {ProjectType} from "../../App";
 
-export type ProjectPropsType = {
-    projectName: string,
-    projectDescription: string
-}
 
-export function Project(props: ProjectPropsType) {
+
+export function Project(props: ProjectType) {
     return (
         <div className={projectStyle.project}>
             <div className={projectStyle.projectImage}></div>

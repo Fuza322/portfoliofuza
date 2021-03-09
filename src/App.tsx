@@ -19,6 +19,17 @@ export type SkillType = {
     skillDiscription: string
 }
 
+
+export type ProjectsType = {
+    projects: Array<ProjectType>
+}
+
+export type ProjectType = {
+    id: string
+    projectName: string,
+    projectDescription: string
+}
+
 export type FooterType = {
     links: Array<LinkType>
 }
@@ -37,6 +48,11 @@ function App() {
         {id: '3s', skillTitle: 'CSS', skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
     ]
 
+    const projects: Array<ProjectType> = [
+        {id: '1l', projectName: 'TodoList', projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {id: '2l', projectName: 'Social Network', projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+    ]
+
     const links: Array<LinkType> = [
         {id: '1l', linkTitle: 'G-Mail'},
         {id: '2l', linkTitle: 'GitHub'},
@@ -51,7 +67,9 @@ function App() {
             <Skills
                 skills={skills}
             />
-            <Projects/>
+            <Projects
+                projects={projects}
+            />
             <Contact/>
             <Footer
                 links={links}
