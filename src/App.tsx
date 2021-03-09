@@ -47,8 +47,8 @@ function App() {
     ]
 
     const projects: Array<ProjectType> = [
-        {id: '1l', projectName: 'TodoList', projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {id: '2l', projectName: 'Social Network', projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {id: '1p', projectName: 'TodoList', projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {id: '2p', projectName: 'Social Network', projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
     ]
 
     const links: Array<LinkType> = [

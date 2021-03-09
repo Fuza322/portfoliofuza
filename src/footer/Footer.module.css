@@ -5,6 +5,7 @@
 
 .footerContainer {
     flex-direction: column;
+    padding: 0;
 }
 
 .footerTitle {

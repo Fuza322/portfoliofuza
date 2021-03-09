@@ -19,6 +19,7 @@
     align-items: center;
     width: 60%;
     height: 450px;
+    border: 1px solid;
 }
 
 .contactInput {
