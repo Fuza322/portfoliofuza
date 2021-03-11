@@ -8,6 +8,14 @@
     justify-content: flex-start;
 }
 
+.divProjectsTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
 .projectsTitle {
     background-color: #eeeef5;
 }
@@ -19,4 +27,16 @@
     flex-wrap: wrap;
     width: 100%;
     border: 1px solid;
+}
+
+@media only screen and (max-width: 1130px) {
+    .projects {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .divProjectsTitle {
+        font-size: 1.3em;
+    }
 }

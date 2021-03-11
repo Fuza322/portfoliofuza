@@ -20,7 +20,9 @@ export function Skills(props: SkillsType) {
     return (
         <div className={skillsStyle.skillsBlock}>
             <div className={`${styleContainer.container} ${skillsStyle.skillsContainer}`}>
-                <h2 className={skillsStyle.skillsTitle}>Skills</h2>
+                <div className={skillsStyle.divSkillsTitle}>
+                    <h2 className={skillsStyle.skillsTitle}>Skills</h2>
+                </div>
                 <div className={skillsStyle.skills}>
                     {skills}
                 </div>

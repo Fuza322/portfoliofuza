@@ -6,7 +6,9 @@ export function Contact() {
     return (
         <div className={contactStyle.contactBlock}>
             <div className={`${styleContainer.container} ${contactStyle.contactContainer}`}>
-                <h2 className={contactStyle.contactTitle}>Contact</h2>
+                <div className={contactStyle.divContactTitle}>
+                    <h2 className={contactStyle.contactTitle}>Contact</h2>
+                </div>
                 <form className={contactStyle.contactForm}>
                     <input className={contactStyle.contactInput} placeholder='Name' type='text'/>
                     <input className={contactStyle.contactInput} placeholder='E-mail' type='text'/>

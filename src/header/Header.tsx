@@ -4,11 +4,11 @@ import {Nav} from "./nav/Nav";
 
 export function Header() {
     return (
-        <div className={headerStyle.header}>
-            <div className={headerStyle.divHeader}>
-                <div className={headerStyle.headerLogo}>
+        <div className={headerStyle.headerBlock}>
+            <div className={headerStyle.headerContainer}>
+                <div className={headerStyle.header}>
+                    <Nav/>
                 </div>
-                <Nav/>
             </div>
         </div>
     )

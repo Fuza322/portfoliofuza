@@ -1,15 +1,42 @@
 .mainBlock {
-    height: 100vh;
+    height: 100%;
     background-color: #d0d6dd;
 }
 
 .mainText {
-    width: 300px;
+    width: 280px;
     background-color: #EEF0FF;
 }
 
 .mainPhoto {
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-color: #EEF0FF;
+}
+
+@media only screen and (max-width: 800px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainText {
+        width: 90%;
+        font-size: 1.3em;
+        margin-bottom: 70px;
+    }
+
+    .mainPhoto {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 383px) {
+    .mainText {
+        width: 100%;
+    }
+
+    .mainPhoto {
+        width: 100%;
+    }
 }

@@ -36,3 +36,9 @@
 .footerRights {
     border: 1px solid;
 }
+
+@media only screen and (max-width: 800px) {
+    .divFooter {
+        font-size: 1.2em;
+    }
+}

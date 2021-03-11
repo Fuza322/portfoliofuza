@@ -8,6 +8,14 @@
     justify-content: flex-start;
 }
 
+.divContactTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
 .contactTitle {
     background-color: #eeeef5;
 }
@@ -37,4 +45,26 @@
 .contactButton {
     width: 150px;
     height: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contactForm {
+        width: 100%;
+    }
+
+    .divContactTitle {
+        font-size: 1.3em;
+    }
+
+    .contactInput {
+        font-size: 1.3em;
+    }
+
+    .contactTextArea {
+        font-size: 1.6em;
+    }
+
+    .contactButton {
+        font-size: 1.3em;
+    }
 }

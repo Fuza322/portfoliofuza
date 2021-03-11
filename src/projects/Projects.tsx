@@ -20,7 +20,9 @@ export function Projects(props: ProjectsType) {
     return (
         <div className={projectsStyle.projectsBlock}>
             <div className={`${styleContainer.container} ${projectsStyle.projectsContainer}`}>
-                <h2 className={projectsStyle.projectsTitle}>Projects</h2>
+                <div className={projectsStyle.divProjectsTitle}>
+                    <h2 className={projectsStyle.projectsTitle}>Projects</h2>
+                </div>
                 <div className={projectsStyle.projects}>
                     {projects}
                 </div>
