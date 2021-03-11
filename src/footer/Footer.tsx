@@ -7,20 +7,22 @@ import {FooterType} from '../App';
 export function Footer(props: FooterType) {
 
     const links = props.links.map(link => {
-            return (
-                <Link
-                    key={link.id}
-                    id={link.id}
-                    linkTitle={link.linkTitle}
-                />
-            )
-        })
+        return (
+            <Link
+                key={link.id}
+                id={link.id}
+                linkTitle={link.linkTitle}
+            />
+        )
+    })
 
     return (
         <div className={footerStyle.footerBlock}>
             <div className={`${styleContainer.container} ${footerStyle.footerContainer}`}>
                 <div className={footerStyle.divFooter}>
-                    <h2 className={footerStyle.footerTitle}>Osipik Ivan</h2>
+                    <div className={footerStyle.divFooterTitle}>
+                        <h2 className={footerStyle.footerTitle}>Osipik Ivan</h2>
+                    </div>
                     <ul className={footerStyle.footerLinks}>
                         {links}
                     </ul>
