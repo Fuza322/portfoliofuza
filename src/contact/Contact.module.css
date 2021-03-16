@@ -41,18 +41,23 @@
 .contactTextArea {
     width: 100%;
     height: 200px;
-    font-size: 17px;
+    font-size: 16px;
     padding: 0;
 }
 
 .contactButton {
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 45px;
     font-size: 14px;
 }
 
 @media only screen and (max-width: 1000px) {
     .contactForm {
         width: 100%;
+    }
+    .contactButton {
+        width: 110px;
+        height: 35px;
+        font-size: 14px;
     }
 }

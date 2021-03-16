@@ -34,8 +34,8 @@
 }
 
 .projectButton {
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 45px;
     margin: 15px;
     font-size: 14px;
 }
@@ -43,5 +43,10 @@
 @media only screen and (max-width: 1150px) {
     .project {
         width: 100%;
+    }
+    .projectButton {
+        width: 110px;
+        height: 35px;
+        font-size: 14px;
     }
 }
