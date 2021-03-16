@@ -9,3 +9,15 @@
     padding: 40px 0;
     border: 1px solid;
 }
+
+.sectionTitle {
+    background-color: #eeeef5;
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 650px) {
+    .sectionTitle {
+        background-color: #eeeef5;
+        font-size: 24px;
+    }
+}

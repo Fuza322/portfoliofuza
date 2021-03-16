@@ -1,6 +1,6 @@
 import React from 'react';
 import projectsStyle from './Projects.module.css';
-import styleContainer from "../common/styles/Container.module.css";
+import style from "../common/styles/Common.module.css";
 import {Project} from "./project/Project";
 import {ProjectsType} from "../App";
 
@@ -18,15 +18,15 @@ export function Projects(props: ProjectsType) {
     })
 
     return (
-        <div className={projectsStyle.projectsBlock}>
-            <div className={`${styleContainer.container} ${projectsStyle.projectsContainer}`}>
+        <section className={projectsStyle.projectsBlock}>
+            <div className={`${style.container} ${projectsStyle.projectsContainer}`}>
                 <div className={projectsStyle.divProjectsTitle}>
-                    <h2 className={projectsStyle.projectsTitle}>Projects</h2>
+                    <h2 className={style.sectionTitle}>Projects</h2>
                 </div>
                 <div className={projectsStyle.projects}>
                     {projects}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

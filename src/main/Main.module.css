@@ -6,6 +6,11 @@
 .mainText {
     width: 280px;
     background-color: #EEF0FF;
+    font-size: 17px;
+}
+
+.h1Main {
+    font-size: 37px;
 }
 
 .mainPhoto {
@@ -21,9 +26,12 @@
     }
 
     .mainText {
-        width: 90%;
-        font-size: 1.3em;
-        margin-bottom: 70px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .h1Main {
+        font-size: 27px;
     }
 
     .mainPhoto {

@@ -55,7 +55,7 @@ function App() {
         {id: '1l', linkTitle: 'G-Mail'},
         {id: '2l', linkTitle: 'GitHub'},
         {id: '3l', linkTitle: 'Linkedin'},
-        {id: '4l', linkTitle: 'Code Wars'},
+        {id: '4l', linkTitle: 'Telegram'},
     ]
 
     return (

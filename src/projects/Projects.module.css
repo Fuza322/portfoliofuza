@@ -18,6 +18,7 @@
 
 .projectsTitle {
     background-color: #eeeef5;
+    font-size: 30px;
 }
 
 .projects {
@@ -29,14 +30,11 @@
     border: 1px solid;
 }
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1150px) {
     .projects {
+        display: grid;
         justify-content: center;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .divProjectsTitle {
-        font-size: 1.3em;
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 20px;
     }
 }

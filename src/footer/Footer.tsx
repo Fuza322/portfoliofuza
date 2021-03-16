@@ -1,6 +1,6 @@
 import React from 'react';
 import footerStyle from './Footer.module.css'
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Common.module.css";
 import {Link} from "./link/Link";
 import {FooterType} from '../App';
 
@@ -17,7 +17,7 @@ export function Footer(props: FooterType) {
     })
 
     return (
-        <div className={footerStyle.footerBlock}>
+        <footer className={footerStyle.footerBlock}>
             <div className={`${styleContainer.container} ${footerStyle.footerContainer}`}>
                 <div className={footerStyle.divFooter}>
                     <div className={footerStyle.divFooterTitle}>
@@ -31,6 +31,6 @@ export function Footer(props: FooterType) {
                     </p>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import contactStyle from './Contact.module.css';
-import styleContainer from "../common/styles/Container.module.css";
+import style from "../common/styles/Common.module.css";
 
 export function Contact() {
     return (
-        <div className={contactStyle.contactBlock}>
-            <div className={`${styleContainer.container} ${contactStyle.contactContainer}`}>
+        <section className={contactStyle.contactBlock}>
+            <div className={`${style.container} ${contactStyle.contactContainer}`}>
                 <div className={contactStyle.divContactTitle}>
-                    <h2 className={contactStyle.contactTitle}>Contact</h2>
+                    <h2 className={style.sectionTitle}>Contact</h2>
                 </div>
                 <form className={contactStyle.contactForm}>
                     <input className={contactStyle.contactInput} placeholder='Name' type='text'/>
@@ -17,6 +17,6 @@ export function Contact() {
                     <button className={contactStyle.contactButton}>Send</button>
                 </form>
             </div>
-        </div>
+        </section>
     )
 }

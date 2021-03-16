@@ -18,6 +18,7 @@
 
 .contactTitle {
     background-color: #eeeef5;
+    font-size: 30px;
 }
 
 .contactForm {
@@ -33,38 +34,25 @@
 .contactInput {
     width: 100%;
     height: 50px;
+    font-size: 15px;
     padding: 0;
 }
 
 .contactTextArea {
     width: 100%;
     height: 200px;
+    font-size: 17px;
     padding: 0;
 }
 
 .contactButton {
     width: 150px;
     height: 50px;
+    font-size: 14px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .contactForm {
         width: 100%;
-    }
-
-    .divContactTitle {
-        font-size: 1.3em;
-    }
-
-    .contactInput {
-        font-size: 1.3em;
-    }
-
-    .contactTextArea {
-        font-size: 1.6em;
-    }
-
-    .contactButton {
-        font-size: 1.3em;
     }
 }
