@@ -1,7 +1,10 @@
 import React from 'react';
 import linkStyle from './Link.module.css'
-import {LinkType} from "../../App";
 
+export type LinkType = {
+    id: string,
+    linkTitle: string
+}
 
 export function Link(props: LinkType) {
     return (

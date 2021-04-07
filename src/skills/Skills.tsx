@@ -1,8 +1,12 @@
 import React from 'react';
 import skillsStyle from './Skills.module.css'
 import style from "../common/styles/Common.module.css";
-import {Skill} from "./skill/Skill";
-import {SkillsType} from '../App';
+import {Skill, SkillType} from "./skill/Skill";
+import {Title} from "../common/components/title/Title";
+
+export type SkillsType = {
+    skills: Array<SkillType>
+}
 
 export function Skills(props: SkillsType) {
 
@@ -20,9 +24,7 @@ export function Skills(props: SkillsType) {
     return (
         <section className={skillsStyle.skillsBlock}>
             <div className={`${style.container} ${skillsStyle.skillsContainer}`}>
-                <div className={skillsStyle.divSkillsTitle}>
-                    <h2 className={style.sectionTitle}>Skills</h2>
-                </div>
+                <Title title='Skills'/>
                 <div className={skillsStyle.skills}>
                     {skills}
                 </div>

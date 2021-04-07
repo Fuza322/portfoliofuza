@@ -1,6 +1,6 @@
 .projectsBlock {
     height: 100%;
-    background-color: #d7e0fc;
+    background-color: #111111;
 }
 
 .projectsContainer {
@@ -8,25 +8,11 @@
     justify-content: flex-start;
 }
 
-.divProjectsTitle {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid;
-}
-
-.projectsTitle {
-    background-color: #eeeef5;
-    font-size: 30px;
-}
-
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 30px;
     width: 100%;
-    border: 1px solid;
 }
 
 @media only screen and (max-width: 1150px) {

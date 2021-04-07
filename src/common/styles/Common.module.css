@@ -7,17 +7,32 @@
     min-height: 100%;
     margin: 0 auto;
     padding: 40px 0;
+    background-color: #111111;
     border: 1px solid;
 }
 
-.sectionTitle {
-    background-color: #eeeef5;
-    font-size: 28px;
+.nameItemText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    transition: .5s;
 }
+
+.nameItemText:hover {
+    color: #FFB400
+}
+
+.descriptionItemText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #fff;
+}
+
 
 @media only screen and (max-width: 650px) {
     .sectionTitle {
-        background-color: #eeeef5;
-        font-size: 24px;
+        font-size: 26px;
     }
 }

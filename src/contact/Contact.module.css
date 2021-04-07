@@ -1,24 +1,11 @@
 .contactBlock {
     height: 100%;
-    background-color: #D7FCD7;
+    background-color: #111111;
 }
 
 .contactContainer {
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.divContactTitle {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid;
-}
-
-.contactTitle {
-    background-color: #eeeef5;
-    font-size: 30px;
 }
 
 .contactForm {
