@@ -22,19 +22,16 @@
 }
 
 .projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
     width: 100%;
     border: 1px solid;
 }
 
 @media only screen and (max-width: 1150px) {
     .projects {
-        display: grid;
-        justify-content: center;
-        grid-template-rows: repeat(2,1fr);
-        grid-gap: 20px;
+        grid-template-rows: 1fr;
+        grid-template-columns: none;
     }
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
+    width: 100%;
     background-color: gainsboro;
 
 }
@@ -41,9 +41,6 @@
 }
 
 @media only screen and (max-width: 1150px) {
-    .project {
-        width: 100%;
-    }
     .projectButton {
         width: 110px;
         height: 35px;

@@ -1,8 +1,9 @@
 .skill {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 100%;
     background-color: gainsboro;
 }
 
