@@ -1,0 +1,29 @@
+@import './../../common/styles/sass/mixins';
+@import './../../common/styles/sass/variables';
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: gainsboro;
+    @media only screen and (max-width: 1000px) {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .skillIcon {
+        width: 100px;
+        height: 100px;
+        background-color: #02b1b1;
+    }
+    .nameSkillText {
+        @include text($fontFamilyStyle, 20px, 600);
+        margin: 0 0 8px;
+    }
+    .descriptionSkillText {
+        text-align: center;
+        font-size: 16px;
+    }
+}

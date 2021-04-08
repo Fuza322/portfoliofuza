@@ -1,0 +1,32 @@
+@import './src/common/styles/sass/variables';
+
+.divTitle {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: $primaryColor;
+    width: 80px;
+    height: 1px;
+  }
+
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: $primaryColor;
+    margin: 0;
+    @media only screen and (max-width: 650px) {
+      font-size: 26px;
+    }
+  }
+}

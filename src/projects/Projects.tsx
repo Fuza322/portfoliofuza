@@ -1,8 +1,8 @@
 import React from 'react';
-import projectsStyle from './Projects.module.css';
+import projectsStyle from './Projects.module.scss';
 import style from "../common/styles/Common.module.css";
 import {Project, ProjectType} from "./project/Project";
-import { Title } from '../common/components/title/Title';
+import {Title} from '../common/components/title/Title';
 
 export type ProjectsType = {
     projects: Array<ProjectType>

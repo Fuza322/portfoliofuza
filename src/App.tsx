@@ -31,6 +31,11 @@ function App() {
             id: '3s',
             skillTitle: 'CSS',
             skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+            id: '4s',
+            skillTitle: 'SASS',
+            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         }
     ]
 
@@ -43,7 +48,7 @@ function App() {
         },
         {
             id: '2p',
-            projectName: 'Social Network',
+            projectName: 'Social network',
             projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             style: {backgroundImage: `url(${socialNetwork})`,}
         }

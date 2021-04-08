@@ -10,29 +10,3 @@
     background-color: #111111;
     border: 1px solid;
 }
-
-.nameItemText {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-    transition: .5s;
-}
-
-.nameItemText:hover {
-    color: #FFB400
-}
-
-.descriptionItemText {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.6;
-    color: #fff;
-}
-
-
-@media only screen and (max-width: 650px) {
-    .sectionTitle {
-        font-size: 26px;
-    }
-}

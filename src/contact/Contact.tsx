@@ -2,8 +2,10 @@ import React from 'react';
 import contactStyle from './Contact.module.css';
 import style from "../common/styles/Common.module.css";
 import {Title} from "../common/components/title/Title";
+import {Button} from "../common/components/button/Button";
 
 export function Contact() {
+
     return (
         <section className={contactStyle.contactBlock}>
             <div className={`${style.container} ${contactStyle.contactContainer}`}>
@@ -11,9 +13,14 @@ export function Contact() {
                 <form className={contactStyle.contactForm}>
                     <input className={contactStyle.contactInput} placeholder='Name' type='text'/>
                     <input className={contactStyle.contactInput} placeholder='E-mail' type='text'/>
-                    <textarea className={contactStyle.contactTextArea} id="" placeholder='Your message'
-                              name=""></textarea>
-                    <button type='submit' className={contactStyle.contactButton}>Send</button>
+                    <textarea id=""
+                              name=""
+                              className={contactStyle.contactTextArea}
+                              placeholder='Your message'
+                    ></textarea>
+                    <Button
+                        title={'Send'}
+                    />
                 </form>
             </div>
         </section>

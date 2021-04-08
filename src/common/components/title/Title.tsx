@@ -1,5 +1,5 @@
 import React from 'react';
-import titleStype from './Title.module.css'
+import titleStype from './Title.module.scss'
 
 export type TitleType = {
     title: string
@@ -7,8 +7,8 @@ export type TitleType = {
 
 export function Title(props: TitleType) {
     return (
-        <div className={titleStype.divSectionTitle}>
-            <h2 className={titleStype.sectionTitle}>{props.title}</h2>
+        <div className={titleStype.divTitle}>
+            <h2 className={titleStype.title}>{props.title}</h2>
         </div>
     )
 }

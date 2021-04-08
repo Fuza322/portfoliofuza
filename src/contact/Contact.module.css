@@ -6,6 +6,7 @@
 .contactContainer {
     flex-direction: column;
     justify-content: flex-start;
+    background-color: #252525;
 }
 
 .contactForm {
@@ -32,19 +33,8 @@
     padding: 0;
 }
 
-.contactButton {
-    width: 140px;
-    height: 45px;
-    font-size: 14px;
-}
-
 @media only screen and (max-width: 1000px) {
     .contactForm {
         width: 100%;
-    }
-    .contactButton {
-        width: 110px;
-        height: 35px;
-        font-size: 14px;
     }
 }
