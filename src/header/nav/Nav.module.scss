@@ -1,0 +1,30 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  height: 50%;
+
+  @media only screen and (max-width: 1150px) {
+    width: 100%;
+  }
+
+  .navLink {
+    @include text($fontFamilyStyle, 24px, 700);
+    color: $primaryColor;
+    transition: .3s;
+
+    @media only screen and (max-width: 600px) {
+      @include text($fontFamilyStyle, 22px, 700);
+      color: $primaryColor;
+    }
+
+    &:hover {
+      color: $textColor;
+    }
+  }
+
+}

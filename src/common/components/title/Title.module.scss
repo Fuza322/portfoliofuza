@@ -1,4 +1,5 @@
 @import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
 
 .divTitle {
   position: relative;
@@ -20,9 +21,7 @@
   }
 
   .title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
+    @include text($fontFamilyStyle, 30px, 700);
     color: $primaryColor;
     margin: 0;
     @media only screen and (max-width: 650px) {
