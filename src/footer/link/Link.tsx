@@ -1,5 +1,5 @@
 import React from 'react';
-import linkStyle from './Link.module.css'
+import linkStyle from './Link.module.scss'
 
 export type LinkType = {
     id: string,
@@ -9,7 +9,7 @@ export type LinkType = {
 export function Link(props: LinkType) {
     return (
         <li className={linkStyle.link}>
-            <a href="#">{props.linkTitle}</a>
+            <a className={linkStyle.linkText} href="#">{props.linkTitle}</a>
         </li>
     )
 }

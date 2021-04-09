@@ -1,11 +1,11 @@
 import React from 'react';
-import mainStyle from './Main.module.css'
+import mainStyle from './Main.module.scss'
 import style from '../common/styles/Common.module.css'
 
 export function Main() {
     return (
         <section className={mainStyle.mainBlock}>
-                <div className={`${style.container} ${mainStyle.mainContainer}`}>
+            <div className={`${style.container} ${mainStyle.mainContainer}`}>
                 <div className={mainStyle.mainText}>
                     <span>Hi there</span>
                     <h1 className={mainStyle.h1Main}>I am Osipik Ivan</h1>

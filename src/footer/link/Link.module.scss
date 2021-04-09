@@ -1,0 +1,21 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  @media only screen and (max-width: 800px) {
+    width: 70px;
+    height: 40px;
+  }
+
+  .linkText {
+    @include text($fontFamilyStyle, 16px, 500, $textColor);
+    @media only screen and (max-width: 800px) {
+      @include text($fontFamilyStyle, 12px, 500, $textColor);
+    }
+  }
+}

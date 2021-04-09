@@ -1,0 +1,44 @@
+.mainBlock {
+  height: 100%;
+  background-color: #111111;
+
+  .mainContainer {
+
+    .mainText {
+      width: 280px;
+      background-color: #EEF0FF;
+      font-size: 17px;
+
+      .h1Main {
+        font-size: 37px;
+      }
+    }
+
+    .mainPhoto {
+      width: 280px;
+      height: 400px;
+      background-color: #EEF0FF;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainText {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .h1Main {
+    font-size: 27px;
+  }
+
+  .mainPhoto {
+    width: 90%;
+  }
+}

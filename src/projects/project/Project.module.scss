@@ -29,12 +29,12 @@
       padding: 20px;
 
       .nameProjectText {
-        @include text($fontFamilyStyle, 20px, 600);
+        @include text($fontFamilyStyle, 20px, 600, $textColor);
         margin: 0 0 8px;
       }
 
       .descriptionProjectText {
-        @include text($fontFamilyStyle, 16px, 500);
+        @include text($fontFamilyStyle, 16px, 500, $textColor);
         line-height: 1.6;
       }
     }

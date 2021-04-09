@@ -21,8 +21,7 @@
   }
 
   .title {
-    @include text($fontFamilyStyle, 30px, 700);
-    color: $primaryColor;
+    @include text($fontFamilyStyle, 30px, 700, $primaryColor);
     margin: 0;
     @media only screen and (max-width: 650px) {
       font-size: 26px;

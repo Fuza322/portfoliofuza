@@ -32,12 +32,12 @@
     padding: 20px;
 
     .nameSkillText {
-      @include text($fontFamilyStyle, 20px, 600);
+      @include text($fontFamilyStyle, 20px, 600, $textColor);
       margin: 0 0 8px;
     }
 
     .descriptionSkillText {
-      @include text($fontFamilyStyle, 16px, 600);
+      @include text($fontFamilyStyle, 16px, 600, $textColor);
       text-align: center;
     }
   }

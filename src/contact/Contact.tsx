@@ -8,8 +8,8 @@ export function Contact() {
 
     return (
         <section className={contactStyle.contactBlock}>
+            <Title title='Contact'/>
             <div className={`${style.container} ${contactStyle.contactContainer}`}>
-                <Title title='Contact'/>
                 <form className={contactStyle.contactForm}>
                     <input className={contactStyle.contactInput} placeholder='Name' type='text'/>
                     <input className={contactStyle.contactInput} placeholder='E-mail' type='text'/>
