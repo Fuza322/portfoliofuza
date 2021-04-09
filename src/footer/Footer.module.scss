@@ -29,7 +29,7 @@
             color: $textColor;
           }
           @media only screen and (max-width: 800px) {
-            @include text($fontFamilyStyle, 16px, 500, $textColor);
+            @include text($fontFamilyStyle, 16px, 500, $primaryColor);
           }
         }
       }

@@ -25,12 +25,18 @@
         @media only screen and (max-width: 1150px) {
           font-size: 28px;
         }
+        @media only screen and (max-width: 700px) {
+          font-size: 22px;
+        }
       }
 
       .mainPositionText {
         @include text($fontFamilyStyle, 40px, 700, $textColor);
         @media only screen and (max-width: 1150px) {
           font-size: 28px;
+        }
+        @media only screen and (max-width: 700px) {
+          font-size: 22px;
         }
       }
     }
