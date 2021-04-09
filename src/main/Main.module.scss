@@ -1,44 +1,53 @@
+@import './src/common/styles/sass/mixins';
+@import './src/common/styles/sass/variables';
+
 .mainBlock {
   height: 100%;
-  background-color: #111111;
+  background-color: $bgColor;
 
   .mainContainer {
+    @media only screen and (max-width: 1150px) {
+      flex-direction: column;
+      align-items: center;
+    }
 
     .mainText {
-      width: 280px;
-      background-color: #EEF0FF;
-      font-size: 17px;
+      border: 2px solid $primaryColor;
+      border-radius: 30px;
+      padding: 10px;
+      @media only screen and (max-width: 1150px) {
+        width: 80%;
+        margin-bottom: 25px;
+      }
 
-      .h1Main {
-        font-size: 37px;
+      .mainNameText {
+        @include text($fontFamilyStyle, 40px, 700, $primaryColor);
+        @media only screen and (max-width: 1150px) {
+          font-size: 28px;
+        }
+      }
+
+      .mainPositionText {
+        @include text($fontFamilyStyle, 40px, 700, $textColor);
+        @media only screen and (max-width: 1150px) {
+          font-size: 28px;
+        }
       }
     }
 
     .mainPhoto {
       width: 280px;
-      height: 400px;
-      background-color: #EEF0FF;
+      height: 400px; /*!!!!*/
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 2px solid $primaryColor;
+      border-radius: 30px;
+      background-color: $bgSecondColor;
+      @media only screen and (max-width: 1150px) {
+        width: 60%;
+        height: 70vw;
+      }
     }
-  }
-}
-
-
-@media only screen and (max-width: 800px) {
-  .mainContainer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .mainText {
-    width: 100%;
-    margin-bottom: 25px;
-  }
-
-  .h1Main {
-    font-size: 27px;
-  }
-
-  .mainPhoto {
-    width: 90%;
   }
 }

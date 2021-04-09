@@ -9,6 +9,7 @@ import {Footer} from "./footer/Footer";
 import {SkillType} from './skills/skill/Skill';
 import {ProjectType} from './projects/project/Project';
 import {LinkType} from './footer/link/Link';
+import mainPhoto from './assetts/images/main/mainPhoto.jpg'
 import html5Logo from './assetts/images/skills/html5Logo.png'
 import css3Logo from './assetts/images/skills/css3Logo.jpg'
 import jsLogo from './assetts/images/skills/jsLogo.png'
@@ -20,6 +21,7 @@ import sassLogo from './assetts/images/skills/sassLogo.jpg'
 import gitLogo from './assetts/images/skills/gitLogo.png'
 import todolistImage from './assetts/images/projects/todolist.png'
 import socialNetworkImage from './assetts/images/projects/socialNetwork.png'
+
 
 // npm run deploy
 
@@ -107,7 +109,7 @@ function App() {
     return (
         <div>
             <Header/>
-            <Main/>
+            <Main style={{backgroundImage: `url(${mainPhoto})`}}/>
             <Skills
                 skills={skills}
             />
