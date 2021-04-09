@@ -1,5 +1,5 @@
 import React from 'react';
-import contactStyle from './Contact.module.css';
+import contactStyle from './Contact.module.scss';
 import style from "../common/styles/Common.module.css";
 import {Title} from "../common/components/title/Title";
 import {Button} from "../common/components/button/Button";
@@ -16,7 +16,7 @@ export function Contact() {
                     <textarea id=""
                               name=""
                               className={contactStyle.contactTextArea}
-                              placeholder='Your message'
+                              placeholder='Message'
                     ></textarea>
                     <Button
                         title={'Send'}

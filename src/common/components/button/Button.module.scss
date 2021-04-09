@@ -1,0 +1,22 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.linkButton {
+  color: $textColor;
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include button(140px, 40px, transparent, $primaryColor);
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      background-color: $primaryColor;
+      cursor: pointer;
+    }
+  }
+}

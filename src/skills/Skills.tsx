@@ -1,5 +1,5 @@
 import React from 'react';
-import skillsStyle from './Skills.module.css'
+import skillsStyle from './Skills.module.scss'
 import style from "../common/styles/Common.module.css";
 import {Skill, SkillType} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
@@ -17,6 +17,7 @@ export function Skills(props: SkillsType) {
                 id={skill.id}
                 skillTitle={skill.skillTitle}
                 skillDiscription={skill.skillDiscription}
+                style={skill.style}
             />
         )
     })

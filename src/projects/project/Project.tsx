@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button} from '../../common/components/button/Button';
-import style from './../../common/styles/Common.module.css'
 import projectStyle from './Project.module.scss'
 
 export type ProjectType = {

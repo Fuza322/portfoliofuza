@@ -1,19 +1,22 @@
 import React from 'react';
-import style from './../../common/styles/Common.module.css'
 import skillStyle from './Skill.module.scss'
 
 export type SkillType = {
     id: string,
     skillTitle: string,
-    skillDiscription: string
+    skillDiscription: string,
+    style: { backgroundImage: string }
 }
 
 export function Skill(props: SkillType) {
     return (
         <div className={skillStyle.skill}>
-            <div className={skillStyle.skillIcon}></div>
-            <h3 className={skillStyle.nameSkillText}>{props.skillTitle}</h3>
-            <span className={skillStyle.descriptionSkillText}>{props.skillDiscription}</span>
+            <div className={skillStyle.skillIcon} style={props.style}></div>
+            <div className={skillStyle.skillInfo}>
+                <h3 className={skillStyle.nameSkillText}>{props.skillTitle}</h3>
+                <span className={skillStyle.descriptionSkillText}>{props.skillDiscription}</span>
+            </div>
         </div>
+
     )
 }

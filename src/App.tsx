@@ -9,8 +9,11 @@ import {Footer} from "./footer/Footer";
 import {SkillType} from './skills/skill/Skill';
 import {ProjectType} from './projects/project/Project';
 import {LinkType} from './footer/link/Link';
-import todolist from './assetts/images/todolist.png'
-import socialNetwork from './assetts/images/socialNetwork.png'
+import html5 from './assetts/images/skills/html5Logo.png'
+import css3 from './assetts/images/skills/css3Logo.jpg'
+import js from './assetts/images/skills/jsLogo.png'
+import todolist from './assetts/images/projects/todolist.png'
+import socialNetwork from './assetts/images/projects/socialNetwork.png'
 
 // npm run deploy
 
@@ -19,24 +22,22 @@ function App() {
     const skills: Array<SkillType> = [
         {
             id: '1s',
-            skillTitle: 'JavaScript',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            skillTitle: 'HTML5',
+            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            style: {backgroundImage: `url(${html5})`}
         },
         {
             id: '2s',
-            skillTitle: 'React',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            skillTitle: 'CSS3',
+            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            style: {backgroundImage: `url(${css3})`}
         },
         {
             id: '3s',
-            skillTitle: 'CSS',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            skillTitle: 'JavaScript',
+            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            style: {backgroundImage: `url(${js})`}
         },
-        {
-            id: '4s',
-            skillTitle: 'SASS',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        }
     ]
 
     const projects: Array<ProjectType> = [
@@ -44,13 +45,13 @@ function App() {
             id: '1p',
             projectName: 'TodoList',
             projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${todolist})`,}
+            style: {backgroundImage: `url(${todolist})`}
         },
         {
             id: '2p',
             projectName: 'Social network',
             projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${socialNetwork})`,}
+            style: {backgroundImage: `url(${socialNetwork})`}
         }
     ]
 

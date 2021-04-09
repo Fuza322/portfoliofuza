@@ -6,3 +6,23 @@
   font-weight: $fontWeight;
   color: $textColor;
 }
+
+@mixin inputAndTextArea($color, $border, $borderRadius, $transition) {
+  color: $color;
+  border: $border;
+  border-radius: $borderRadius;
+  outline: none;
+  transition: $transition;
+}
+
+@mixin button($width, $height, $backgroundColor, $borderColor) {
+  width: $width;
+  height: $height;
+  background-color: $backgroundColor;
+  overflow: hidden;
+  border: 3px solid $borderColor;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: .5s;
+  @include text($fontFamilyStyle, 16px, 400);
+}

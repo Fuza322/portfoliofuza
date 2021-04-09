@@ -2,28 +2,43 @@
 @import './../../common/styles/sass/variables';
 
 .skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: $bgSecondColor;
+  border-radius: 5px;
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillIcon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+  }
+
+  .skillInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    background-color: gainsboro;
-    @media only screen and (max-width: 1000px) {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .skillIcon {
-        width: 100px;
-        height: 100px;
-        background-color: #02b1b1;
-    }
+    padding: 20px;
+
     .nameSkillText {
-        @include text($fontFamilyStyle, 20px, 600);
-        margin: 0 0 8px;
+      @include text($fontFamilyStyle, 20px, 600);
+      margin: 0 0 8px;
     }
+
     .descriptionSkillText {
-        text-align: center;
-        font-size: 16px;
+      @include text($fontFamilyStyle, 16px, 600);
+      text-align: center;
     }
+  }
 }
