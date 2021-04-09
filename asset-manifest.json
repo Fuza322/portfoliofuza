@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza322/static/css/main.1334e136.chunk.css",
-    "main.js": "/portfoliofuza322/static/js/main.83fc00d7.chunk.js",
-    "main.js.map": "/portfoliofuza322/static/js/main.83fc00d7.chunk.js.map",
+    "main.js": "/portfoliofuza322/static/js/main.fbe77921.chunk.js",
+    "main.js.map": "/portfoliofuza322/static/js/main.fbe77921.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.f8084280.js",
     "runtime-main.js.map": "/portfoliofuza322/static/js/runtime-main.f8084280.js.map",
     "static/js/2.b7314b18.chunk.js": "/portfoliofuza322/static/js/2.b7314b18.chunk.js",
@@ -14,13 +14,15 @@
     "static/js/2.b7314b18.chunk.js.LICENSE.txt": "/portfoliofuza322/static/js/2.b7314b18.chunk.js.LICENSE.txt",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza322/static/media/css3Logo.96a4b4f3.jpg",
     "static/media/html5Logo.bbe18f20.png": "/portfoliofuza322/static/media/html5Logo.bbe18f20.png",
+    "static/media/reactLogo.00d71e28.png": "/portfoliofuza322/static/media/reactLogo.00d71e28.png",
     "static/media/socialNetwork.d3ca8775.png": "/portfoliofuza322/static/media/socialNetwork.d3ca8775.png",
-    "static/media/todolist.ee832b3a.png": "/portfoliofuza322/static/media/todolist.ee832b3a.png"
+    "static/media/todolist.ee832b3a.png": "/portfoliofuza322/static/media/todolist.ee832b3a.png",
+    "static/media/tsLogo.2218cc17.png": "/portfoliofuza322/static/media/tsLogo.2218cc17.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f8084280.js",
     "static/js/2.b7314b18.chunk.js",
     "static/css/main.1334e136.chunk.css",
-    "static/js/main.83fc00d7.chunk.js"
+    "static/js/main.fbe77921.chunk.js"
   ]
 }
