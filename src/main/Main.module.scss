@@ -6,37 +6,36 @@
   background-color: $bgColor;
 
   .mainContainer {
+    padding-top: 80px;
     @media only screen and (max-width: 1150px) {
       flex-direction: column;
       align-items: center;
     }
 
     .mainText {
-      border: 2px solid $primaryColor;
-      border-radius: 30px;
       padding: 10px;
       @media only screen and (max-width: 1150px) {
-        width: 80%;
+        justify-content: center;
         margin-bottom: 25px;
       }
 
       .mainNameText {
         @include text($fontFamilyStyle, 40px, 700, $primaryColor);
         @media only screen and (max-width: 1150px) {
-          font-size: 28px;
+          font-size: 35px;
         }
         @media only screen and (max-width: 700px) {
-          font-size: 22px;
+          font-size: 30px;
         }
       }
 
       .mainPositionText {
         @include text($fontFamilyStyle, 40px, 700, $textColor);
         @media only screen and (max-width: 1150px) {
-          font-size: 28px;
+          font-size: 35px;
         }
         @media only screen and (max-width: 700px) {
-          font-size: 22px;
+          font-size: 30px;
         }
       }
     }

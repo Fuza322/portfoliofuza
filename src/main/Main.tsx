@@ -12,7 +12,7 @@ export function Main(props: MainType) {
         <section className={mainStyle.mainBlock}>
             <div className={`${style.container} ${mainStyle.mainContainer}`}>
                 <div className={mainStyle.mainText}>
-                    <h1 className={mainStyle.mainNameText}>I'm Osipik Ivan.</h1>
+                    <h1 className={mainStyle.mainNameText}>I'm Ivan Osipik.</h1>
                     <p className={mainStyle.mainPositionText}>Front-end developer (React)</p>
                 </div>
                 <div className={mainStyle.mainPhoto} style={props.style}>
