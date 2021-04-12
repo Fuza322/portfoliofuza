@@ -26,16 +26,20 @@
     justify-content: space-between;
 
     .projectInfo {
-      padding: 20px;
+      padding: 20px 20px 10px;
 
       .nameProjectText {
-        @include text($fontFamilyStyle, 20px, 600, $textColor);
-        margin: 0 0 8px;
+        @include text($fontFamilyStyle, 20px, 700, $primaryColor);
+        margin: 0 0 6px;
       }
 
       .descriptionProjectText {
         @include text($fontFamilyStyle, 16px, 500, $textColor);
-        line-height: 1.6;
+        margin: 0 0 10px;
+      }
+      .TechnologiesText {
+        @include text($fontFamilyStyle, 16px, 600, $primaryColor);
+        margin: 0;
       }
     }
 

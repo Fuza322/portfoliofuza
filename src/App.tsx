@@ -22,7 +22,6 @@ import gitLogo from './assetts/images/skills/gitLogo.png'
 import todolistImage from './assetts/images/projects/todolist.png'
 import socialNetworkImage from './assetts/images/projects/socialNetwork.png'
 
-
 // npm run deploy
 
 function App() {
@@ -31,55 +30,55 @@ function App() {
         {
             id: '1s',
             skillTitle: 'HTML5',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            skillDiscription: 'Special language used to create markup for a web application.',
             style: {backgroundImage: `url(${html5Logo})`}
         },
         {
             id: '2s',
             skillTitle: 'CSS3',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            skillDiscription: 'Language for describing the appearance of a document written using a markup language.',
             style: {backgroundImage: `url(${css3Logo})`}
         },
         {
             id: '3s',
-            skillTitle: 'JavaScript',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${jsLogo})`}
+            skillTitle: 'Sass',
+            skillDiscription: 'Мetalanguage required to increase the level of abstraction of CSS code and simplify cascading style sheet files.',
+            style: {backgroundImage: `url(${sassLogo})`}
         },
         {
             id: '4s',
-            skillTitle: 'TypeScript',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${tsLogo})`}
+            skillTitle: 'JavaScript',
+            skillDiscription: 'Scripting programming language with dynamic typing that defines the behavior of a web application.',
+            style: {backgroundImage: `url(${jsLogo})`}
         },
         {
             id: '5s',
-            skillTitle: 'React',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${reactLogo})`}
+            skillTitle: 'TypeScript',
+            skillDiscription: 'Programming language that is a web application development tool that solves typing problems and extends the capabilities of the JavaScript language.',
+            style: {backgroundImage: `url(${tsLogo})`}
         },
         {
             id: '6s',
-            skillTitle: 'Redux',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${reduxLogo})`}
+            skillTitle: 'React',
+            skillDiscription: 'Library for developing user interfaces and creating one-page applications using components and Virtual DOM.',
+            style: {backgroundImage: `url(${reactLogo})`}
         },
         {
             id: '7s',
-            skillTitle: 'Storybook',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${storybookLogo})`}
+            skillTitle: 'Redux',
+            skillDiscription: 'Library for managing the state of the application using tools that allow you to build the architecture of a web application and greatly simplify the transfer of data.',
+            style: {backgroundImage: `url(${reduxLogo})`}
         },
         {
             id: '8s',
-            skillTitle: 'Sass',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            style: {backgroundImage: `url(${sassLogo})`}
+            skillTitle: 'Storybook',
+            skillDiscription: 'Tool for creating separate parts of the interface separately from the main application, which simplifies testing and allows you to debug a component with different data.',
+            style: {backgroundImage: `url(${storybookLogo})`}
         },
         {
             id: '9s',
             skillTitle: 'Git',
-            skillDiscription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            skillDiscription: 'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.',
             style: {backgroundImage: `url(${gitLogo})`}
         },
     ]
@@ -88,13 +87,15 @@ function App() {
         {
             id: '1p',
             projectName: 'TodoList',
-            projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            projectDescription: 'Web application designed to conveniently structure information about all current tasks in one place.',
+            stackTechonogy: 'ReactJS, TS, Redux, axios, formik, Material UI, storybook.',
             style: {backgroundImage: `url(${todolistImage})`}
         },
         {
             id: '2p',
             projectName: 'Social network',
-            projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            projectDescription: 'Web application that allows registered users to post information and communicate with each other.',
+            stackTechonogy: 'ReactJS, TS, Redux, Redux-thunk, axios, Redux-form, CSS.',
             style: {backgroundImage: `url(${socialNetworkImage})`}
         }
     ]
