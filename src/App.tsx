@@ -22,8 +22,6 @@ import gitLogo from './assetts/images/skills/gitLogo.png'
 import todolistImage from './assetts/images/projects/todolist.png'
 import socialNetworkImage from './assetts/images/projects/socialNetwork.png'
 
-// npm run deploy
-
 function App() {
 
     const skills: Array<SkillType> = [
