@@ -1,6 +1,5 @@
 import React from 'react';
-import projectsStyle from './Projects.module.scss';
-import style from "../common/styles/Common.module.css";
+import style from './Projects.module.scss';
 import {Project, ProjectType} from "./project/Project";
 import {Title} from '../common/components/title/Title';
 
@@ -24,10 +23,10 @@ export function Projects(props: ProjectsType) {
     })
 
     return (
-        <section className={projectsStyle.projectsBlock}>
-            <div className={`${style.container} ${projectsStyle.projectsContainer}`}>
+        <section className={style.projectsBlock}>
+            <div className={style.projectsContainer}>
                 <Title title='Projects'/>
-                <div className={projectsStyle.projects}>
+                <div className={style.projects}>
                     {projects}
                 </div>
             </div>

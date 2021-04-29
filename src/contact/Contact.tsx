@@ -1,26 +1,22 @@
 import React from 'react';
-import contactStyle from './Contact.module.scss';
-import style from "../common/styles/Common.module.css";
+import style from './Contact.module.scss';
 import {Title} from "../common/components/title/Title";
-import {Button} from "../common/components/button/Button";
 
 export function Contact() {
 
     return (
-        <section className={contactStyle.contactBlock}>
+        <section className={style.contactBlock}>
             <Title title='Contact'/>
-            <div className={`${style.container} ${contactStyle.contactContainer}`}>
-                <form className={contactStyle.contactForm}>
-                    <input className={contactStyle.contactInput} placeholder='Name' type='text'/>
-                    <input className={contactStyle.contactInput} placeholder='E-mail' type='text'/>
+            <div className={style.contactContainer}>
+                <form className={style.contactForm}>
+                    <input className={style.contactInput} placeholder='Name' type='text'/>
+                    <input className={style.contactInput} placeholder='E-mail' type='text'/>
                     <textarea id=""
                               name=""
-                              className={contactStyle.contactTextArea}
+                              className={style.contactTextArea}
                               placeholder='Message'
                     ></textarea>
-                    <Button
-                        title={'Send'}
-                    />
+                    <button className={style.contactButton} type={'submit'}>Send</button>
                 </form>
             </div>
         </section>

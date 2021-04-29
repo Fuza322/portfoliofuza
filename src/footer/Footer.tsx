@@ -1,6 +1,5 @@
 import React from 'react';
-import footerStyle from './Footer.module.scss'
-import style from "../common/styles/Common.module.css";
+import style from './Footer.module.scss'
 import {Link, LinkType} from "./link/Link";
 
 export type FooterType = {
@@ -20,15 +19,15 @@ export function Footer(props: FooterType) {
     })
 
     return (
-        <footer className={footerStyle.footerBlock}>
-            <div className={`${style.container} ${footerStyle.footerContainer}`}>
-                <div className={footerStyle.divFooter}>
-                    <div className={footerStyle.divFooterTitle}>
+        <footer className={style.footerBlock}>
+            <div className={style.footerContainer}>
+                <div className={style.divFooter}>
+                    <div className={style.divFooterTitle}>
                         <a href="">
-                            <h2 className={footerStyle.footerTitle}>Osipik Ivan</h2>
+                            <h2 className={style.footerTitle}>Osipik Ivan</h2>
                         </a>
                     </div>
-                    <ul className={footerStyle.footerLinks}>
+                    <ul className={style.footerLinks}>
                         {links}
                     </ul>
                 </div>

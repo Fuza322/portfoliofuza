@@ -1,11 +1,12 @@
 @import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
 
 .projectsBlock {
   height: 100%;
   background-color: $bgColor;
 
   .projectsContainer {
-
+    @include container();
     .projects {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

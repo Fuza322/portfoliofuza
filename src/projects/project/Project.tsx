@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from '../../common/components/button/Button';
-import projectStyle from './Project.module.scss'
+import style from './Project.module.scss'
 
 export type ProjectType = {
     id: string
@@ -13,18 +13,18 @@ export type ProjectType = {
 export function Project(props: ProjectType) {
 
     return (
-        <div className={projectStyle.project}>
-            <div className={projectStyle.projectImage} style={props.style}></div>
-            <div className={projectStyle.projectBody}>
-                <div className={projectStyle.projectInfo}>
-                    <h3 className={`${projectStyle.nameProjectText}`}>{props.projectName}</h3>
-                    <p className={projectStyle.descriptionProjectText}>{props.projectDescription}</p>
-                    <h3 className={projectStyle.TechnologiesText}>Technologies:</h3>
-                    <p className={projectStyle.descriptionProjectText}>{props.stackTechonogy}</p>
+        <div className={style.project}>
+            <div className={style.projectImage} style={props.style}></div>
+            <div className={style.projectBody}>
+                <div className={style.projectInfo}>
+                    <h3 className={style.nameProjectText}>{props.projectName}</h3>
+                    <p className={style.descriptionProjectText}>{props.projectDescription}</p>
+                    <h3 className={style.TechnologiesText}>Technologies:</h3>
+                    <p className={style.descriptionProjectText}>{props.stackTechonogy}</p>
                 </div>
-                <div className={projectStyle.projectButtonContainer}>
+                <div className={style.projectButtonContainer}>
                     <Button
-                        title={'View more'}
+                        title={'View code'}
                     />
                 </div>
             </div>

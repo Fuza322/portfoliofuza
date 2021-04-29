@@ -26,3 +26,16 @@
   transition: .5s;
   @include text($fontFamilyStyle, 16px, 400, $textColor);
 }
+
+@mixin container() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: #111111;
+  border-radius: 5px;
+}
