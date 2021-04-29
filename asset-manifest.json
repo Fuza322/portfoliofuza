@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfoliofuza322/static/css/main.741e5ec8.chunk.css",
-    "main.js": "/portfoliofuza322/static/js/main.606fd7ab.chunk.js",
-    "main.js.map": "/portfoliofuza322/static/js/main.606fd7ab.chunk.js.map",
+    "main.css": "/portfoliofuza322/static/css/main.9cf329a8.chunk.css",
+    "main.js": "/portfoliofuza322/static/js/main.6b80f71b.chunk.js",
+    "main.js.map": "/portfoliofuza322/static/js/main.6b80f71b.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.f8084280.js",
     "runtime-main.js.map": "/portfoliofuza322/static/js/runtime-main.f8084280.js.map",
     "static/js/2.21fba068.chunk.js": "/portfoliofuza322/static/js/2.21fba068.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7b338a30.chunk.js": "/portfoliofuza322/static/js/3.7b338a30.chunk.js",
     "static/js/3.7b338a30.chunk.js.map": "/portfoliofuza322/static/js/3.7b338a30.chunk.js.map",
     "index.html": "/portfoliofuza322/index.html",
-    "static/css/main.741e5ec8.chunk.css.map": "/portfoliofuza322/static/css/main.741e5ec8.chunk.css.map",
+    "static/css/main.9cf329a8.chunk.css.map": "/portfoliofuza322/static/css/main.9cf329a8.chunk.css.map",
     "static/js/2.21fba068.chunk.js.LICENSE.txt": "/portfoliofuza322/static/js/2.21fba068.chunk.js.LICENSE.txt",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza322/static/media/css3Logo.96a4b4f3.jpg",
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza322/static/media/gitLogo.140fa4d6.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.f8084280.js",
     "static/js/2.21fba068.chunk.js",
-    "static/css/main.741e5ec8.chunk.css",
-    "static/js/main.606fd7ab.chunk.js"
+    "static/css/main.9cf329a8.chunk.css",
+    "static/js/main.6b80f71b.chunk.js"
   ]
 }
