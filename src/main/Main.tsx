@@ -1,19 +1,31 @@
 import React from 'react';
+import ReactTypingEffect from 'react-typing-effect';
 import style from './Main.module.scss'
 
 export type MainType = {
     style: { backgroundImage: string }
 }
 
-
 export function Main(props: MainType) {
     return (
         <section className={style.mainBlock}>
-
             <div className={style.mainContainer}>
-                <div className={style.mainText}>
-                    <h1 className={style.mainNameText}>I'm Ivan Osipik.</h1>
-                    <p className={style.mainPositionText}>Front-end developer (React)</p>
+                <div className={style.mainTextContainer}>
+                    <div className={style.mainTextBlock}>
+                        <span className={style.mainText}>Hi There, </span>
+                        <span className={style.mainNameText}><span className={style.mainText}>I'm </span>Ivan Osipik</span>
+                    </div>
+
+                    <div>
+                        <ReactTypingEffect
+                            className={style.mainPositionText}
+                            text={'Front-end developer (React).'}
+                            speed={100}
+                            eraseSpeed={50}
+                            eraseDelay={7000}
+                            typingDelay={0}
+                        />
+                    </div>
                 </div>
                 <div className={style.mainPhoto} style={props.style}>
                 </div>

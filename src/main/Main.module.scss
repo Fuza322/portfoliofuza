@@ -2,61 +2,95 @@
 @import './src/common/styles/sass/variables';
 
 .mainBlock {
-  height: 100%;
-  background-color: $bgColor;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 
   .mainContainer {
+
     @include container();
-    padding-top: 80px;
     @media only screen and (max-width: 1150px) {
       flex-direction: column;
       align-items: center;
     }
 
-    .mainText {
-      padding: 10px;
+    .mainTextContainer {
       @media only screen and (max-width: 1150px) {
         justify-content: center;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
       }
 
-      .mainNameText {
-        @include text($fontFamilyStyle, 40px, 700, $primaryColor);
-        @media only screen and (max-width: 1150px) {
-          font-size: 35px;
+      .mainTextBlock {
+        margin-bottom: 20px;
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: -10px;
+          left: 50%;
+          transform: translate(-50%, 50%);
+          background-color: $primaryColor;
+          width: 100%;
+          height: 2px;
         }
-        @media only screen and (max-width: 700px) {
-          font-size: 30px;
+
+        .mainText {
+          @include text($fontFamilyStyle, 40px, 700, $textColor);
+          @media only screen and (max-width: 1150px) {
+            font-size: 35px;
+          }
+          @media only screen and (max-width: 700px) {
+            font-size: 26px;
+          }
+          @media only screen and (max-width: 400px) {
+            font-size: 23px;
+          }
+        }
+
+        .mainNameText {
+          @include text($fontFamilyStyle, 40px, 700, $primaryColor);
+          @media only screen and (max-width: 1150px) {
+            font-size: 35px;
+          }
+          @media only screen and (max-width: 700px) {
+            font-size: 26px;
+          }
+          @media only screen and (max-width: 400px) {
+            font-size: 23px;
+          }
         }
       }
 
       .mainPositionText {
-        @include text($fontFamilyStyle, 40px, 700, $textColor);
+        @include text($fontFamilyStyle, 30px, 700, $textColor);
         @media only screen and (max-width: 1150px) {
-          font-size: 35px;
+          font-size: 25px;
         }
         @media only screen and (max-width: 700px) {
-          font-size: 30px;
+          font-size: 20px;
+        }
+        @media only screen and (max-width: 400px) {
+          font-size: 18px;
         }
       }
     }
 
     .mainPhoto {
-      width: 280px;
+      width: 300px;
       height: 400px; /*!!!!*/
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       border: 4px solid $primaryColor;
       border-radius: 30px;
-      background-color: $bgSecondColor;
       @media only screen and (max-width: 1150px) {
         width: 50%;
         height: 55vw;
       }
-      @media only screen and (max-width: 650px) {
-        width: 65%;
-        height: 70vw;
+      @media only screen and (max-width: 700px) {
+        width: 60%;
+        height: 65vw;
       }
       @media only screen and (max-width: 510px) {
         width: 80%;
