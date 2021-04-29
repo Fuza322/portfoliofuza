@@ -7,7 +7,7 @@ export function Contact() {
     return (
         <section className={style.contactBlock}>
             <Title title='Contact'/>
-            <div data-aos="zoom-in" data-aos-duration="850" className={style.contactContainer}>
+            <div data-aos="zoom-in" data-aos-duration="900" className={style.contactContainer}>
                 <form className={style.contactForm}>
                     <input className={style.contactInput} placeholder='Name' type='text'/>
                     <input className={style.contactInput} placeholder='E-mail' type='text'/>

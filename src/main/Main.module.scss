@@ -2,9 +2,9 @@
 @import './src/common/styles/sass/variables';
 
 .mainBlock {
+
   min-height: 100vh;
   display: flex;
-  align-items: center;
   @media only screen and (max-width: 700px) {
     min-height: 90vh;
   }
@@ -17,13 +17,12 @@
     @include container();
     @media only screen and (max-width: 1150px) {
       flex-direction: column;
-      align-items: center;
+      justify-content: space-around;
     }
 
     .mainTextContainer {
       @media only screen and (max-width: 1150px) {
-        justify-content: center;
-        margin-bottom: 40px;
+        /*margin-bottom: 40px;*/
       }
 
       .mainTextBlock {
@@ -97,7 +96,6 @@
       @media only screen and (max-width: 700px) {
         width: 60%;
         height: 65vw;
-        margin-top: 60px;
       }
       @media only screen and (max-width: 510px) {
         width: 80%;
