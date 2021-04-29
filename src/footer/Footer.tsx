@@ -22,11 +22,6 @@ export function Footer(props: FooterType) {
         <footer className={style.footerBlock}>
             <div className={style.footerContainer}>
                 <div className={style.divFooter}>
-                    <div className={style.divFooterTitle}>
-                        <a href="">
-                            <h2 className={style.footerTitle}>Osipik Ivan</h2>
-                        </a>
-                    </div>
                     <ul className={style.footerLinks}>
                         {links}
                     </ul>

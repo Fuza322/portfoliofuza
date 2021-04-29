@@ -22,7 +22,7 @@ export function Skills(props: SkillsType) {
     })
 
     return (
-        <section className={style.skillsBlock}>
+        <section id={'skillsId'} className={style.skillsBlock}>
             <div className={style.skillsContainer}>
                 <Title title='Skills'/>
                 <div className={style.skills}>

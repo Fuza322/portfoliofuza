@@ -8,7 +8,7 @@
   width: 90px;
   height: 40px;
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 700px) {
     width: 70px;
     height: 40px;
   }
@@ -16,8 +16,15 @@
   .linkText {
     @include text($fontFamilyStyle, 16px, 500, $textColor);
 
-    @media only screen and (max-width: 800px) {
-      @include text($fontFamilyStyle, 12px, 500, $textColor);
+    &:hover {
+      color: $primaryColor;
+    }
+
+    @media only screen and (max-width: 700px) {
+      @include text($fontFamilyStyle, 13px, 500, $textColor);
+    }
+    @media only screen and (max-width: 400px) {
+      @include text($fontFamilyStyle, 11px, 500, $textColor);
     }
   }
 }

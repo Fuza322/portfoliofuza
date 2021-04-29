@@ -5,7 +5,7 @@ import {Title} from "../common/components/title/Title";
 export function Contact() {
 
     return (
-        <section className={style.contactBlock}>
+        <section id={'contactsId'} className={style.contactBlock}>
             <Title title='Contact'/>
             <div data-aos="zoom-in" data-aos-duration="900" className={style.contactContainer}>
                 <form className={style.contactForm}>

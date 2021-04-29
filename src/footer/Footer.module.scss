@@ -19,16 +19,17 @@
       align-items: center;
       width: 100%;
       height: 100%;
-      background-color: $headerAndFooterColor;
 
       .divFooterTitle {
 
         .footerTitle {
-          @include text($fontFamilyStyle, 22px, 500, $primaryColor);
+          @include text($fontFamilyStyle, 22px, 500, $textColor);
           margin: 0;
+
           &:hover {
-            color: $textColor;
+            color: $primaryColor;
           }
+
           @media only screen and (max-width: 800px) {
             @include text($fontFamilyStyle, 16px, 500, $primaryColor);
           }

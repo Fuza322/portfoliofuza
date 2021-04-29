@@ -23,7 +23,7 @@ export function Projects(props: ProjectsType) {
     })
 
     return (
-        <section className={style.projectsBlock}>
+        <section id={'projectsId'} className={style.projectsBlock}>
             <div className={style.projectsContainer}>
                 <Title title='Projects'/>
                 <div className={style.projects}>

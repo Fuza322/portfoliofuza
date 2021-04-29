@@ -86,23 +86,23 @@ function App() {
             id: '1p',
             projectName: 'TodoList',
             projectDescription: 'Web application designed to conveniently structure information about all current tasks in one place.',
-            stackTechonogy: 'ReactJS, TS, Redux, axios, formik, Material UI, storybook.',
+            stackTechonogy: 'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.',
             style: {backgroundImage: `url(${todolistImage})`}
         },
         {
             id: '2p',
             projectName: 'Social network',
             projectDescription: 'Web application that allows registered users to post information and communicate with each other.',
-            stackTechonogy: 'ReactJS, TS, Redux, Redux-thunk, axios, Redux-form, CSS.',
+            stackTechonogy: 'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.',
             style: {backgroundImage: `url(${socialNetworkImage})`}
         }
     ]
 
     const links: Array<LinkType> = [
-        {id: '1l', linkTitle: 'G-Mail'},
-        {id: '2l', linkTitle: 'GitHub'},
-        {id: '3l', linkTitle: 'Linkedin'},
-        {id: '4l', linkTitle: 'Telegram'},
+        {id: '1l', linkTitle: 'Telegram'},
+        {id: '2l', linkTitle: 'Linkedin'},
+        {id: '3l', linkTitle: 'GitHub'},
+        {id: '4l', linkTitle: 'CodeWars'},
     ]
 
     return (
