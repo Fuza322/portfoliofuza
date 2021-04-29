@@ -10,7 +10,7 @@ export function Main(props: MainType) {
     return (
         <section className={style.mainBlock}>
             <div className={style.mainContainer}>
-                <div className={style.mainTextContainer}>
+                <div data-aos="fade-right" data-aos-duration="1200" className={style.mainTextContainer}>
                     <div className={style.mainTextBlock}>
                         <span className={style.mainText}>Hi There, </span>
                         <span className={style.mainNameText}><span className={style.mainText}>I'm </span>Ivan Osipik</span>
@@ -27,7 +27,7 @@ export function Main(props: MainType) {
                         />
                     </div>
                 </div>
-                <div className={style.mainPhoto} style={props.style}>
+                <div data-aos="fade-left" data-aos-duration="1200" className={style.mainPhoto} style={props.style}>
                 </div>
             </div>
         </section>

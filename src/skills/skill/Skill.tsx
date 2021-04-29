@@ -10,7 +10,7 @@ export type SkillType = {
 
 export function Skill(props: SkillType) {
     return (
-        <div className={skillStyle.skill}>
+        <div data-aos="zoom-in" data-aos-duration="400" className={skillStyle.skill}>
             <div className={skillStyle.skillIcon} style={props.style}></div>
             <div className={skillStyle.skillInfo}>
                 <h3 className={skillStyle.nameSkillText}>{props.skillTitle}</h3>
