@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
 import style from './Main.module.scss'
 
 export type MainType = {
@@ -29,12 +28,9 @@ export function Main(props: MainType) {
                         />
                     </div>
                 </div>
-                <Tilt
-                    scale={1.02}>
                     <div data-aos="fade-left" data-aos-duration="1200" className={style.mainPhoto}
                          style={props.style}>
                     </div>
-                </Tilt>
             </div>
         </section>
     )
