@@ -12,13 +12,17 @@
   .projectImage {
     width: 100%;
     height: 260px;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-bottom: 7px solid $primaryColor;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    transition: .3s;
+    background-size: 100%; //set the original size!!!!!!!!!!!!
+    -webkit-transition: background-size .3s ease-in;
+    transition: background-size .3s ease-in;
+  }
+  .projectImage:hover {
+    background-size: 105%
   }
 
   .projectBody {

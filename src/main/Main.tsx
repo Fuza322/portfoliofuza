@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-parallax-tilt';
 import style from './Main.module.scss'
 
 export type MainType = {
@@ -13,7 +14,8 @@ export function Main(props: MainType) {
                 <div data-aos="fade-right" data-aos-duration="1200" className={style.mainTextContainer}>
                     <div className={style.mainTextBlock}>
                         <span className={style.mainText}>Hi There, </span>
-                        <span className={style.mainNameText}><span className={style.mainText}>I'm </span>Ivan Osipik</span>
+                        <span className={style.mainNameText}><span
+                            className={style.mainText}>I'm </span>Ivan Osipik</span>
                     </div>
 
                     <div>
@@ -27,8 +29,12 @@ export function Main(props: MainType) {
                         />
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1200" className={style.mainPhoto} style={props.style}>
-                </div>
+                <Tilt
+                    scale={1.02}>
+                    <div data-aos="fade-left" data-aos-duration="1200" className={style.mainPhoto}
+                         style={props.style}>
+                    </div>
+                </Tilt>
             </div>
         </section>
     )
