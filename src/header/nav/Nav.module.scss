@@ -11,6 +11,9 @@
   @media only screen and (max-width: 1150px) {
     width: 100%;
   }
+  @media only screen and (max-width: 400px) {
+    display: none;
+  }
 
   .navLink {
     @include text($fontFamilyStyle, 24px, 700, $primaryColor);
