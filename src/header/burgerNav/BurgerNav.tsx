@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-scroll'
 import style from './BurgerNav.module.scss'
 
@@ -7,20 +7,21 @@ export function BurgerNav() {
     const [burgerStatus, setNavBurgerStatus] = useState<boolean>(false)
 
     const onBurgerNavButtonClickHandler = () => {
-        let burgerStatusCopy = !burgerStatus
+        const burgerStatusCopy = !burgerStatus
         setNavBurgerStatus(burgerStatusCopy)
+    }
+
+    const onBurgerNavCloseHandler = () => {
+        setNavBurgerStatus(false)
     }
 
     return (
         <nav className={style.burgerNav}>
-            <div className={burgerStatus? `${style.burgerNavItems} ${style.showBurger}`: style.burgerNavItems}>
-                <a className={style.navLink} href="#">Main</a>
-                <Link className={style.navLink} to="skillsId" href="" spy={true} smooth={true} offset={0}
-                      duration={500}>Skills</Link>
-                <Link className={style.navLink} to="projectsId" href="" spy={true} smooth={true} offset={0}
-                      duration={500}>Projects</Link>
-                <Link className={style.navLink} to="contactsId" href="" spy={true} smooth={true} offset={0}
-                      duration={500}>Сontacts</Link>
+            <div className={burgerStatus ? `${style.burgerNavItems} ${style.showBurger}` : style.burgerNavItems}>
+                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="mainId" href="" spy={true} smooth={true} offset={0} duration={500}>Main</Link>
+                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="skillsId" href="" spy={true} smooth={true} offset={0} duration={500}>Skills</Link>
+                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="projectsId" href="" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
+                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="contactsId" href="" spy={true} smooth={true} offset={0} duration={500}>Сontacts</Link>
             </div>
             <div className={style.burgerButton} onClick={onBurgerNavButtonClickHandler}></div>
         </nav>

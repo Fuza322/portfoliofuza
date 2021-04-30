@@ -23,7 +23,7 @@
     @media only screen and (max-width: 700px) {
       @include text($fontFamilyStyle, 13px, 500, $textColor);
     }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 450px) {
       @include text($fontFamilyStyle, 11px, 500, $textColor);
     }
   }
