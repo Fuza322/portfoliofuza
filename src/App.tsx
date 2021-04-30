@@ -104,7 +104,7 @@ function App() {
         {id: '1l', linkTitle: 'Telegram', link: 'https://t.me/vanya_Fuza'},
         {id: '2l', linkTitle: 'Linkedin', link: 'https://www.linkedin.com/in/ivanosipik/'},
         {id: '3l', linkTitle: 'GitHub', link: 'https://github.com/Fuza322'},
-        {id: '4l', linkTitle: 'G-mail', link: 'mailto:@vanya.osipik322@gmail.com'},
+        {id: '4l', linkTitle: 'G-mail', link: 'mailto:vanya.osipik322@gmail.com'},
     ]
 
     return (
