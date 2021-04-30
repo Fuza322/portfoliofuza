@@ -83,23 +83,19 @@
 
     .mainPhoto {
       width: 300px;
-      height: 400px; /*!!!!*/
+      height: 400px;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       border: 4px solid $primaryColor;
       border-radius: 30px;
       @media only screen and (max-width: 1150px) {
-        width: 50%;
-        height: 55vw;
+        width: 300px;
+        height: 70%;
       }
       @media only screen and (max-width: 700px) {
-        width: 60%;
-        height: 65vw;
-      }
-      @media only screen and (max-width: 510px) {
-        width: 80%;
-        height: 85vw;
+        width: 250px;
+        height: 70%;
       }
     }
   }

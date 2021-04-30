@@ -1,8 +1,7 @@
 @import './src/common/styles/sass/variables';
 
 .headerBlock {
-  height: 100%;
-  background-color: $headerAndFooterColor;
+  height: 60px;
 
   .headerContainer {
     display: flex;
@@ -19,8 +18,12 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      position: fixed;
+      left: 0;
+      z-index: 9999;
       width: 100%;
       height: 60px;
+      background-color: $headerAndFooterColor;
     }
   }
 

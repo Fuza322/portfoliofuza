@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Link} from 'react-scroll'
 import style from './BurgerNav.module.scss'
 
 export function BurgerNav() {
+
+    const [burgerStatus, setNavBurgerStatus] = useState<boolean>(false)
+
+    const onBurgerNavButtonClickHandler = () => {
+        let burgerStatusCopy = !burgerStatus
+        setNavBurgerStatus(burgerStatusCopy)
+    }
+
     return (
         <nav className={style.burgerNav}>
-            <div className={style.burgerNavItems}>
+            <div className={burgerStatus? `${style.burgerNavItems} ${style.showBurger}`: style.burgerNavItems}>
                 <a className={style.navLink} href="#">Main</a>
                 <Link className={style.navLink} to="skillsId" href="" spy={true} smooth={true} offset={0}
                       duration={500}>Skills</Link>
@@ -14,7 +22,7 @@ export function BurgerNav() {
                 <Link className={style.navLink} to="contactsId" href="" spy={true} smooth={true} offset={0}
                       duration={500}>Сontacts</Link>
             </div>
-            <div className={style.burgerButton}></div>
+            <div className={style.burgerButton} onClick={onBurgerNavButtonClickHandler}></div>
         </nav>
     )
 }

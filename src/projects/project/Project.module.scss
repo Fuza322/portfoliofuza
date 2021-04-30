@@ -12,17 +12,22 @@
   .projectImage {
     width: 100%;
     height: 260px;
-    background-size: cover;
+
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 120%;
     border-bottom: 7px solid $primaryColor;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     overflow: hidden;
-    transition: .3s ;
+    transition: background-size 1s;
+    @media only screen and (max-width: 80px) {
+      background-size: cover;
+      pointer-events: none;
+    }
+
     &:hover {
-      /*transform: scale(1.05);*/
-      background-size: 105%;
+      background-size: 130%;
     }
   }
 
@@ -42,6 +47,7 @@
         @include text($fontFamilyStyle, 16px, 500, $textColor);
         margin: 0 0 10px;
       }
+
       .TechnologiesText {
         @include text($fontFamilyStyle, 16px, 600, $primaryColor);
         margin: 0;

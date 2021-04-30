@@ -3,7 +3,7 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 45%;
   height: 50%;
@@ -11,7 +11,7 @@
   @media only screen and (max-width: 1150px) {
     width: 100%;
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 420px) {
     display: none;
   }
 
@@ -20,7 +20,7 @@
     transition: .3s;
 
     @media only screen and (max-width: 600px) {
-      @include text($fontFamilyStyle, 17px, 700, $primaryColor);
+      @include text($fontFamilyStyle, 20px, 700, $primaryColor);
     }
 
     &:hover {
