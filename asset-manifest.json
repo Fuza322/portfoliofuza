@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfoliofuza322/static/css/main.5c5cccce.chunk.css",
+    "main.css": "/portfoliofuza322/static/css/main.2d4b4bac.chunk.css",
     "main.js": "/portfoliofuza322/static/js/main.cebf4eeb.chunk.js",
     "main.js.map": "/portfoliofuza322/static/js/main.cebf4eeb.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.9b178613.js",
@@ -10,7 +10,7 @@
     "static/js/3.455dcbcb.chunk.js": "/portfoliofuza322/static/js/3.455dcbcb.chunk.js",
     "static/js/3.455dcbcb.chunk.js.map": "/portfoliofuza322/static/js/3.455dcbcb.chunk.js.map",
     "index.html": "/portfoliofuza322/index.html",
-    "static/css/main.5c5cccce.chunk.css.map": "/portfoliofuza322/static/css/main.5c5cccce.chunk.css.map",
+    "static/css/main.2d4b4bac.chunk.css.map": "/portfoliofuza322/static/css/main.2d4b4bac.chunk.css.map",
     "static/js/2.a033b342.chunk.js.LICENSE.txt": "/portfoliofuza322/static/js/2.a033b342.chunk.js.LICENSE.txt",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza322/static/media/css3Logo.96a4b4f3.jpg",
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza322/static/media/gitLogo.140fa4d6.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.9b178613.js",
     "static/js/2.a033b342.chunk.js",
-    "static/css/main.5c5cccce.chunk.css",
+    "static/css/main.2d4b4bac.chunk.css",
     "static/js/main.cebf4eeb.chunk.js"
   ]
 }
