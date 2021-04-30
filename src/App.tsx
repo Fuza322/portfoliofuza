@@ -87,6 +87,7 @@ function App() {
             projectName: 'TodoList',
             projectDescription: 'Web application designed to conveniently structure information about all current tasks in one place.',
             stackTechonogy: 'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.',
+            viewCodeLink: 'https://github.com/Fuza322/IT-Incubator-ToDoList',
             style: {backgroundImage: `url(${todolistImage})`}
         },
         {
@@ -94,15 +95,16 @@ function App() {
             projectName: 'Social network',
             projectDescription: 'Web application that allows registered users to post information and communicate with each other.',
             stackTechonogy: 'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.',
+            viewCodeLink: 'https://github.com/Fuza322/IT-Incubator-Social-Network',
             style: {backgroundImage: `url(${socialNetworkImage})`}
         }
     ]
 
     const links: Array<LinkType> = [
-        {id: '1l', linkTitle: 'Telegram'},
-        {id: '2l', linkTitle: 'Linkedin'},
-        {id: '3l', linkTitle: 'GitHub'},
-        {id: '4l', linkTitle: 'CodeWars'},
+        {id: '1l', linkTitle: 'Telegram', link: 'https://t.me/vanya_Fuza'},
+        {id: '2l', linkTitle: 'Linkedin', link: 'https://www.linkedin.com/in/ivanosipik/'},
+        {id: '3l', linkTitle: 'GitHub', link: 'https://github.com/Fuza322'},
+        {id: '4l', linkTitle: 'CodeWars', link: 'https://www.codewars.com/users/Fuza322'},
     ]
 
     return (

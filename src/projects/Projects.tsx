@@ -18,6 +18,7 @@ export function Projects(props: ProjectsType) {
                 projectDescription={project.projectDescription}
                 stackTechonogy={project.stackTechonogy}
                 style={project.style}
+                viewCodeLink={project.viewCodeLink}
             />
         )
     })

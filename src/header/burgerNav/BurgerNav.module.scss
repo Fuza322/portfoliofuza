@@ -18,14 +18,14 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    height: 200px;
+    height: 0;
     right: 0;
     left: 0;
     top: 0;
-    opacity: 0.9;
     background-color: $bgSecondColor;
-    padding: 20px;
-    display: none;
+    padding: 15px;
+    transition: .5s;
+    transform: translate(0, -300px);
 
     .navLink {
       @include text($fontFamilyStyle, 25px, 700, $primaryColor);
@@ -44,16 +44,14 @@
   .burgerButton {
     position: absolute;
     top: 15px;
-    right: 0;
+    right: 20px;
     width: 30px;
     height: 30px;
     background-color: $primaryColor;
   }
 
   .showBurger {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    transform: translate(0, 0);
+    height: 300px;
   }
 }

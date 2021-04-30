@@ -21,7 +21,7 @@
     border-top-left-radius: 5px;
     overflow: hidden;
     transition: background-size 1s;
-    @media only screen and (max-width: 80px) {
+    @media only screen and (max-width: 800px) {
       background-size: cover;
       pointer-events: none;
     }

@@ -14,6 +14,7 @@ export function Footer(props: FooterType) {
                 key={link.id}
                 id={link.id}
                 linkTitle={link.linkTitle}
+                link={link.link}
             />
         )
     })
