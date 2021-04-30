@@ -18,10 +18,10 @@ export function BurgerNav() {
     return (
         <nav className={style.burgerNav}>
             <div className={burgerStatus ? `${style.burgerNavItems} ${style.showBurger}` : style.burgerNavItems}>
-                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="mainId" href="" spy={true} smooth={true} offset={0} duration={500}>Main</Link>
-                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="skillsId" href="" spy={true} smooth={true} offset={0} duration={500}>Skills</Link>
-                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="projectsId" href="" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
-                <Link onClick={onBurgerNavCloseHandler} className={style.navLink} to="contactsId" href="" spy={true} smooth={true} offset={0} duration={500}>Сontacts</Link>
+                <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="mainId" href="" spy={true} smooth={true} offset={0} duration={500}>Main</Link>
+                <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="skillsId" href="" spy={true} smooth={true} offset={-35} duration={500}>Skills</Link>
+                <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="projectsId" href="" spy={true} smooth={true} offset={-35} duration={500}>Projects</Link>
+                <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="contactsId" href="" spy={true} smooth={true} offset={-35} duration={500}>Сontacts</Link>
             </div>
             <div className={style.burgerButton} onClick={onBurgerNavButtonClickHandler}></div>
         </nav>

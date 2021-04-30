@@ -27,7 +27,7 @@
     transition: .5s;
     transform: translate(0, -300px);
 
-    .navLink {
+    .burgerNavLink {
       @include text($fontFamilyStyle, 25px, 700, $primaryColor);
       transition: .3s;
 
@@ -47,6 +47,7 @@
     right: 20px;
     width: 30px;
     height: 30px;
+    border-radius: 5px;
     background-color: $primaryColor;
   }
 

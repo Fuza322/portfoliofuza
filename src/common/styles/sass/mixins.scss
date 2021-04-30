@@ -21,7 +21,7 @@
   background-color: $backgroundColor;
   overflow: hidden;
   border: 3px solid $borderColor;
-  border-radius: 4px;
+  border-radius: 5px;
   margin-bottom: 20px;
   transition: .5s;
   @include text($fontFamilyStyle, 16px, 400, $textColor);
