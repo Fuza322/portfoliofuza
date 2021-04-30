@@ -19,7 +19,7 @@
     @include text($fontFamilyStyle, 24px, 700, $primaryColor);
     transition: .3s;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
       @include text($fontFamilyStyle, 20px, 700, $primaryColor);
     }
 
