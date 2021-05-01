@@ -9,17 +9,16 @@
   }
 
   .burgerNavItems {
-    @include flexBox(column, space-between, center, nowrap);
+    @include flexBox(column, stretch, center, nowrap);
     width: 100%;
     position: absolute;
-    height: 0;
     right: 0;
     left: 0;
     top: 0;
     background-color: $headerAndFooterColor;
     box-shadow: 0 0 20px $primaryColor;
-    padding: 15px;
-    transform: translate(0, -300px);
+    padding:  20px 0 20px;
+    transform: translate(0, -500px);
     transition: .5s;
 
     .burgerNavLink {
@@ -51,6 +50,5 @@
 
   .showBurger {
     transform: translate(0, 0);
-    height: 300px;
   }
 }

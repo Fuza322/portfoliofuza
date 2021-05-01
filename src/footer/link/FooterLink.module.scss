@@ -2,9 +2,7 @@
 @import './src/common/styles/sass/mixins';
 
 .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexBox(row, center, center, nowrap);
   width: 90px;
   height: 40px;
 

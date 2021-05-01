@@ -30,25 +30,29 @@ function App() {
             id: v1(),
             sectionId: 'mainId',
             navTitle: 'Main',
-            style: {margin: '15px'}
+            offset: 0,
+            style: {marginTop: '0'}
         },
         {
             id: v1(),
             sectionId: 'skillsId',
             navTitle: 'Skills',
-            style: {margin: '15px'}
+            offset: -35,
+            style: {marginTop: '40px'}
         },
         {
             id: v1(),
             sectionId: 'projectsId',
             navTitle: 'Projects',
-            style: {margin: '15px'}
+            offset: -35,
+            style: {marginTop: '40px'}
         },
         {
             id: v1(),
             sectionId: 'contactsId',
             navTitle: 'Contacts',
-            style: {margin: '15px'}
+            offset: -35,
+            style: {marginTop: '40px'}
         },
     ]
 

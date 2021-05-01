@@ -10,14 +10,15 @@ export type NavLinkType = {
     id: string
     sectionId: string
     navTitle: string
-    style: { margin: string }
+    offset: number,
+    style: { marginTop: string }
 }
 
 export function Nav(props: NavType) {
 
     const navLinks = props.navLinks.map(navLink => {
         return (
-            <Link id={navLink.id} className={style.navLink} to={navLink.sectionId} href='' spy={true} smooth={true}
+            <Link key={navLink.id} className={style.navLink} to={navLink.sectionId} href='' spy={true} smooth={true}
                   offset={-50} duration={500}>{navLink.navTitle}
             </Link>
         )
