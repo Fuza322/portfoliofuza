@@ -42,6 +42,9 @@
           @media only screen and (max-width: 1150px) {
             font-size: 35px;
           }
+          @media only screen and (max-width: 900px) {
+            font-size: 30px;
+          }
           @media only screen and (max-width: 700px) {
             font-size: 25px;
           }
@@ -54,6 +57,9 @@
           @include text($fontFamilyStyle, 40px, 700, $primaryColor);
           @media only screen and (max-width: 1150px) {
             font-size: 35px;
+          }
+          @media only screen and (max-width: 900px) {
+            font-size: 30px;
           }
           @media only screen and (max-width: 700px) {
             font-size: 25px;
@@ -68,6 +74,9 @@
         @include text($fontFamilyStyle, 30px, 700, $textColor);
         @media only screen and (max-width: 1150px) {
           font-size: 25px;
+        }
+        @media only screen and (max-width: 900px) {
+          font-size: 22px;
         }
         @media only screen and (max-width: 700px) {
           font-size: 20px;
@@ -86,7 +95,7 @@
       background-repeat: no-repeat;
       border: 4px solid $primaryColor;
       border-radius: 30px;
-      margin-top: 20px;
+      margin-top: 10px;
       @media only screen and (max-width: 1150px) {
         width: 250px;
         height: 350px;

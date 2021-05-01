@@ -18,9 +18,11 @@
   .navLink {
     @include text($fontFamilyStyle, 24px, 700, $primaryColor);
     transition: .3s;
-
+    @media only screen and (max-width: 900px) {
+      font-size: 20px;
+    }
     @media only screen and (max-width: 700px) {
-      @include text($fontFamilyStyle, 20px, 700, $primaryColor);
+      font-size: 18px;
     }
 
     &:hover {
