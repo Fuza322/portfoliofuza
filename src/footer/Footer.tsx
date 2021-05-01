@@ -1,20 +1,20 @@
 import React from 'react';
 import style from './Footer.module.scss'
-import {Link, LinkType} from "./link/Link";
+import {FooterLink, FooterLinkType} from "./link/FooterLink";
 
 export type FooterType = {
-    links: Array<LinkType>
+    footerLinks: Array<FooterLinkType>
 }
 
 export function Footer(props: FooterType) {
 
-    const links = props.links.map(link => {
+    const footerLinks = props.footerLinks.map(footerLink => {
         return (
-            <Link
-                key={link.id}
-                id={link.id}
-                linkTitle={link.linkTitle}
-                link={link.link}
+            <FooterLink
+                key={footerLink.id}
+                id={footerLink.id}
+                linkTitle={footerLink.linkTitle}
+                link={footerLink.link}
             />
         )
     })
@@ -24,7 +24,7 @@ export function Footer(props: FooterType) {
             <div className={style.footerContainer}>
                 <div className={style.divFooter}>
                     <ul className={style.footerLinks}>
-                        {links}
+                        {footerLinks}
                     </ul>
                 </div>
             </div>

@@ -2,13 +2,30 @@ import React from 'react';
 import {Link} from 'react-scroll'
 import style from './Nav.module.scss'
 
-export function Nav() {
-    return(
+export type NavType = {
+    navLinks: Array<NavLinkType>
+}
+
+export type NavLinkType = {
+    id: string
+    sectionId: string
+    navTitle: string
+    style: { margin: string }
+}
+
+export function Nav(props: NavType) {
+
+    const navLinks = props.navLinks.map(navLink => {
+        return (
+            <Link id={navLink.id} className={style.navLink} to={navLink.sectionId} href='' spy={true} smooth={true}
+                  offset={-50} duration={500}>{navLink.navTitle}
+            </Link>
+        )
+    })
+
+    return (
         <nav className={style.nav}>
-            <Link className={style.navLink} to="mainId" href="" spy={true} smooth={true} offset={0} duration={500}>Main</Link>
-            <Link className={style.navLink} to="skillsId" href="" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
-            <Link className={style.navLink} to="projectsId" href="" spy={true} smooth={true} offset={-50} duration={500}>Projects</Link>
-            <Link className={style.navLink} to="contactsId" href="" spy={true} smooth={true} offset={-50} duration={500}>Сontacts</Link>
+            {navLinks}
         </nav>
     )
 }

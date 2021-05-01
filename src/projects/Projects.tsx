@@ -14,7 +14,7 @@ export function Projects(props: ProjectsType) {
             <Project
                 key={project.id}
                 id={project.id}
-                projectName={project.projectName}
+                projectTitle={project.projectTitle}
                 projectDescription={project.projectDescription}
                 stackTechonogy={project.stackTechonogy}
                 style={project.style}

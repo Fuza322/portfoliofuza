@@ -10,15 +10,17 @@
 
   .burgerNavItems {
     @include flexBox(column, space-between, center, nowrap);
+    width: 100%;
     position: absolute;
     height: 0;
     right: 0;
     left: 0;
     top: 0;
     background-color: $headerAndFooterColor;
+    box-shadow: 0 0 20px $primaryColor;
     padding: 15px;
-    transition: .5s;
     transform: translate(0, -300px);
+    transition: .5s;
 
     .burgerNavLink {
       @include text($fontFamilyStyle, 25px, 700, $primaryColor);

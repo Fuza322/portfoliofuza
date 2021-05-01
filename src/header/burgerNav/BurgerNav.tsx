@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import {Link} from 'react-scroll'
+import { NavLinkType } from '../nav/Nav';
 import style from './BurgerNav.module.scss'
+import burgerNavButton from "../../assetts/images/burgerNavButton/burgerNavButton.png";
 
 export type BurgerNavType = {
-    style: { backgroundImage: string }
+    navLinks: Array<NavLinkType>
 }
 
 export function BurgerNav(props: BurgerNavType) {
@@ -27,7 +29,7 @@ export function BurgerNav(props: BurgerNavType) {
                 <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="projectsId" href="" spy={true} smooth={true} offset={-35} duration={500}>Projects</Link>
                 <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="contactsId" href="" spy={true} smooth={true} offset={-35} duration={500}>Сontacts</Link>
             </div>
-            <div className={style.burgerButton} style={props.style} onClick={onBurgerNavButtonClickHandler}></div>
+            <div className={style.burgerButton} style={{backgroundImage: `url(${burgerNavButton})`}} onClick={onBurgerNavButtonClickHandler}></div>
         </nav>
     )
 }
