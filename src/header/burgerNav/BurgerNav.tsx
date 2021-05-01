@@ -2,7 +2,11 @@ import React, {useState} from 'react';
 import {Link} from 'react-scroll'
 import style from './BurgerNav.module.scss'
 
-export function BurgerNav() {
+export type BurgerNavType = {
+    style: { backgroundImage: string }
+}
+
+export function BurgerNav(props: BurgerNavType) {
 
     const [burgerStatus, setNavBurgerStatus] = useState<boolean>(false)
 
@@ -23,7 +27,7 @@ export function BurgerNav() {
                 <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="projectsId" href="" spy={true} smooth={true} offset={-35} duration={500}>Projects</Link>
                 <Link onClick={onBurgerNavCloseHandler} className={style.burgerNavLink} to="contactsId" href="" spy={true} smooth={true} offset={-35} duration={500}>Сontacts</Link>
             </div>
-            <div className={style.burgerButton} onClick={onBurgerNavButtonClickHandler}></div>
+            <div className={style.burgerButton} style={props.style} onClick={onBurgerNavButtonClickHandler}></div>
         </nav>
     )
 }
