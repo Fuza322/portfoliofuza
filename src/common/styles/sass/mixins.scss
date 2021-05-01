@@ -1,5 +1,13 @@
 @import './variables';
 
+@mixin flexBox($flexDirection, $justifyContent, $alineItems, $flexWrap) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alineItems;
+  flex-wrap: $flexWrap;
+}
+
 @mixin text($fontFamily, $fontSize, $fontWeight, $textColor) {
   font-family: $fontFamily;
   font-size: $fontSize;

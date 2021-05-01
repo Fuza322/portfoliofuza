@@ -7,7 +7,7 @@
 
   .skillsContainer {
     @include container();
-    flex-direction: column;
+    @include flexBox(column, stretch, stretch, nowrap);
 
     .skills {
       display: grid;

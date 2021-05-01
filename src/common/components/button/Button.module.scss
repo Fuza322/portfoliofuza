@@ -3,9 +3,7 @@
 
 .button {
   color: $textColor;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexBox(row, center, center, nowrap);
   @include button(140px, 40px, transparent, $primaryColor);
 
   &:focus {

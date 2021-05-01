@@ -4,9 +4,7 @@
 .divTitle {
   position: relative;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexBox(row, center, center, nowrap);
   margin-bottom: 40px;
 
   &::before {

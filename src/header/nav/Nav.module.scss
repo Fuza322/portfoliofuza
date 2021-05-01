@@ -2,9 +2,7 @@
 @import './src/common/styles/sass/mixins';
 
 .nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  @include flexBox(row, space-around, center, nowrap);
   width: 45%;
   height: 50%;
 

@@ -4,7 +4,7 @@
 .mainBlock {
 
   min-height: 100vh;
-  display: flex;
+  @include flexBox(row, stretch, stretch, nowrap);
   @media only screen and (max-width: 700px) {
     min-height: 90vh;
   }
@@ -16,8 +16,7 @@
 
     @include container();
     @media only screen and (max-width: 1150px) {
-      flex-direction: column;
-      justify-content: space-around;
+      @include flexBox(column, space-around, center, nowrap);
     }
 
     .mainTextContainer {

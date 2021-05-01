@@ -9,18 +9,14 @@
 
   .contactContainer {
     @include container();
-    flex-direction: column;
-    justify-content: flex-start;
+    @include flexBox(column, flex-start, center, nowrap);
     background-color: $bgSecondColor;
     padding-top: 60px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 
 
     .contactForm {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
+      @include flexBox(column, space-between, center, nowrap);
       width: 70%;
       height: 450px;
 

@@ -1,23 +1,17 @@
 @import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
 
 .headerBlock {
   height: 60px;
 
   .headerContainer {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flexBox(column, center, center, wrap);
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    @media only screen and (max-width: 1150px) {
-      justify-content: center;
-    }
 
     .header {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
+      @include flexBox(row, flex-end, center, nowrap);
       position: fixed;
       left: 0;
       z-index: 9999;
