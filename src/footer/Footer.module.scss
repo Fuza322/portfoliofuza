@@ -11,6 +11,9 @@
     @include container();
     flex-direction: column;
     padding: 0;
+    @media only screen and (max-width: 450px) {
+      width: 90%;
+    }
 
     .divFooter {
       display: flex;
