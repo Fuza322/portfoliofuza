@@ -10,7 +10,7 @@ export type FooterLinkType = {
 export function FooterLink(props: FooterLinkType) {
     return (
         <li className={style.link}>
-            <a href={props.link} target={'_blank'} className={style.linkText}>{props.linkTitle}</a>
+            <a href={props.link} target={'_blank'} rel='noreferrer' className={style.linkText}>{props.linkTitle}</a>
         </li>
     )
 }

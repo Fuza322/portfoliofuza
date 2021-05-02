@@ -23,8 +23,10 @@
       font-size: 18px;
     }
 
-    &:hover {
-      color: $textColor;
+    @media only screen and (min-width: 850px) and (min-height: 600px) {
+      &:hover {
+        color: $textColor;
+      }
     }
   }
 }

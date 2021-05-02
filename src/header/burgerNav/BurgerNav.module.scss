@@ -17,20 +17,20 @@
     top: 0;
     background-color: $headerAndFooterColor;
     box-shadow: 0 0 20px $primaryColor;
-    padding:  20px 0 20px;
+    padding: 20px 0 20px;
     transform: translate(0, -500px);
     transition: .5s;
 
     .burgerNavLink {
       @include text($fontFamilyStyle, 25px, 700, $primaryColor);
       transition: .3s;
-
       @media only screen and (max-width: 700px) {
         @include text($fontFamilyStyle, 18px, 700, $primaryColor);
       }
-
-      &:hover {
-        color: $textColor;
+      @media only screen and (min-width: 850px) and (min-height: 600px) {
+        &:hover {
+          color: $textColor;
+        }
       }
     }
   }

@@ -8,6 +8,6 @@ export type ButtonType = {
 
 export function Button(props: ButtonType) {
     return (
-        <a href={props.link} target={'_blank'} className={style.button}>{props.title}</a>
+        <a href={props.link} target={'_blank'} rel='noreferrer' className={style.button}>{props.title}</a>
     )
 }

@@ -20,22 +20,6 @@
       width: 100%;
       height: 100%;
 
-      .divFooterTitle {
-
-        .footerTitle {
-          @include text($fontFamilyStyle, 22px, 500, $textColor);
-          margin: 0;
-
-          &:hover {
-            color: $primaryColor;
-          }
-
-          @media only screen and (max-width: 800px) {
-            @include text($fontFamilyStyle, 16px, 500, $primaryColor);
-          }
-        }
-      }
-
       .footerLinks {
         @include flexBox(row, space-between, center, nowrap);
         width: 100%;

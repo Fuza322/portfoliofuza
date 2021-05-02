@@ -1,5 +1,9 @@
 @import './variables';
 
+@media screen and (orientation:landscape) and (min-height: 360px) and (max-height: 450px) {
+
+}
+
 @mixin flexBox($flexDirection, $justifyContent, $alineItems, $flexWrap) {
   display: flex;
   flex-direction: $flexDirection;
