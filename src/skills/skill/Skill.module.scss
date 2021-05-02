@@ -29,7 +29,7 @@
     }
 
     .descriptionSkillText {
-      @include text($fontFamilyStyle, 16px, 600, $textColor);
+      @include text($fontFamilyStyle, 16px, 500, $textColor);
       text-align: center;
     }
   }
