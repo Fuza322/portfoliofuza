@@ -15,7 +15,9 @@
   color: $textColor;
 }
 
-@mixin inputAndTextArea($color, $border, $borderRadius, $transition) {
+@mixin inputAndTextArea($width, $height, $color, $border, $borderRadius, $transition) {
+  width: $width;
+  height: $height;
   color: $color;
   border: $border;
   border-radius: $borderRadius;
@@ -34,7 +36,7 @@
   transition: .5s;
   @include text($fontFamilyStyle, 16px, 400, $textColor);
   @media screen and (orientation:landscape) and (min-height: 200px) and (max-height: 450px) {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 

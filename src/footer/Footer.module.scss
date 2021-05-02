@@ -4,8 +4,8 @@
 .footerBlock {
   height: 100%;
   background-color: $headerAndFooterColor;
-  margin-top: 80px;
   padding: 10px 0;
+  margin-top: 80px;
 
   .footerContainer {
     @include container();

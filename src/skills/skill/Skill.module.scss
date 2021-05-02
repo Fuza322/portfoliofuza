@@ -35,10 +35,10 @@
     }
 
     .descriptionSkillText {
-      @include text($fontFamilyStyle, 16px, 500, $textColor);
       text-align: center;
+      @include text($fontFamilyStyle, 16px, 500, $textColor);
       @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
-        font-size: 14px;
+        font-size: 15px;
       }
     }
   }
