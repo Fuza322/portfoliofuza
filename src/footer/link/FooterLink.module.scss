@@ -7,7 +7,7 @@
   height: 40px;
 
   .linkText {
-    @include text($fontFamilyStyle, 16px, 500, $textColor);
+    @include text($fontFamilyStyle, 16px, 550, $textColor);
 
     @media only screen and (min-width: 850px) and (min-height: 600px) {
       &:hover {
