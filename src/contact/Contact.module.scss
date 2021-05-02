@@ -23,7 +23,7 @@
       @media only screen and (max-width: 1150px) {
         width: 85%;
       }
-      @media screen and (orientation:landscape) and (min-height: 200px) and (max-height: 450px) {
+      @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
         height: 370px;
       }
 
@@ -36,7 +36,7 @@
         @media only screen and (max-width: 700px) {
           padding: 0 7px;
         }
-        @media screen and (orientation:landscape) and (min-height: 200px) and (max-height: 450px) {
+        @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
           height: 40px;
           font-size: 14px;
         }
@@ -55,7 +55,7 @@
         @media only screen and (max-width: 700px) {
           padding: 7px 7px;
         }
-        @media screen and (orientation:landscape) and (min-height: 200px) and (max-height: 450px) {
+        @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
           height: 150px;
           font-size: 14px;
         }
