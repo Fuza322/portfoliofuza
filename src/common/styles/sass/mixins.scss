@@ -37,6 +37,9 @@
   margin-bottom: 20px;
   transition: .5s;
   @include text($fontFamilyStyle, 16px, 400, $textColor);
+  @media screen and (orientation:landscape) and (min-height: 200px) and (max-height: 450px) {
+    font-size: 14px;
+  }
 }
 
 @mixin container() {
