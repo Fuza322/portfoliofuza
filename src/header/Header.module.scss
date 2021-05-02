@@ -4,7 +4,7 @@
 .headerBlock {
   height: 60px;
   @media screen and (orientation:landscape) and (min-height: 360px) and (max-height: 450px) {
-    height: 30px;
+    height: 25px;
   }
 
   .headerContainer {
@@ -22,7 +22,7 @@
       height: 60px;
       background-color: $headerAndFooterColor;
       @media screen and (orientation:landscape) and (min-height: 360px) and (max-height: 450px) {
-        height: 30px;
+        height: 25px;
       }
     }
   }
