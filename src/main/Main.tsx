@@ -33,7 +33,6 @@ export function Main(props: MainType) {
                                 <span className={style.mainNameText}><span
                                     className={style.mainText}>I'm </span>Ivan Osipik</span>
                             </div>
-
                             <div>
                                 <ReactTypingEffect
                                     className={style.mainPositionText}
