@@ -18,7 +18,7 @@ const particlesOptions = {
         },
         "size": {"value": 7, "random": true, "anim": {"enable": false, "speed": 10, "sync": false}},
         "move": {
-            "speed": 2,
+            "speed": 1,
             "random": false,
             "straight": false,
             "bounce": false,
