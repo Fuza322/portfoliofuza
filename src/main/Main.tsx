@@ -16,8 +16,15 @@ const particlesOptions = {
             "stroke": {"width": 0, "color": "#"},
             "polygon": {"nb_sides": 5},
         },
-        "size": {"value": 7, "random": true, "anim": {"enable": false, "speed": 40, "sync": false}},
-    }
+        "size": {"value": 7, "random": true, "anim": {"enable": false, "speed": 10, "sync": false}},
+        "move": {
+            "speed": 2,
+            "random": false,
+            "straight": false,
+            "bounce": false,
+            "attract": {"enable": false, "rotateX": 600, "rotateY": 1200}
+        }
+    },
 }
 
 export function Main(props: MainType) {
