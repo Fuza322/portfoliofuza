@@ -4,7 +4,7 @@
 .button {
   color: $textColor;
   @include flexBox(row, center, center, nowrap);
-  @include button(160px, 50px, transparent, $primaryColor);
+  @include button(160px, 50px, 20px, transparent, $primaryColor);
 
   &:focus {
     outline: none;
@@ -16,7 +16,7 @@
       cursor: pointer;
     }
   }
-  @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+  @media only screen and (min-width: 100px) and (max-width: 1700px) {
     width: 140px;
     height: 40px;
     font-size: 16px;

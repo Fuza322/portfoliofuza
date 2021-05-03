@@ -25,7 +25,7 @@
   transition: $transition;
 }
 
-@mixin button($width, $height, $backgroundColor, $borderColor) {
+@mixin button($width, $height, $fonstSize, $backgroundColor, $borderColor) {
   width: $width;
   height: $height;
   background-color: $backgroundColor;
@@ -34,7 +34,7 @@
   border-radius: 5px;
   margin-bottom: 20px;
   transition: .5s;
-  @include text($fontFamilyStyle, 20px, 400, $textColor);
+  @include text($fontFamilyStyle, $fonstSize, 400, $textColor);
 }
 
 @mixin container() {

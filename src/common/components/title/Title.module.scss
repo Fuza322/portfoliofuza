@@ -21,14 +21,11 @@
   .title {
     @include text($fontFamilyStyle, 35px, 700, $primaryColor);
     margin: 0;
-    @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+    @media only screen and (min-width: 1150px) and (max-width: 1700px) {
       font-size: 30px;
     }
-    @media only screen and (max-width: 700px) {
+    @media only screen and (min-width: 100px) and (max-width: 1150px) {
       font-size: 25px;
-    }
-    @media only screen and (max-width: 400px) {
-      font-size: 23px;
     }
     @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
       font-size: 24px;

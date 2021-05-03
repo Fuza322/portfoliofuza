@@ -29,7 +29,7 @@
         @include text($fontFamilyStyle, 20px, 500, $textColor);
         @include inputAndTextArea(100%, 50px, $inputTextColor, none, 5px, .2s);
         padding: 0 15px;
-        @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+        @media only screen and (min-width: 100px) and (max-width: 1700px) {
           font-size: 16px;
         }
         @media only screen and (max-width: 700px) {
@@ -47,7 +47,7 @@
 
       .contactTextArea {
         @include text($fontFamilyStyle, 20px, 500, $textColor);
-        @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+        @media only screen and (min-width: 100px) and (max-width: 1700px) {
           font-size: 16px;
         }
         @include inputAndTextArea(100%, 200px, $inputTextColor, none, 5px, .2s);
