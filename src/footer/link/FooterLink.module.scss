@@ -4,17 +4,21 @@
 .link {
   @include flexBox(row, center, center, nowrap);
   width: 90px;
-  height: 40px;
+  height: 60px;
+  @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+    height: 40px;
+  }
 
   .linkText {
-    @include text($fontFamilyStyle, 16px, 550, $textColor);
-
+    @include text($fontFamilyStyle, 20px, 550, $textColor);
     @media only screen and (min-width: 850px) and (min-height: 600px) {
       &:hover {
         color: $primaryColor;
       }
     }
-
+    @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+      font-size: 16px;
+    }
     @media only screen and (max-width: 700px) {
       font-size: 14px;
     }

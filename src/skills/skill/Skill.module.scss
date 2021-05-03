@@ -10,8 +10,12 @@
   }
 
   .skillIcon {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
+    @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+      width: 100px;
+      height: 100px;
+    }
     @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
       width: 80px;
       height: 80px;
@@ -27,8 +31,11 @@
     padding: 20px;
 
     .nameSkillText {
-      @include text($fontFamilyStyle, 20px, 600, $textColor);
+      @include text($fontFamilyStyle, 25px, 600, $textColor);
       margin: 0 0 8px;
+      @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+        font-size: 20px;
+      }
       @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
         font-size: 18px;
       }
@@ -36,7 +43,10 @@
 
     .descriptionSkillText {
       text-align: center;
-      @include text($fontFamilyStyle, 16px, 500, $textColor);
+      @include text($fontFamilyStyle, 20px, 500, $textColor);
+      @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+        font-size: 16px;
+      }
       @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
         font-size: 15px;
       }

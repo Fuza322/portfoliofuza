@@ -26,9 +26,12 @@
       }
 
       .contactInput {
-        @include text($fontFamilyStyle, 16px, 500, $textColor);
+        @include text($fontFamilyStyle, 20px, 500, $textColor);
         @include inputAndTextArea(100%, 50px, $inputTextColor, none, 5px, .2s);
         padding: 0 15px;
+        @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+          font-size: 16px;
+        }
         @media only screen and (max-width: 700px) {
           padding: 0 7px;
         }
@@ -43,7 +46,10 @@
       }
 
       .contactTextArea {
-        @include text($fontFamilyStyle, 16px, 500, $textColor);
+        @include text($fontFamilyStyle, 20px, 500, $textColor);
+        @media only screen and (min-width: 1151px) and (max-width: 1700px) {
+          font-size: 16px;
+        }
         @include inputAndTextArea(100%, 200px, $inputTextColor, none, 5px, .2s);
         padding: 8px 15px;
         @media only screen and (max-width: 700px) {
@@ -51,7 +57,7 @@
         }
         @media screen and (orientation: landscape) and (min-height: 200px) and (max-height: 450px) {
           height: 150px;
-          font-size: 14px;
+          font-size: 15px;
         }
 
         &:focus {
