@@ -30,7 +30,7 @@ const particlesOptions = {
 export function Main(props: MainType) {
     return (
         <section className={style.mainBlock}>
-            <div>
+            <div className={style.particlesContainer}>
                 <Particles className={style.particles} params={particlesOptions}/>
                 <div className={style.particlesContent}>
                     <div className={style.mainContainer}>
