@@ -10,18 +10,18 @@ import {NavLinkType} from "./header/nav/Nav";
 import {SkillType} from './skills/skill/Skill';
 import {ProjectType} from './projects/project/Project';
 import {FooterLinkType} from './footer/link/FooterLink';
-import mainPhoto from './assetts/images/main/mainPhoto.jpg'
-import html5Logo from './assetts/images/skills/html5Logo.png'
-import css3Logo from './assetts/images/skills/css3Logo.jpg'
-import jsLogo from './assetts/images/skills/jsLogo.png'
-import tsLogo from './assetts/images/skills/tsLogo.png'
-import reactLogo from './assetts/images/skills/reactLogo.png'
-import reduxLogo from './assetts/images/skills/reduxLogo.png'
-import storybookLogo from './assetts/images/skills/storybookLogo.png'
-import sassLogo from './assetts/images/skills/sassLogo.jpg'
-import gitLogo from './assetts/images/skills/gitLogo.png'
-import todolistImage from './assetts/images/projects/todolist.png'
-import socialNetworkImage from './assetts/images/projects/socialNetwork.png'
+import mainPhoto from './assets/images/main/mainPhoto.jpg'
+import html5Logo from './assets/images/skills/html5Logo.png'
+import css3Logo from './assets/images/skills/css3Logo.jpg'
+import jsLogo from './assets/images/skills/jsLogo.png'
+import tsLogo from './assets/images/skills/tsLogo.png'
+import reactLogo from './assets/images/skills/reactLogo.png'
+import reduxLogo from './assets/images/skills/reduxLogo.png'
+import storybookLogo from './assets/images/skills/storybookLogo.png'
+import sassLogo from './assets/images/skills/sassLogo.jpg'
+import gitLogo from './assets/images/skills/gitLogo.png'
+import todolistImage from './assets/images/projects/todolist.png'
+import socialNetworkImage from './assets/images/projects/socialNetwork.png'
 
 function App() {
 
@@ -136,7 +136,7 @@ function App() {
         {id: v1(), linkTitle: 'Telegram', link: 'https://t.me/vanya_Fuza'},
         {id: v1(), linkTitle: 'Linkedin', link: 'https://www.linkedin.com/in/ivanosipik/'},
         {id: v1(), linkTitle: 'GitHub', link: 'https://github.com/Fuza322'},
-        {id: v1(), linkTitle: 'G-mail', link: 'mailto:vanya.osipik322@gmail.com'},
+        {id: v1(), linkTitle: 'CodeWars', link: 'https://www.codewars.com/users/Fuza322'},
     ]
 
     return (

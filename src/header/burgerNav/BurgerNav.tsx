@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Link} from 'react-scroll'
 import {NavLinkType} from '../nav/Nav';
 import style from './BurgerNav.module.scss'
-import burgerNavButton from "../../assetts/images/burgerNavButton/burgerNavButton.png";
+import burgerNavButton from "../../assets/images/burgerNavButton/burgerNavButton.png";
 
 export type BurgerNavType = {
     navLinks: Array<NavLinkType>

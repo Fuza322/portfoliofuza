@@ -11,6 +11,7 @@
 
   .linkText {
     @include text($fontFamilyStyle, 20px, 550, $textColor);
+    transition: .3s;
     @media only screen and (min-width: 850px) and (min-height: 600px) {
       &:hover {
         color: $primaryColor;

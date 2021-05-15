@@ -11,6 +11,7 @@ export function Contact() {
                 <form className={style.contactForm}>
                     <input className={style.contactInput} placeholder='Name' type='text'/>
                     <input className={style.contactInput} placeholder='E-mail' type='text'/>
+                    {/*or Email + Theme*/}
                     <textarea id=""
                               name=""
                               className={style.contactTextArea}
