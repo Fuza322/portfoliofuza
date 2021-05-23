@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza322/static/css/main.cd322f66.chunk.css",
-    "main.js": "/portfoliofuza322/static/js/main.91b43ff9.chunk.js",
-    "main.js.map": "/portfoliofuza322/static/js/main.91b43ff9.chunk.js.map",
+    "main.js": "/portfoliofuza322/static/js/main.76a79fb7.chunk.js",
+    "main.js.map": "/portfoliofuza322/static/js/main.76a79fb7.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.28bbd403.js",
     "runtime-main.js.map": "/portfoliofuza322/static/js/runtime-main.28bbd403.js.map",
     "static/js/2.9b52323b.chunk.js": "/portfoliofuza322/static/js/2.9b52323b.chunk.js",
@@ -20,13 +20,13 @@
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza322/static/media/reduxLogo.7b24d44a.png",
     "static/media/sassLogo.56fca5c8.jpg": "/portfoliofuza322/static/media/sassLogo.56fca5c8.jpg",
     "static/media/socialNetwork.d3ca8775.png": "/portfoliofuza322/static/media/socialNetwork.d3ca8775.png",
-    "static/media/todolist.8c58180c.png": "/portfoliofuza322/static/media/todolist.8c58180c.png",
+    "static/media/todolist.9f481248.png": "/portfoliofuza322/static/media/todolist.9f481248.png",
     "static/media/tsLogo.2218cc17.png": "/portfoliofuza322/static/media/tsLogo.2218cc17.png"
   },
   "entrypoints": [
     "static/js/runtime-main.28bbd403.js",
     "static/js/2.9b52323b.chunk.js",
     "static/css/main.cd322f66.chunk.css",
-    "static/js/main.91b43ff9.chunk.js"
+    "static/js/main.76a79fb7.chunk.js"
   ]
 }
