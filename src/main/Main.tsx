@@ -57,29 +57,6 @@ export function Main(props: MainType) {
                     </div>
                 </div>
             </div>
-            {/*<div className={style.mainContainer}>*/}
-            {/*    <div data-aos="fade-right" data-aos-duration="1200" className={style.mainTextContainer}>*/}
-            {/*        <div className={style.mainTextBlock}>*/}
-            {/*            <span className={style.mainText}>Hi There, </span>*/}
-            {/*            <span className={style.mainNameText}><span*/}
-            {/*                className={style.mainText}>I'm </span>Ivan Osipik</span>*/}
-            {/*        </div>*/}
-
-            {/*        <div>*/}
-            {/*            <ReactTypingEffect*/}
-            {/*                className={style.mainPositionText}*/}
-            {/*                text={'Front-end developer (React).'}*/}
-            {/*                speed={100}*/}
-            {/*                eraseSpeed={50}*/}
-            {/*                eraseDelay={7000}*/}
-            {/*                typingDelay={0}*/}
-            {/*            />*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <div data-aos="fade-left" data-aos-duration="1200" className={style.mainPhoto}*/}
-            {/*         style={props.style}>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
         </section>
     )
 }

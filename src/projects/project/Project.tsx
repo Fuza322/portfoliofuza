@@ -15,7 +15,7 @@ export function Project(props: ProjectType) {
 
     return (
         <div data-aos="zoom-in" data-aos-duration="900" className={style.project}>
-            <div className={style.projectImage} style={props.style}></div>
+            <div className={style.projectImage} style={props.style}> </div>
             <div className={style.projectBody}>
                 <div className={style.projectInfo}>
                     <h3 className={style.nameProjectText}>{props.projectTitle}</h3>
