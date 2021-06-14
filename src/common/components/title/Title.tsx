@@ -7,7 +7,7 @@ export type TitleType = {
 
 export function Title(props: TitleType) {
     return (
-        <div data-aos="zoom-in"  className={stype.divTitle}>
+        <div data-aos='zoom-in' className={stype.divTitle}>
             <h2 className={stype.title}>{props.title}</h2>
         </div>
     )

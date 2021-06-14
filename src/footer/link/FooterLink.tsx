@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import style from './FooterLink.module.scss'
 
 export type FooterLinkType = {

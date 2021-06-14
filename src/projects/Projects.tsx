@@ -1,7 +1,7 @@
-import React from 'react';
-import style from './Projects.module.scss';
-import {Project, ProjectType} from "./project/Project";
-import {Title} from '../common/components/title/Title';
+import React from 'react'
+import {Project, ProjectType} from './project/Project'
+import {Title} from '../common/components/title/Title'
+import style from './Projects.module.scss'
 
 export type ProjectsType = {
     projects: Array<ProjectType>
@@ -17,8 +17,8 @@ export function Projects(props: ProjectsType) {
                 projectTitle={project.projectTitle}
                 projectDescription={project.projectDescription}
                 stackTechonogy={project.stackTechonogy}
-                style={project.style}
                 viewCodeLink={project.viewCodeLink}
+                style={project.style}
             />
         )
     })

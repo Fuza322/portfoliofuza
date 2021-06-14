@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
+import {Nav, NavLinkType} from './nav/Nav'
+import {BurgerNav} from './burgerNav/BurgerNav'
 import style from './Header.module.scss'
-import {Nav, NavLinkType} from "./nav/Nav";
-import {BurgerNav} from "./burgerNav/BurgerNav";
 
 type HeaderType = {
     navLinks: Array<NavLinkType>

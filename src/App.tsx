@@ -1,15 +1,15 @@
-import React from 'react';
-import {v1} from 'uuid';
-import {Header} from "./header/Header";
-import {Main} from "./main/Main";
-import {Skills} from "./skills/Skills";
-import {Projects} from "./projects/Projects";
-import {Contact} from "./contact/Contact";
-import {Footer} from "./footer/Footer";
-import {NavLinkType} from "./header/nav/Nav";
-import {SkillType} from './skills/skill/Skill';
-import {ProjectType} from './projects/project/Project';
-import {FooterLinkType} from './footer/link/FooterLink';
+import React from 'react'
+import {v1} from 'uuid'
+import {Header} from './header/Header'
+import {Main} from './main/Main'
+import {Skills} from './skills/Skills'
+import {Projects} from './projects/Projects'
+import {Contact} from './contact/Contact'
+import {Footer} from './footer/Footer'
+import {NavLinkType} from './header/nav/Nav'
+import {SkillType} from './skills/skill/Skill'
+import {ProjectType} from './projects/project/Project'
+import {FooterLinkType} from './footer/link/FooterLink'
 import mainPhoto from './assets/images/main/mainPhoto.jpg'
 import html5Logo from './assets/images/skills/html5Logo.png'
 import css3Logo from './assets/images/skills/css3Logo.jpg'
@@ -53,7 +53,7 @@ function App() {
             navTitle: 'Contacts',
             offset: -35,
             style: {marginTop: '40px'}
-        },
+        }
     ]
 
     const skills: Array<SkillType> = [
@@ -110,7 +110,7 @@ function App() {
             skillTitle: 'Git',
             skillDiscription: 'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.',
             style: {backgroundImage: `url(${gitLogo})`}
-        },
+        }
     ]
 
     const projects: Array<ProjectType> = [
@@ -136,7 +136,7 @@ function App() {
         {id: v1(), linkTitle: 'Telegram', link: 'https://t.me/vanya_Fuza'},
         {id: v1(), linkTitle: 'Linkedin', link: 'https://www.linkedin.com/in/ivanosipik/'},
         {id: v1(), linkTitle: 'GitHub', link: 'https://github.com/Fuza322'},
-        {id: v1(), linkTitle: 'CodeWars', link: 'https://www.codewars.com/users/Fuza322'},
+        {id: v1(), linkTitle: 'CodeWars', link: 'https://www.codewars.com/users/Fuza322'}
     ]
 
     return (
@@ -156,7 +156,7 @@ function App() {
                 footerLinks={footerLinks}
             />
         </div>
-    );
+    )
 }
 
-export default App;
+export default App

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
+import {Skill, SkillType} from './skill/Skill'
+import {Title} from '../common/components/title/Title'
 import style from './Skills.module.scss'
-import {Skill, SkillType} from "./skill/Skill";
-import {Title} from "../common/components/title/Title";
 
 export type SkillsType = {
     skills: Array<SkillType>
