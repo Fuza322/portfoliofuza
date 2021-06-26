@@ -1,5 +1,5 @@
-import React from 'react'
-import style from './Button.module.scss'
+import React from "react"
+import style from "./Button.module.scss"
 
 export type ButtonType = {
     title: string

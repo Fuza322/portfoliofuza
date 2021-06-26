@@ -1,5 +1,5 @@
-import React from 'react';
-import stype from './Title.module.scss'
+import React from "react"
+import stype from "./Title.module.scss"
 
 export type TitleType = {
     title: string

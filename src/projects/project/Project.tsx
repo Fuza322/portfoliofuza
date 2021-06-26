@@ -1,6 +1,6 @@
-import React from 'react'
-import {Button} from '../../common/components/button/Button'
-import style from './Project.module.scss'
+import React from "react"
+import {Button} from "../../common/components/button/Button"
+import style from "./Project.module.scss"
 
 export type ProjectType = {
     id: string
@@ -14,7 +14,7 @@ export type ProjectType = {
 export function Project(props: ProjectType) {
 
     return (
-        <div data-aos='zoom-in' data-aos-duration='900' className={style.project}>
+        <div data-aos="zoom-in" data-aos-duration="900" className={style.project}>
             <div className={style.projectImage} style={props.style}></div>
             <div className={style.projectBody}>
                 <div className={style.projectInfo}>
@@ -25,7 +25,7 @@ export function Project(props: ProjectType) {
                 </div>
                 <div className={style.projectButtonContainer}>
                     <Button
-                        title={'View code'}
+                        title={"View code"}
                         link={props.viewCodeLink}
                     />
                 </div>

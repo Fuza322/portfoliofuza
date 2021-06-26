@@ -1,7 +1,7 @@
-import React from 'react'
-import {Project, ProjectType} from './project/Project'
-import {Title} from '../common/components/title/Title'
-import style from './Projects.module.scss'
+import React from "react"
+import {Project, ProjectType} from "./project/Project"
+import {Title} from "../common/components/title/Title"
+import style from "./Projects.module.scss"
 
 export type ProjectsType = {
     projects: Array<ProjectType>
@@ -24,9 +24,9 @@ export function Projects(props: ProjectsType) {
     })
 
     return (
-        <section id={'projectsId'} className={style.projectsBlock}>
+        <section id={"projectsId"} className={style.projectsBlock}>
             <div className={style.projectsContainer}>
-                <Title title='Projects'/>
+                <Title title="Projects"/>
                 <div className={style.projects}>
                     {projects}
                 </div>
