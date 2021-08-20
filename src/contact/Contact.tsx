@@ -7,17 +7,21 @@ export function Contact() {
     return (
         <section id={"contactsId"} className={style.contactBlock}>
             <Title title="Contact"/>
-            <div data-aos="zoom-in" data-aos-duration="900" className={style.contactContainer}>
+            <div data-aos="zoom-in" data-aos-duration="900" className={style.contactContainer}
+                 style={{height: "180px"}}>
                 <form className={style.contactForm}>
-                    <input placeholder="Name" type="text" className={style.contactInput}/>
+                    {/*<input placeholder="Name" type="text" className={style.contactInput}/>
                     <input placeholder="E-mail" type="text" className={style.contactInput}/>
-                    {/*or Email + Theme*/}
+                    or Email + Theme
                     <textarea id=""
                               name=""
                               placeholder="Message"
                               className={style.contactTextArea}
                     ></textarea>
-                    <button type={"submit"} className={style.contactButton}>Send</button>
+                    <button type={"submit"} className={style.contactButton}>Send</button>*/}
+                    <a href="https://www.linkedin.com/in/ivanosipik/">
+                        <div className={style.contactButton}>Contact with me</div>
+                    </a>
                 </form>
             </div>
         </section>

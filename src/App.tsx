@@ -22,6 +22,7 @@ import sassLogo from "./assets/images/skills/sassLogo.jpg"
 import gitLogo from "./assets/images/skills/gitLogo.png"
 import todolistImage from "./assets/images/projects/todolist.png"
 import socialNetworkImage from "./assets/images/projects/socialNetwork.png"
+import learnCardsImage from "./assets/images/projects/learnCards.png"
 
 function App() {
 
@@ -118,8 +119,8 @@ function App() {
             id: v1(),
             projectTitle: "TodoList",
             projectDescription: "Web application designed to conveniently structure information about all current tasks in one place.",
-            stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.",
-            viewCodeLink: "https://github.com/Fuza322/IT-Incubator-ToDoList",
+            stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Sass.",
+            viewCodeLink: "https://github.com/Fuza322/TodoList",
             style: {backgroundImage: `url(${todolistImage})`}
         },
         {
@@ -127,9 +128,17 @@ function App() {
             projectTitle: "Social network",
             projectDescription: "Web application that allows registered users to post information and communicate with each other.",
             stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.",
-            viewCodeLink: "https://github.com/Fuza322/IT-Incubator-Social-Network",
+            viewCodeLink: "https://github.com/Fuza322/Social-Network",
             style: {backgroundImage: `url(${socialNetworkImage})`}
-        }
+        },
+        {
+            id: v1(),
+            projectTitle: "LearnCards",
+            projectDescription: "Web application with flashcards that are used to effectively memorize and review the material studied.",
+            stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Sass.",
+            viewCodeLink: "https://github.com/Fuza322/LearnCards",
+            style: {backgroundImage: `url(${learnCardsImage})`}
+        },
     ]
 
     const footerLinks: Array<FooterLinkType> = [

@@ -65,8 +65,15 @@
         }
       }
 
+      /*.contactButton {
+        @extend .button;
+      }*/
+
       .contactButton {
         @extend .button;
+        width: 200px;
+        height: 60px;
+        margin: 0;
       }
     }
   }
