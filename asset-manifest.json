@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfoliofuza322/static/css/main.1dc531c1.chunk.css",
-    "main.js": "/portfoliofuza322/static/js/main.6fd76913.chunk.js",
-    "main.js.map": "/portfoliofuza322/static/js/main.6fd76913.chunk.js.map",
+    "main.css": "/portfoliofuza322/static/css/main.be28bc71.chunk.css",
+    "main.js": "/portfoliofuza322/static/js/main.c3a53fc3.chunk.js",
+    "main.js.map": "/portfoliofuza322/static/js/main.c3a53fc3.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.28bbd403.js",
     "runtime-main.js.map": "/portfoliofuza322/static/js/runtime-main.28bbd403.js.map",
-    "static/js/2.59c7890a.chunk.js": "/portfoliofuza322/static/js/2.59c7890a.chunk.js",
-    "static/js/2.59c7890a.chunk.js.map": "/portfoliofuza322/static/js/2.59c7890a.chunk.js.map",
+    "static/js/2.cecbd356.chunk.js": "/portfoliofuza322/static/js/2.cecbd356.chunk.js",
+    "static/js/2.cecbd356.chunk.js.map": "/portfoliofuza322/static/js/2.cecbd356.chunk.js.map",
     "static/js/3.92bc012b.chunk.js": "/portfoliofuza322/static/js/3.92bc012b.chunk.js",
     "static/js/3.92bc012b.chunk.js.map": "/portfoliofuza322/static/js/3.92bc012b.chunk.js.map",
     "index.html": "/portfoliofuza322/index.html",
-    "static/css/main.1dc531c1.chunk.css.map": "/portfoliofuza322/static/css/main.1dc531c1.chunk.css.map",
-    "static/js/2.59c7890a.chunk.js.LICENSE.txt": "/portfoliofuza322/static/js/2.59c7890a.chunk.js.LICENSE.txt",
+    "static/css/main.be28bc71.chunk.css.map": "/portfoliofuza322/static/css/main.be28bc71.chunk.css.map",
+    "static/js/2.cecbd356.chunk.js.LICENSE.txt": "/portfoliofuza322/static/js/2.cecbd356.chunk.js.LICENSE.txt",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza322/static/media/css3Logo.96a4b4f3.jpg",
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza322/static/media/gitLogo.140fa4d6.png",
     "static/media/html5Logo.bbe18f20.png": "/portfoliofuza322/static/media/html5Logo.bbe18f20.png",
+    "static/media/learnCards.f5c6edfa.png": "/portfoliofuza322/static/media/learnCards.f5c6edfa.png",
     "static/media/mainPhoto.aab69713.jpg": "/portfoliofuza322/static/media/mainPhoto.aab69713.jpg",
     "static/media/reactLogo.d7c78a43.png": "/portfoliofuza322/static/media/reactLogo.d7c78a43.png",
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza322/static/media/reduxLogo.7b24d44a.png",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.28bbd403.js",
-    "static/js/2.59c7890a.chunk.js",
-    "static/css/main.1dc531c1.chunk.css",
-    "static/js/main.6fd76913.chunk.js"
+    "static/js/2.cecbd356.chunk.js",
+    "static/css/main.be28bc71.chunk.css",
+    "static/js/main.c3a53fc3.chunk.js"
   ]
 }
