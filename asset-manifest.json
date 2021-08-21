@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza322/static/css/main.be28bc71.chunk.css",
-    "main.js": "/portfoliofuza322/static/js/main.fc786fb9.chunk.js",
-    "main.js.map": "/portfoliofuza322/static/js/main.fc786fb9.chunk.js.map",
+    "main.js": "/portfoliofuza322/static/js/main.dd1d9be7.chunk.js",
+    "main.js.map": "/portfoliofuza322/static/js/main.dd1d9be7.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.28bbd403.js",
     "runtime-main.js.map": "/portfoliofuza322/static/js/runtime-main.28bbd403.js.map",
     "static/js/2.cecbd356.chunk.js": "/portfoliofuza322/static/js/2.cecbd356.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza322/static/media/gitLogo.140fa4d6.png",
     "static/media/html5Logo.bbe18f20.png": "/portfoliofuza322/static/media/html5Logo.bbe18f20.png",
     "static/media/learnCards.958a065b.png": "/portfoliofuza322/static/media/learnCards.958a065b.png",
-    "static/media/mainPhoto.aab69713.jpg": "/portfoliofuza322/static/media/mainPhoto.aab69713.jpg",
+    "static/media/mainPhoto.e7176d87.jpg": "/portfoliofuza322/static/media/mainPhoto.e7176d87.jpg",
     "static/media/reactLogo.d7c78a43.png": "/portfoliofuza322/static/media/reactLogo.d7c78a43.png",
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza322/static/media/reduxLogo.7b24d44a.png",
     "static/media/sassLogo.56fca5c8.jpg": "/portfoliofuza322/static/media/sassLogo.56fca5c8.jpg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.28bbd403.js",
     "static/js/2.cecbd356.chunk.js",
     "static/css/main.be28bc71.chunk.css",
-    "static/js/main.fc786fb9.chunk.js"
+    "static/js/main.dd1d9be7.chunk.js"
   ]
 }
