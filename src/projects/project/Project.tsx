@@ -25,7 +25,7 @@ export function Project(props: ProjectType) {
                 </div>
                 <div className={style.projectButtonContainer}>
                     <Button
-                        title={"View code"}
+                        title={"View"}
                         link={props.viewCodeLink}
                     />
                 </div>

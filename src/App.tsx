@@ -16,13 +16,17 @@ import css3Logo from "./assets/images/skills/css3Logo.jpg"
 import jsLogo from "./assets/images/skills/jsLogo.png"
 import tsLogo from "./assets/images/skills/tsLogo.png"
 import reactLogo from "./assets/images/skills/reactLogo.png"
+import reactNativeLogo from "./assets/images/skills/reactNativeLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
+import nodejsLogo from "./assets/images/skills/nodejsLogo.png"
+import sqlLogo from "./assets/images/skills/sqlLogo.png"
 import storybookLogo from "./assets/images/skills/storybookLogo.png"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
 import gitLogo from "./assets/images/skills/gitLogo.png"
 import todolistImage from "./assets/images/projects/todolist.png"
 import socialNetworkImage from "./assets/images/projects/socialNetwork.png"
 import learnCardsImage from "./assets/images/projects/learnCards.png"
+import circleBlackImage from "./assets/images/projects/circleBlack.png"
 
 function App() {
 
@@ -96,9 +100,27 @@ function App() {
         },
         {
             id: v1(),
+            skillTitle: "React Native",
+            skillDiscription: "Сross-platform framework for developing native mobile and desktop applications in JavaScript and TypeScript.",
+            style: {backgroundImage: `url(${reactNativeLogo})`}
+        },
+        {
+            id: v1(),
             skillTitle: "Redux",
             skillDiscription: "Library for managing the state of the application using tools that allow you to build the architecture of a web application and greatly simplify the transfer of data.",
             style: {backgroundImage: `url(${reduxLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "NodeJS",
+            skillDiscription: "Software platform based on the V8 engine (translating JavaScript into machine code).",
+            style: {backgroundImage: `url(${nodejsLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "SQL",
+            skillDiscription: "Declarative programming language used to create, modify, and manipulate data in a relational database.",
+            style: {backgroundImage: `url(${sqlLogo})`}
         },
         {
             id: v1(),
@@ -138,6 +160,14 @@ function App() {
             stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Sass.",
             viewCodeLink: "https://github.com/Fuza322/LearnCards",
             style: {backgroundImage: `url(${learnCardsImage})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "CircleBlack",
+            projectDescription: "CircleBlack is integrated advisor hub, that delivers portfolio management and performance reporting.",
+            stackTechonogy: "React, NodeJS, ExpressJS, MySQL, Axios, Styled-components",
+            viewCodeLink: "https://circleblack.com/",
+            style: {backgroundImage: `url(${circleBlackImage})`}
         },
     ]
 

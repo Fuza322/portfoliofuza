@@ -33,8 +33,10 @@ export function BurgerNav(props: BurgerNavType) {
             <div className={burgerStatus ? `${style.burgerNavItems} ${style.showBurger}` : style.burgerNavItems}>
                 {burgerNavLinks}
             </div>
-            <div className={style.burgerButton} style={{backgroundImage: `url(${burgerNavButton})`}}
-                 onClick={onBurgerNavButtonClickHandler}></div>
+            <div onClick={onBurgerNavButtonClickHandler}
+                 className={style.burgerButton}
+                 style={{backgroundImage: `url(${burgerNavButton})`}}>
+            </div>
         </nav>
     )
 }

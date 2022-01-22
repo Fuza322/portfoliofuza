@@ -9,7 +9,7 @@
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     bottom: -10px;
     left: 50%;
     width: 80px;
@@ -21,6 +21,7 @@
   .title {
     @include text($fontFamilyStyle, 35px, 700, $primaryColor);
     margin: 0;
+
     @media only screen and (min-width: 1150px) and (max-width: 1700px) {
       font-size: 30px;
     }
