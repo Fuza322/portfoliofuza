@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza322/static/css/main.e06c4c93.chunk.css",
-    "main.js": "/portfoliofuza322/static/js/main.dd6cfe77.chunk.js",
-    "main.js.map": "/portfoliofuza322/static/js/main.dd6cfe77.chunk.js.map",
+    "main.js": "/portfoliofuza322/static/js/main.be2be9f1.chunk.js",
+    "main.js.map": "/portfoliofuza322/static/js/main.be2be9f1.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.28bbd403.js",
     "runtime-main.js.map": "/portfoliofuza322/static/js/runtime-main.28bbd403.js.map",
     "static/js/2.4e2d0167.chunk.js": "/portfoliofuza322/static/js/2.4e2d0167.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.4e2d0167.chunk.js.LICENSE.txt": "/portfoliofuza322/static/js/2.4e2d0167.chunk.js.LICENSE.txt",
     "static/media/circleBlack.b1030faa.png": "/portfoliofuza322/static/media/circleBlack.b1030faa.png",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza322/static/media/css3Logo.96a4b4f3.jpg",
+    "static/media/expressjsLogo.7272227c.jpg": "/portfoliofuza322/static/media/expressjsLogo.7272227c.jpg",
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza322/static/media/gitLogo.140fa4d6.png",
     "static/media/html5Logo.bbe18f20.png": "/portfoliofuza322/static/media/html5Logo.bbe18f20.png",
     "static/media/learnCards.958a065b.png": "/portfoliofuza322/static/media/learnCards.958a065b.png",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.28bbd403.js",
     "static/js/2.4e2d0167.chunk.js",
     "static/css/main.e06c4c93.chunk.css",
-    "static/js/main.dd6cfe77.chunk.js"
+    "static/js/main.be2be9f1.chunk.js"
   ]
 }
