@@ -19,6 +19,7 @@ import reactLogo from "./assets/images/skills/reactLogo.png"
 import reactNativeLogo from "./assets/images/skills/reactNativeLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import nodejsLogo from "./assets/images/skills/nodejsLogo.png"
+import expressjsLogo from "./assets/images/skills/expressjsLogo.jpg"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
 import storybookLogo from "./assets/images/skills/storybookLogo.png"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
@@ -115,6 +116,12 @@ function App() {
             skillTitle: "NodeJS",
             skillDiscription: "Software platform based on the V8 engine (translating JavaScript into machine code).",
             style: {backgroundImage: `url(${nodejsLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "ExpressJS",
+            skillDiscription: "A flexible web framework for Node.js applications that provides a set of features for mobile devices and web applications.",
+            style: {backgroundImage: `url(${expressjsLogo})`}
         },
         {
             id: v1(),
