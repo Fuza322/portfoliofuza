@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza322/static/css/main.e06c4c93.chunk.css",
-    "main.js": "/portfoliofuza322/static/js/main.be2be9f1.chunk.js",
-    "main.js.map": "/portfoliofuza322/static/js/main.be2be9f1.chunk.js.map",
+    "main.js": "/portfoliofuza322/static/js/main.696a44d1.chunk.js",
+    "main.js.map": "/portfoliofuza322/static/js/main.696a44d1.chunk.js.map",
     "runtime-main.js": "/portfoliofuza322/static/js/runtime-main.28bbd403.js",
     "runtime-main.js.map": "/portfoliofuza322/static/js/runtime-main.28bbd403.js.map",
     "static/js/2.4e2d0167.chunk.js": "/portfoliofuza322/static/js/2.4e2d0167.chunk.js",
@@ -26,12 +26,13 @@
     "static/media/socialNetwork.d3ca8775.png": "/portfoliofuza322/static/media/socialNetwork.d3ca8775.png",
     "static/media/sqlLogo.69a805eb.png": "/portfoliofuza322/static/media/sqlLogo.69a805eb.png",
     "static/media/todolist.41a48bee.png": "/portfoliofuza322/static/media/todolist.41a48bee.png",
-    "static/media/tsLogo.2218cc17.png": "/portfoliofuza322/static/media/tsLogo.2218cc17.png"
+    "static/media/tsLogo.2218cc17.png": "/portfoliofuza322/static/media/tsLogo.2218cc17.png",
+    "static/media/vueLogo.a23385e3.png": "/portfoliofuza322/static/media/vueLogo.a23385e3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.28bbd403.js",
     "static/js/2.4e2d0167.chunk.js",
     "static/css/main.e06c4c93.chunk.css",
-    "static/js/main.be2be9f1.chunk.js"
+    "static/js/main.696a44d1.chunk.js"
   ]
 }
