@@ -17,11 +17,11 @@ import jsLogo from "./assets/images/skills/jsLogo.png"
 import tsLogo from "./assets/images/skills/tsLogo.png"
 import reactLogo from "./assets/images/skills/reactLogo.png"
 import reactNativeLogo from "./assets/images/skills/reactNativeLogo.png"
+import vueLogo from "./assets/images/skills/vueLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import nodejsLogo from "./assets/images/skills/nodejsLogo.png"
 import expressjsLogo from "./assets/images/skills/expressjsLogo.jpg"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
-import storybookLogo from "./assets/images/skills/storybookLogo.png"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
 import gitLogo from "./assets/images/skills/gitLogo.png"
 import todolistImage from "./assets/images/projects/todolist.png"
@@ -95,7 +95,7 @@ function App() {
         },
         {
             id: v1(),
-            skillTitle: "React",
+            skillTitle: "React.JS",
             skillDiscription: "Library for developing user interfaces and creating one-page applications using components and Virtual DOM.",
             style: {backgroundImage: `url(${reactLogo})`}
         },
@@ -104,6 +104,12 @@ function App() {
             skillTitle: "React Native",
             skillDiscription: "Сross-platform framework for developing native mobile and desktop applications in JavaScript and TypeScript.",
             style: {backgroundImage: `url(${reactNativeLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "Vue.JS",
+            skillDiscription: "Progressive open source JavaScript framework for user interface development.",
+            style: {backgroundImage: `url(${vueLogo})`}
         },
         {
             id: v1(),
@@ -128,12 +134,6 @@ function App() {
             skillTitle: "SQL",
             skillDiscription: "Declarative programming language used to create, modify, and manipulate data in a relational database.",
             style: {backgroundImage: `url(${sqlLogo})`}
-        },
-        {
-            id: v1(),
-            skillTitle: "Storybook",
-            skillDiscription: "Tool for creating separate parts of the interface separately from the main application, which simplifies testing and allows you to debug a component with different data.",
-            style: {backgroundImage: `url(${storybookLogo})`}
         },
         {
             id: v1(),
