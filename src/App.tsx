@@ -20,8 +20,8 @@ import reactNativeLogo from "./assets/images/skills/reactNativeLogo.png"
 import vueLogo from "./assets/images/skills/vueLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import nodejsLogo from "./assets/images/skills/nodejsLogo.png"
-import expressjsLogo from "./assets/images/skills/expressjsLogo.jpg"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
+import mongodbLogo from "./assets/images/skills/mongodbLogo.png"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
 import gitLogo from "./assets/images/skills/gitLogo.png"
 import todolistImage from "./assets/images/projects/todolist.png"
@@ -125,15 +125,15 @@ function App() {
         },
         {
             id: v1(),
-            skillTitle: "ExpressJS",
-            skillDiscription: "A flexible web framework for Node.js applications that provides a set of features for mobile devices and web applications.",
-            style: {backgroundImage: `url(${expressjsLogo})`}
-        },
-        {
-            id: v1(),
             skillTitle: "SQL",
             skillDiscription: "Declarative programming language used to create, modify, and manipulate data in a relational database.",
             style: {backgroundImage: `url(${sqlLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "MongoDB",
+            skillDiscription: "Document-oriented database management system that does not require a description of the table schema.",
+            style: {backgroundImage: `url(${mongodbLogo})`}
         },
         {
             id: v1(),

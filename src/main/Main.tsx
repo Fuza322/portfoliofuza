@@ -42,7 +42,7 @@ export function Main(props: MainType) {
                             </div>
                             <div>
                                 <ReactTypingEffect
-                                    text={"Front-end developer (React)."}
+                                    text={"Software Engineer."}
                                     speed={100}
                                     eraseSpeed={50}
                                     eraseDelay={7000}
