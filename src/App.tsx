@@ -22,6 +22,7 @@ import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import nodejsLogo from "./assets/images/skills/nodejsLogo.png"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
 import mongodbLogo from "./assets/images/skills/mongodbLogo.png"
+import liquibaseLogo from "./assets/images/skills/liquibaseLogo.png"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
 import gitLogo from "./assets/images/skills/gitLogo.png"
 import todolistImage from "./assets/images/projects/todolist.png"
@@ -128,6 +129,12 @@ function App() {
             skillTitle: "SQL",
             skillDiscription: "Declarative programming language used to create, modify, and manipulate data in a relational database.",
             style: {backgroundImage: `url(${sqlLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "Liquibase",
+            skillDiscription: "Database-independent library for tracking, managing, and applying database schema changes.",
+            style: {backgroundImage: `url(${liquibaseLogo})`}
         },
         {
             id: v1(),
