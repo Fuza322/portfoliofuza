@@ -155,7 +155,7 @@ function App() {
             id: v1(),
             projectTitle: "TodoList",
             projectDescription: "Web application designed to conveniently structure information about all current tasks in one place.",
-            stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Sass.",
+            stackTechonogy: "TS, ReactJS, Redux-thunk, Axios, Formik, Material UI, Sass.",
             viewCodeLink: "https://github.com/Fuza322/TodoList",
             style: {backgroundImage: `url(${todolistImage})`}
         },
@@ -163,7 +163,7 @@ function App() {
             id: v1(),
             projectTitle: "Social network",
             projectDescription: "Web application that allows registered users to post information and communicate with each other.",
-            stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.",
+            stackTechonogy: "TS, ReactJS, Redux-thunk, Axios, Redux-form, CSS.",
             viewCodeLink: "https://github.com/Fuza322/Social-Network",
             style: {backgroundImage: `url(${socialNetworkImage})`}
         },
@@ -171,7 +171,7 @@ function App() {
             id: v1(),
             projectTitle: "LearnCards",
             projectDescription: "Web application with flashcards that are used to effectively memorize and review the material studied.",
-            stackTechonogy: "ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Sass.",
+            stackTechonogy: "TS, ReactJS, Redux-thunk, Axios, Formik, Material UI, Sass.",
             viewCodeLink: "https://github.com/Fuza322/LearnCards",
             style: {backgroundImage: `url(${learnCardsImage})`}
         },
@@ -179,7 +179,7 @@ function App() {
             id: v1(),
             projectTitle: "CircleBlack",
             projectDescription: "CircleBlack is integrated advisor hub, that delivers portfolio management and performance reporting.",
-            stackTechonogy: "React, NodeJS, ExpressJS, MySQL, Axios, Styled-components",
+            stackTechonogy: "JS, ReactJS, NodeJS, ExpressJS, MySQL, Liquibase, MongoDB",
             viewCodeLink: "https://circleblack.com/",
             style: {backgroundImage: `url(${circleBlackImage})`}
         },
