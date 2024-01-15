@@ -15,9 +15,8 @@ export function Skills(props: SkillsType) {
                 key={skill.id}
                 id={skill.id}
                 skillTitle={skill.skillTitle}
-                skillDiscription={skill.skillDiscription}
-                style={skill.style}
-            />
+                skillDescription={skill.skillDescription}
+                style={skill.style}/>
         )
     })
 

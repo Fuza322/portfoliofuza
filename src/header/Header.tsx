@@ -12,12 +12,8 @@ export function Header(props: HeaderType) {
         <header id={"mainId"} className={style.headerBlock}>
             <div className={style.headerContainer}>
                 <div className={style.header}>
-                    <Nav
-                        navLinks={props.navLinks}
-                    />
-                    <BurgerNav
-                        navLinks={props.navLinks}
-                    />
+                    <Nav navLinks={props.navLinks}/>
+                    <BurgerNav navLinks={props.navLinks}/>
                 </div>
             </div>
         </header>

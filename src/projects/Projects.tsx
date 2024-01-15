@@ -16,10 +16,9 @@ export function Projects(props: ProjectsType) {
                 id={project.id}
                 projectTitle={project.projectTitle}
                 projectDescription={project.projectDescription}
-                stackTechonogy={project.stackTechonogy}
+                stackTechnology={project.stackTechnology}
                 viewCodeLink={project.viewCodeLink}
-                style={project.style}
-            />
+                style={project.style}/>
         )
     })
 
@@ -27,9 +26,7 @@ export function Projects(props: ProjectsType) {
         <section id={"projectsId"} className={style.projectsBlock}>
             <div className={style.projectsContainer}>
                 <Title title="Projects"/>
-                <div className={style.projects}>
-                    {projects}
-                </div>
+                <div className={style.projects}>{projects}</div>
             </div>
         </section>
     )

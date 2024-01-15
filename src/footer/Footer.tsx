@@ -14,8 +14,7 @@ export function Footer(props: FooterType) {
                 key={footerLink.id}
                 id={footerLink.id}
                 linkTitle={footerLink.linkTitle}
-                link={footerLink.link}
-            />
+                link={footerLink.link}/>
         )
     })
 
@@ -23,9 +22,7 @@ export function Footer(props: FooterType) {
         <footer className={style.footerBlock}>
             <div className={style.footerContainer}>
                 <div className={style.divFooter}>
-                    <ul className={style.footerLinks}>
-                        {footerLinks}
-                    </ul>
+                    <ul className={style.footerLinks}>{footerLinks}</ul>
                 </div>
             </div>
         </footer>
