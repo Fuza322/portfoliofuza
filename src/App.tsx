@@ -23,6 +23,7 @@ import mongodbLogo from "./assets/images/skills/mongodbLogo.png"
 import liquibaseLogo from "./assets/images/skills/liquibaseLogo.png"
 import css3Logo from "./assets/images/skills/css3Logo.jpg"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
+import lessLogo from "./assets/images/skills/lessLogo.png"
 import styledComponentsLogo from "./assets/images/skills/styledComponentsLogo.png"
 import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
 import gitLogo from "./assets/images/skills/gitLogo.png"
@@ -30,6 +31,7 @@ import todolistImage from "./assets/images/projects/todolist.png"
 import socialNetworkImage from "./assets/images/projects/socialNetwork.png"
 import learnCardsImage from "./assets/images/projects/learnCards.png"
 import circleBlackImage from "./assets/images/projects/circleBlack.png"
+import evenbetImage from "./assets/images/projects/evenbet.jpg"
 
 function App() {
 
@@ -68,91 +70,97 @@ function App() {
         {
             id: v1(),
             skillTitle: "JavaScript",
-            skillDescription: "Scripting programming language with dynamic typing that defines the behavior of a web application.",
+            skillDescription: "The scripting programming language with dynamic typing that defines the behavior of a web application.",
             style: {backgroundImage: `url(${jsLogo})`}
         },
         {
             id: v1(),
             skillTitle: "TypeScript",
-            skillDescription: "Programming language that is a web application development tool that solves typing problems and extends the capabilities of the JavaScript language.",
+            skillDescription: "The programming language that is a web application development tool that solves typing problems and extends the capabilities of the JavaScript language.",
             style: {backgroundImage: `url(${tsLogo})`}
         },
         {
             id: v1(),
             skillTitle: "React",
-            skillDescription: "Library for developing user interfaces and creating one-page applications using components and Virtual DOM.",
+            skillDescription: "The library for developing user interfaces and creating one-page applications using components and Virtual DOM.",
             style: {backgroundImage: `url(${reactLogo})`}
         },
         {
             id: v1(),
             skillTitle: "Redux",
-            skillDescription: "Library for managing the state of the application using tools that allow you to build the architecture of a web application and greatly simplify the transfer of data.",
+            skillDescription: "The library for managing the state of the application using tools that allow you to build the architecture of a web application and greatly simplify the transfer of data.",
             style: {backgroundImage: `url(${reduxLogo})`}
         },
         {
             id: v1(),
             skillTitle: "Redux Toolkit",
-            skillDescription: "Package that provides tools for setting up the repository and performing the most common operations, and also contains useful utilities to make development with Redux easier.",
+            skillDescription: "The package that provides tools for setting up the repository and performing the most common operations, and also contains useful utilities to make development with Redux easier.",
             style: {backgroundImage: `url(${reduxToolkitLogo})`}
         },
         {
             id: v1(),
             skillTitle: "NodeJS",
-            skillDescription: "Software platform based on the V8 engine (translating JavaScript into machine code).",
+            skillDescription: "The software platform based on the V8 engine (translating JavaScript into machine code).",
             style: {backgroundImage: `url(${nodejsLogo})`}
         },
         {
             id: v1(),
             skillTitle: "ExpressJS",
-            skillDescription: "Framework that simplifies the creation of APIs and web applications using NodeJS..",
+            skillDescription: "The framework that simplifies the creation of APIs and web applications using NodeJS..",
             style: {backgroundImage: `url(${expressjsLogo})`}
         },
         {
             id: v1(),
             skillTitle: "SQL",
-            skillDescription: "Declarative programming language used to create, modify, and manipulate data in a relational database.",
+            skillDescription: "The declarative programming language used to create, modify, and manipulate data in a relational database.",
             style: {backgroundImage: `url(${sqlLogo})`}
         },
         {
             id: v1(),
             skillTitle: "Liquibase",
-            skillDescription: "Database-independent library for tracking, managing, and applying database schema changes.",
+            skillDescription: "The database-independent library for tracking, managing, and applying database schema changes.",
             style: {backgroundImage: `url(${liquibaseLogo})`}
         },
         {
             id: v1(),
             skillTitle: "MongoDB",
-            skillDescription: "Document-oriented database management system that does not require a description of the table schema.",
+            skillDescription: "The document-oriented database management system that does not require a description of the table schema.",
             style: {backgroundImage: `url(${mongodbLogo})`}
         },
         {
             id: v1(),
             skillTitle: "CSS3",
-            skillDescription: "Language for describing the appearance of a document written using a markup language.",
+            skillDescription: "The language for describing the appearance of a document written using a markup language.",
             style: {backgroundImage: `url(${css3Logo})`}
         },
         {
             id: v1(),
             skillTitle: "Sass",
-            skillDescription: "Metalanguage required to increase the level of abstraction of CSS code and simplify cascading style sheet files.",
+            skillDescription: "The metalanguage required to increase the level of abstraction of CSS code and simplify cascading style sheet.",
             style: {backgroundImage: `url(${sassLogo})`}
         },
         {
             id: v1(),
+            skillTitle: "Less",
+            skillDescription: "The preprocessor and embedded metalanguage that transforms and improves the cascading style sheet experience.",
+            style: {backgroundImage: `url(${lessLogo})`}
+        },
+        {
+            id: v1(),
             skillTitle: "Styled-components",
-            skillDescription: "Library that allows you to create styles directly in JS, customize them in various ways and use them as regular React components.",
+            skillDescription: "The library that allows you to create styles directly in JS, customize them in various ways and use them as regular React components.",
             style: {backgroundImage: `url(${styledComponentsLogo})`}
         },
         {
             id: v1(),
             skillTitle: "Material-UI",
-            skillDescription: "A library that contains a wide range of styled React components for quickly developing an application in React.",
+            skillDescription: "The library that contains a wide range of styled React components for quickly developing an application in React.",
             style: {backgroundImage: `url(${materialUiLogo})`}
         },
         {
             id: v1(),
             skillTitle: "Git",
-            skillDescription: "Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.",
+            skillDescription: "The distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.",
             style: {backgroundImage: `url(${gitLogo})`}
         }
     ]
@@ -186,9 +194,17 @@ function App() {
             id: v1(),
             projectTitle: "CircleBlack",
             projectDescription: "CircleBlack is integrated advisor hub, that delivers portfolio management and performance reporting.",
-            stackTechnology: "JavaScript, React, NodeJS, ExpressJS, MySQL, Liquibase, MongoDB",
-            viewCodeLink: "https://circleblack.com/",
+            stackTechnology: "JavaScript, React, NodeJS, ExpressJS, MySQL, Liquibase, MongoDB.",
+            viewCodeLink: "https://circleblack.com",
             style: {backgroundImage: `url(${circleBlackImage})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Evenbet Poker",
+            projectDescription: "Evenbet Poker is an online poker application that is used to play various types of poker games, tournaments and various casino games such as slots, roulette, blackjack and others.",
+            stackTechnology: "JavaScript, TypeScript, React, Redux, MVC, Less.",
+            viewCodeLink: "https://poker.evenbetpoker.com/html5-evenbetpoker",
+            style: {backgroundImage: `url(${evenbetImage})`}
         },
     ]
 

@@ -20,7 +20,7 @@ export function Project(props: ProjectType) {
                 <div className={style.projectInfo}>
                     <h3 className={style.nameProjectText}>{props.projectTitle}</h3>
                     <p className={style.descriptionProjectText}>{props.projectDescription}</p>
-                    <h3 className={style.TechnologiesText}>Technologies:</h3>
+                    <h3 className={style.TechnologiesText}>Stack:</h3>
                     <p className={style.descriptionProjectText}>{props.stackTechnology}</p>
                 </div>
                 <div className={style.projectButtonContainer}>
