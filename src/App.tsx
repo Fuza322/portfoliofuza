@@ -16,6 +16,7 @@ import tsLogo from "./assets/images/skills/tsLogo.png"
 import reactLogo from "./assets/images/skills/reactLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import reduxToolkitLogo from "./assets/images/skills/reduxToolkitLogo.png"
+import mobxLogo from "./assets/images/skills/mobxLogo.png"
 import nodejsLogo from "./assets/images/skills/nodejsLogo.png"
 import expressjsLogo from "./assets/images/skills/expressjsLogo.png"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
@@ -96,6 +97,12 @@ function App() {
             skillTitle: "Redux Toolkit",
             skillDescription: "The package that provides tools for setting up the repository and performing the most common operations, and also contains useful utilities to make development with Redux easier.",
             style: {backgroundImage: `url(${reduxToolkitLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "MobX",
+            skillDescription: "The state management library that makes it easy to create reactive data models.",
+            style: {backgroundImage: `url(${mobxLogo})`}
         },
         {
             id: v1(),
