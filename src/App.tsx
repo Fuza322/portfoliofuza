@@ -14,25 +14,30 @@ import mainPhoto from "./assets/images/main/mainPhoto.jpg"
 import jsLogo from "./assets/images/skills/jsLogo.png"
 import tsLogo from "./assets/images/skills/tsLogo.png"
 import reactLogo from "./assets/images/skills/reactLogo.png"
+import nextLogo from "./assets/images/skills/nextLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import reduxToolkitLogo from "./assets/images/skills/reduxToolkitLogo.png"
 import mobxLogo from "./assets/images/skills/mobxLogo.png"
-import nodejsLogo from "./assets/images/skills/nodejsLogo.png"
-import expressjsLogo from "./assets/images/skills/expressjsLogo.png"
+import nodeJsLogo from "./assets/images/skills/nodeJsLogo.png"
+import expressJsLogo from "./assets/images/skills/expressJsLogo.png"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
 import mongodbLogo from "./assets/images/skills/mongodbLogo.png"
 import liquibaseLogo from "./assets/images/skills/liquibaseLogo.png"
 import css3Logo from "./assets/images/skills/css3Logo.jpg"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
 import lessLogo from "./assets/images/skills/lessLogo.png"
+import tailwindLogo from "./assets/images/skills/tailwindLogo.png"
 import styledComponentsLogo from "./assets/images/skills/styledComponentsLogo.png"
 import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
+import threeJsLogo from "./assets/images/skills/threeJsLogo.png"
+import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
 import gitLogo from "./assets/images/skills/gitLogo.png"
-import todolistImage from "./assets/images/projects/todolist.png"
+import taskTrackerImage from "./assets/images/projects/taskTracker.png"
 import socialNetworkImage from "./assets/images/projects/socialNetwork.png"
 import learnCardsImage from "./assets/images/projects/learnCards.png"
 import circleBlackImage from "./assets/images/projects/circleBlack.png"
-import evenbetImage from "./assets/images/projects/evenbet.jpg"
+import evenBetImage from "./assets/images/projects/evenbet.jpg"
+import wtVsEd from "./assets/images/projects/wtVsEd.png"
 
 function App() {
 
@@ -94,6 +99,12 @@ function App() {
         },
         {
             id: v1(),
+            skillTitle: "Next",
+            skillDescription: "The open-source JavaScript framework built on top of React.js for building web applications by Vercel.",
+            style: {backgroundImage: `url(${nextLogo})`}
+        },
+        {
+            id: v1(),
             skillTitle: "Redux Toolkit",
             skillDescription: "The package that provides tools for setting up the repository and performing the most common operations, and also contains useful utilities to make development with Redux easier.",
             style: {backgroundImage: `url(${reduxToolkitLogo})`}
@@ -108,13 +119,13 @@ function App() {
             id: v1(),
             skillTitle: "NodeJS",
             skillDescription: "The software platform based on the V8 engine (translating JavaScript into machine code).",
-            style: {backgroundImage: `url(${nodejsLogo})`}
+            style: {backgroundImage: `url(${nodeJsLogo})`}
         },
         {
             id: v1(),
             skillTitle: "ExpressJS",
             skillDescription: "The framework that simplifies the creation of APIs and web applications using NodeJS..",
-            style: {backgroundImage: `url(${expressjsLogo})`}
+            style: {backgroundImage: `url(${expressJsLogo})`}
         },
         {
             id: v1(),
@@ -154,6 +165,12 @@ function App() {
         },
         {
             id: v1(),
+            skillTitle: "Tailwind",
+            skillDescription: "The open-source CSS framework that provides special utility classes that can be combined to style each element to quickly create modern websites.",
+            style: {backgroundImage: `url(${tailwindLogo})`}
+        },
+        {
+            id: v1(),
             skillTitle: "Styled-components",
             skillDescription: "The library that allows you to create styles directly in JS, customize them in various ways and use them as regular React components.",
             style: {backgroundImage: `url(${styledComponentsLogo})`}
@@ -166,6 +183,18 @@ function App() {
         },
         {
             id: v1(),
+            skillTitle: "ThreeJS",
+            skillDescription: "The cross-browser JavaScript library that helps to create animated 3D computer graphics when developing web applications. Three.js scripts can be used with CANVAS, SVG, or WebGL elements.",
+            style: {backgroundImage: `url(${threeJsLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "PixiJS",
+            skillDescription: "The JavaScript library for creating 2D graphics and animations for web applications. It provides high performance and the ability to work with various visual effects.",
+            style: {backgroundImage: `url(${pixiJsLogo})`}
+        },
+        {
+            id: v1(),
             skillTitle: "Git",
             skillDescription: "The distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.",
             style: {backgroundImage: `url(${gitLogo})`}
@@ -175,18 +204,18 @@ function App() {
     const projects: Array<ProjectType> = [
         {
             id: v1(),
-            projectTitle: "TodoList",
+            projectTitle: "Task Tracker",
             projectDescription: "Web application designed to conveniently structure information about all current tasks in one place.",
             stackTechnology: "TypeScript, React, Redux-thunk, Axios, Formik, Material UI, Sass.",
-            viewCodeLink: "https://github.com/Fuza322/TodoList",
-            style: {backgroundImage: `url(${todolistImage})`}
+            viewLink: "https://github.com/Fuza322/Task Tracker",
+            style: {backgroundImage: `url(${taskTrackerImage})`}
         },
         {
             id: v1(),
             projectTitle: "Social network",
             projectDescription: "Web application that allows registered users to post information and communicate with each other.",
             stackTechnology: "TypeScript, React, Redux-thunk, Axios, Redux-form, CSS.",
-            viewCodeLink: "https://github.com/Fuza322/Social-Network",
+            viewLink: "https://github.com/Fuza322/Social-Network",
             style: {backgroundImage: `url(${socialNetworkImage})`}
         },
         {
@@ -194,7 +223,7 @@ function App() {
             projectTitle: "LearnCards",
             projectDescription: "Web application with flashcards that are used to effectively memorize and review the material studied.",
             stackTechnology: "TypeScript, React, NodeJS, Redux-thunk, Formik, Material UI, Sass.",
-            viewCodeLink: "https://github.com/Fuza322/LearnCards",
+            viewLink: "https://github.com/Fuza322/LearnCards",
             style: {backgroundImage: `url(${learnCardsImage})`}
         },
         {
@@ -202,7 +231,7 @@ function App() {
             projectTitle: "CircleBlack",
             projectDescription: "CircleBlack is integrated advisor hub, that delivers portfolio management and performance reporting.",
             stackTechnology: "JavaScript, React, NodeJS, ExpressJS, MySQL, Liquibase, MongoDB.",
-            viewCodeLink: "https://circleblack.com",
+            viewLink: "https://circleblack.com",
             style: {backgroundImage: `url(${circleBlackImage})`}
         },
         {
@@ -210,8 +239,16 @@ function App() {
             projectTitle: "Evenbet Poker",
             projectDescription: "Evenbet Poker is an online poker application that is used to play various types of poker games, tournaments and various casino games such as slots, roulette, blackjack and others.",
             stackTechnology: "JavaScript, TypeScript, React, Redux, MVC, Less.",
-            viewCodeLink: "https://poker.evenbetpoker.com/html5-evenbetpoker",
-            style: {backgroundImage: `url(${evenbetImage})`}
+            viewLink: "https://poker.evenbetpoker.com/html5-evenbetpoker",
+            style: {backgroundImage: `url(${evenBetImage})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "West Tiger vs East Dragon",
+            projectDescription: "The web application for the game \"coin toss\". The player makes a bet and tosses a coin - if the winning side comes up, he gets double the amount, otherwise he loses the bet.",
+            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS.",
+            viewLink: "https://bgmprod.arkana-gaming.com/en/wt-vs-ed",
+            style: {backgroundImage: `url(${wtVsEd})`}
         },
     ]
 

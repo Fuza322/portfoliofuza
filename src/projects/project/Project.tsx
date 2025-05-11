@@ -7,7 +7,7 @@ export type ProjectType = {
     projectTitle: string
     projectDescription: string
     stackTechnology: string
-    viewCodeLink: string
+    viewLink: string
     style: { backgroundImage: string }
 }
 
@@ -24,7 +24,7 @@ export function Project(props: ProjectType) {
                     <p className={style.descriptionProjectText}>{props.stackTechnology}</p>
                 </div>
                 <div className={style.projectButtonContainer}>
-                    <Button title={"View"} link={props.viewCodeLink}/>
+                    <Button title={"View"} link={props.viewLink}/>
                 </div>
             </div>
         </div>
