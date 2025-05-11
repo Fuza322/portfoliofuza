@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfoliofuza/static/css/main.9efb2911.chunk.css",
-    "main.js": "/portfoliofuza/static/js/main.25ad9530.chunk.js",
-    "main.js.map": "/portfoliofuza/static/js/main.25ad9530.chunk.js.map",
+    "main.css": "/portfoliofuza/static/css/main.89d4337e.chunk.css",
+    "main.js": "/portfoliofuza/static/js/main.cb5f12be.chunk.js",
+    "main.js.map": "/portfoliofuza/static/js/main.cb5f12be.chunk.js.map",
     "runtime-main.js": "/portfoliofuza/static/js/runtime-main.867486ad.js",
     "runtime-main.js.map": "/portfoliofuza/static/js/runtime-main.867486ad.js.map",
-    "static/js/2.bfff8323.chunk.js": "/portfoliofuza/static/js/2.bfff8323.chunk.js",
-    "static/js/2.bfff8323.chunk.js.map": "/portfoliofuza/static/js/2.bfff8323.chunk.js.map",
+    "static/js/2.252024f1.chunk.js": "/portfoliofuza/static/js/2.252024f1.chunk.js",
+    "static/js/2.252024f1.chunk.js.map": "/portfoliofuza/static/js/2.252024f1.chunk.js.map",
     "static/js/3.92bc012b.chunk.js": "/portfoliofuza/static/js/3.92bc012b.chunk.js",
     "static/js/3.92bc012b.chunk.js.map": "/portfoliofuza/static/js/3.92bc012b.chunk.js.map",
     "index.html": "/portfoliofuza/index.html",
-    "static/css/main.9efb2911.chunk.css.map": "/portfoliofuza/static/css/main.9efb2911.chunk.css.map",
-    "static/js/2.bfff8323.chunk.js.LICENSE.txt": "/portfoliofuza/static/js/2.bfff8323.chunk.js.LICENSE.txt",
+    "static/css/main.89d4337e.chunk.css.map": "/portfoliofuza/static/css/main.89d4337e.chunk.css.map",
+    "static/js/2.252024f1.chunk.js.LICENSE.txt": "/portfoliofuza/static/js/2.252024f1.chunk.js.LICENSE.txt",
     "static/media/circleBlack.b1030faa.png": "/portfoliofuza/static/media/circleBlack.b1030faa.png",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza/static/media/css3Logo.96a4b4f3.jpg",
     "static/media/evenbet.30ce4e1f.jpg": "/portfoliofuza/static/media/evenbet.30ce4e1f.jpg",
-    "static/media/expressjsLogo.b16d26ef.png": "/portfoliofuza/static/media/expressjsLogo.b16d26ef.png",
+    "static/media/expressJsLogo.b16d26ef.png": "/portfoliofuza/static/media/expressJsLogo.b16d26ef.png",
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza/static/media/gitLogo.140fa4d6.png",
     "static/media/learnCards.958a065b.png": "/portfoliofuza/static/media/learnCards.958a065b.png",
     "static/media/lessLogo.43de0391.png": "/portfoliofuza/static/media/lessLogo.43de0391.png",
@@ -23,6 +23,7 @@
     "static/media/materialUiLogo.5b2d8a0a.png": "/portfoliofuza/static/media/materialUiLogo.5b2d8a0a.png",
     "static/media/mobxLogo.aac3da38.png": "/portfoliofuza/static/media/mobxLogo.aac3da38.png",
     "static/media/mongodbLogo.a7ec7ad3.png": "/portfoliofuza/static/media/mongodbLogo.a7ec7ad3.png",
+    "static/media/nextLogo.49309b4c.png": "/portfoliofuza/static/media/nextLogo.49309b4c.png",
     "static/media/reactLogo.d7c78a43.png": "/portfoliofuza/static/media/reactLogo.d7c78a43.png",
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza/static/media/reduxLogo.7b24d44a.png",
     "static/media/reduxToolkitLogo.6e66cd4f.png": "/portfoliofuza/static/media/reduxToolkitLogo.6e66cd4f.png",
@@ -30,13 +31,15 @@
     "static/media/socialNetwork.d3ca8775.png": "/portfoliofuza/static/media/socialNetwork.d3ca8775.png",
     "static/media/sqlLogo.69a805eb.png": "/portfoliofuza/static/media/sqlLogo.69a805eb.png",
     "static/media/styledComponentsLogo.086ad336.png": "/portfoliofuza/static/media/styledComponentsLogo.086ad336.png",
-    "static/media/todolist.41a48bee.png": "/portfoliofuza/static/media/todolist.41a48bee.png",
-    "static/media/tsLogo.2218cc17.png": "/portfoliofuza/static/media/tsLogo.2218cc17.png"
+    "static/media/tailwindLogo.ff4327ea.png": "/portfoliofuza/static/media/tailwindLogo.ff4327ea.png",
+    "static/media/taskTracker.41a48bee.png": "/portfoliofuza/static/media/taskTracker.41a48bee.png",
+    "static/media/tsLogo.2218cc17.png": "/portfoliofuza/static/media/tsLogo.2218cc17.png",
+    "static/media/wtVsEd.30c70af5.png": "/portfoliofuza/static/media/wtVsEd.30c70af5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.867486ad.js",
-    "static/js/2.bfff8323.chunk.js",
-    "static/css/main.9efb2911.chunk.css",
-    "static/js/main.25ad9530.chunk.js"
+    "static/js/2.252024f1.chunk.js",
+    "static/css/main.89d4337e.chunk.css",
+    "static/js/main.cb5f12be.chunk.js"
   ]
 }
