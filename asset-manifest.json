@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza/static/css/main.89d4337e.chunk.css",
-    "main.js": "/portfoliofuza/static/js/main.f507f925.chunk.js",
-    "main.js.map": "/portfoliofuza/static/js/main.f507f925.chunk.js.map",
+    "main.js": "/portfoliofuza/static/js/main.bdd7d0b7.chunk.js",
+    "main.js.map": "/portfoliofuza/static/js/main.bdd7d0b7.chunk.js.map",
     "runtime-main.js": "/portfoliofuza/static/js/runtime-main.867486ad.js",
     "runtime-main.js.map": "/portfoliofuza/static/js/runtime-main.867486ad.js.map",
     "static/js/2.252024f1.chunk.js": "/portfoliofuza/static/js/2.252024f1.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/portfoliofuza/index.html",
     "static/css/main.89d4337e.chunk.css.map": "/portfoliofuza/static/css/main.89d4337e.chunk.css.map",
     "static/js/2.252024f1.chunk.js.LICENSE.txt": "/portfoliofuza/static/js/2.252024f1.chunk.js.LICENSE.txt",
+    "static/media/antDesignLogo.49bec39f.svg": "/portfoliofuza/static/media/antDesignLogo.49bec39f.svg",
     "static/media/candyCrash.c89c16ba.jpg": "/portfoliofuza/static/media/candyCrash.c89c16ba.jpg",
     "static/media/circleBlack.b1030faa.png": "/portfoliofuza/static/media/circleBlack.b1030faa.png",
     "static/media/crashOnMars.053eba0d.jpg": "/portfoliofuza/static/media/crashOnMars.053eba0d.jpg",
@@ -32,11 +33,9 @@
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza/static/media/reduxLogo.7b24d44a.png",
     "static/media/reduxToolkitLogo.6e66cd4f.png": "/portfoliofuza/static/media/reduxToolkitLogo.6e66cd4f.png",
     "static/media/sassLogo.56fca5c8.jpg": "/portfoliofuza/static/media/sassLogo.56fca5c8.jpg",
-    "static/media/socialNetwork.d3ca8775.png": "/portfoliofuza/static/media/socialNetwork.d3ca8775.png",
     "static/media/sqlLogo.69a805eb.png": "/portfoliofuza/static/media/sqlLogo.69a805eb.png",
     "static/media/styledComponentsLogo.086ad336.png": "/portfoliofuza/static/media/styledComponentsLogo.086ad336.png",
     "static/media/tailwindLogo.ff4327ea.png": "/portfoliofuza/static/media/tailwindLogo.ff4327ea.png",
-    "static/media/taskTracker.41a48bee.png": "/portfoliofuza/static/media/taskTracker.41a48bee.png",
     "static/media/tsLogo.2218cc17.png": "/portfoliofuza/static/media/tsLogo.2218cc17.png",
     "static/media/wtVsEd.30c70af5.png": "/portfoliofuza/static/media/wtVsEd.30c70af5.png"
   },
@@ -44,6 +43,6 @@
     "static/js/runtime-main.867486ad.js",
     "static/js/2.252024f1.chunk.js",
     "static/css/main.89d4337e.chunk.css",
-    "static/js/main.f507f925.chunk.js"
+    "static/js/main.bdd7d0b7.chunk.js"
   ]
 }
