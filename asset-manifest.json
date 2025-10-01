@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza/static/css/main.89d4337e.chunk.css",
-    "main.js": "/portfoliofuza/static/js/main.cb5f12be.chunk.js",
-    "main.js.map": "/portfoliofuza/static/js/main.cb5f12be.chunk.js.map",
+    "main.js": "/portfoliofuza/static/js/main.f507f925.chunk.js",
+    "main.js.map": "/portfoliofuza/static/js/main.f507f925.chunk.js.map",
     "runtime-main.js": "/portfoliofuza/static/js/runtime-main.867486ad.js",
     "runtime-main.js.map": "/portfoliofuza/static/js/runtime-main.867486ad.js.map",
     "static/js/2.252024f1.chunk.js": "/portfoliofuza/static/js/2.252024f1.chunk.js",
@@ -12,8 +12,11 @@
     "index.html": "/portfoliofuza/index.html",
     "static/css/main.89d4337e.chunk.css.map": "/portfoliofuza/static/css/main.89d4337e.chunk.css.map",
     "static/js/2.252024f1.chunk.js.LICENSE.txt": "/portfoliofuza/static/js/2.252024f1.chunk.js.LICENSE.txt",
+    "static/media/candyCrash.c89c16ba.jpg": "/portfoliofuza/static/media/candyCrash.c89c16ba.jpg",
     "static/media/circleBlack.b1030faa.png": "/portfoliofuza/static/media/circleBlack.b1030faa.png",
+    "static/media/crashOnMars.053eba0d.jpg": "/portfoliofuza/static/media/crashOnMars.053eba0d.jpg",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza/static/media/css3Logo.96a4b4f3.jpg",
+    "static/media/dbBet.acad2797.jpg": "/portfoliofuza/static/media/dbBet.acad2797.jpg",
     "static/media/evenbet.30ce4e1f.jpg": "/portfoliofuza/static/media/evenbet.30ce4e1f.jpg",
     "static/media/expressJsLogo.b16d26ef.png": "/portfoliofuza/static/media/expressJsLogo.b16d26ef.png",
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza/static/media/gitLogo.140fa4d6.png",
@@ -23,6 +26,7 @@
     "static/media/materialUiLogo.5b2d8a0a.png": "/portfoliofuza/static/media/materialUiLogo.5b2d8a0a.png",
     "static/media/mobxLogo.aac3da38.png": "/portfoliofuza/static/media/mobxLogo.aac3da38.png",
     "static/media/mongodbLogo.a7ec7ad3.png": "/portfoliofuza/static/media/mongodbLogo.a7ec7ad3.png",
+    "static/media/nestJsLogo.8cc42ce9.svg": "/portfoliofuza/static/media/nestJsLogo.8cc42ce9.svg",
     "static/media/nextLogo.49309b4c.png": "/portfoliofuza/static/media/nextLogo.49309b4c.png",
     "static/media/reactLogo.d7c78a43.png": "/portfoliofuza/static/media/reactLogo.d7c78a43.png",
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza/static/media/reduxLogo.7b24d44a.png",
@@ -40,6 +44,6 @@
     "static/js/runtime-main.867486ad.js",
     "static/js/2.252024f1.chunk.js",
     "static/css/main.89d4337e.chunk.css",
-    "static/js/main.cb5f12be.chunk.js"
+    "static/js/main.f507f925.chunk.js"
   ]
 }
