@@ -20,6 +20,7 @@ import reduxToolkitLogo from "./assets/images/skills/reduxToolkitLogo.png"
 import mobxLogo from "./assets/images/skills/mobxLogo.png"
 import nodeJsLogo from "./assets/images/skills/nodeJsLogo.png"
 import expressJsLogo from "./assets/images/skills/expressJsLogo.png"
+import nestJsLogo from "./assets/images/skills/nestJsLogo.svg"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
 import mongodbLogo from "./assets/images/skills/mongodbLogo.png"
 import liquibaseLogo from "./assets/images/skills/liquibaseLogo.png"
@@ -29,15 +30,17 @@ import lessLogo from "./assets/images/skills/lessLogo.png"
 import tailwindLogo from "./assets/images/skills/tailwindLogo.png"
 import styledComponentsLogo from "./assets/images/skills/styledComponentsLogo.png"
 import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
+import antDesignLogo from "./assets/images/skills/antDesignLogo.svg"
 import threeJsLogo from "./assets/images/skills/threeJsLogo.png"
 import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
 import gitLogo from "./assets/images/skills/gitLogo.png"
-import taskTrackerImage from "./assets/images/projects/taskTracker.png"
-import socialNetworkImage from "./assets/images/projects/socialNetwork.png"
 import learnCardsImage from "./assets/images/projects/learnCards.png"
 import circleBlackImage from "./assets/images/projects/circleBlack.png"
 import evenBetImage from "./assets/images/projects/evenbet.jpg"
 import wtVsEd from "./assets/images/projects/wtVsEd.png"
+import crashOnMars from "./assets/images/projects/crashOnMars.jpg"
+import candyCrash from "./assets/images/projects/candyCrash.jpg"
+import dbBet from "./assets/images/projects/dbBet.jpg"
 
 function App() {
 
@@ -124,8 +127,14 @@ function App() {
         {
             id: v1(),
             skillTitle: "ExpressJS",
-            skillDescription: "The framework that simplifies the creation of APIs and web applications using NodeJS..",
+            skillDescription: "The framework that simplifies the creation of APIs and web applications using NodeJS.",
             style: {backgroundImage: `url(${expressJsLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "NestJS",
+            skillDescription: "The progressive Node.js framework for building efficient and scalable server-side applications. It provides a robust, modular architecture for creating well-structured and maintainable systems.",
+            style: {backgroundImage: `url(${nestJsLogo})`}
         },
         {
             id: v1(),
@@ -183,6 +192,12 @@ function App() {
         },
         {
             id: v1(),
+            skillTitle: "Ant Design",
+            skillDescription: "The library for React application that used for building user interfaces. It provides a set of high-quality, customizable components, following modern design principles and development best practices.",
+            style: {backgroundImage: `url(${antDesignLogo})`}
+        },
+        {
+            id: v1(),
             skillTitle: "ThreeJS",
             skillDescription: "The cross-browser JavaScript library that helps to create animated 3D computer graphics when developing web applications. Three.js scripts can be used with CANVAS, SVG, or WebGL elements.",
             style: {backgroundImage: `url(${threeJsLogo})`}
@@ -202,22 +217,6 @@ function App() {
     ]
 
     const projects: Array<ProjectType> = [
-        {
-            id: v1(),
-            projectTitle: "Task Tracker",
-            projectDescription: "Web application designed to conveniently structure information about all current tasks in one place.",
-            stackTechnology: "TypeScript, React, Redux-thunk, Axios, Formik, Material UI, Sass.",
-            viewLink: "https://github.com/Fuza322/Task Tracker",
-            style: {backgroundImage: `url(${taskTrackerImage})`}
-        },
-        {
-            id: v1(),
-            projectTitle: "Social network",
-            projectDescription: "Web application that allows registered users to post information and communicate with each other.",
-            stackTechnology: "TypeScript, React, Redux-thunk, Axios, Redux-form, CSS.",
-            viewLink: "https://github.com/Fuza322/Social-Network",
-            style: {backgroundImage: `url(${socialNetworkImage})`}
-        },
         {
             id: v1(),
             projectTitle: "LearnCards",
@@ -246,9 +245,33 @@ function App() {
             id: v1(),
             projectTitle: "West Tiger vs East Dragon",
             projectDescription: "The web application for the game \"coin toss\". The player makes a bet and tosses a coin - if the winning side comes up, he gets double the amount, otherwise he loses the bet.",
-            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS.",
+            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
             viewLink: "https://bgmprod.arkana-gaming.com/en/wt-vs-ed",
             style: {backgroundImage: `url(${wtVsEd})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Crash on Mars",
+            projectDescription: "The web application challenges you to cash out your bet before the crashing plane wipes out your potential winnings. It's a simple yet tense game of risk and timing, where greed can be your downfall.",
+            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://game-server.arkana-gaming.com/crash-v1/en/crash-on-mars",
+            style: {backgroundImage: `url(${crashOnMars})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Candy crash",
+            projectDescription: "The web application challenges you to cash out your bet before the crashing plane wipes out your potential winnings. It's a simple yet tense game of risk and timing, where greed can be your downfall.",
+            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://game-server.arkana-gaming.com/crash-v1/en/candy-crash",
+            style: {backgroundImage: `url(${candyCrash})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "DBb2b - Affiliates and Partners",
+            projectDescription: "The Telegram bot for DBbet partners. Here you can find information, get promo code banners, apply for a mobile cashier, and much more.",
+            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://t.me/db_banner_bot",
+            style: {backgroundImage: `url(${dbBet})`}
         },
     ]
 
