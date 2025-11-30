@@ -14,7 +14,7 @@ import mainPhoto from "./assets/images/main/mainPhoto.jpg"
 import jsLogo from "./assets/images/skills/jsLogo.png"
 import tsLogo from "./assets/images/skills/tsLogo.png"
 import reactLogo from "./assets/images/skills/reactLogo.png"
-import nextLogo from "./assets/images/skills/nextLogo.png"
+import nextJsLogo from "./assets/images/skills/nextJsLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import reduxToolkitLogo from "./assets/images/skills/reduxToolkitLogo.png"
 import mobxLogo from "./assets/images/skills/mobxLogo.png"
@@ -31,7 +31,6 @@ import tailwindLogo from "./assets/images/skills/tailwindLogo.png"
 import styledComponentsLogo from "./assets/images/skills/styledComponentsLogo.png"
 import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
 import antDesignLogo from "./assets/images/skills/antDesignLogo.svg"
-import threeJsLogo from "./assets/images/skills/threeJsLogo.png"
 import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
 import gitLogo from "./assets/images/skills/gitLogo.png"
 import learnCardsImage from "./assets/images/projects/learnCards.png"
@@ -96,15 +95,15 @@ function App() {
         },
         {
             id: v1(),
-            skillTitle: "Redux",
-            skillDescription: "The library for managing the state of the application using tools that allow you to build the architecture of a web application and greatly simplify the transfer of data.",
-            style: {backgroundImage: `url(${reduxLogo})`}
+            skillTitle: "NextJS",
+            skillDescription: "The open-source JavaScript framework built on top of React.js for building web applications by Vercel.",
+            style: {backgroundImage: `url(${nextJsLogo})`}
         },
         {
             id: v1(),
-            skillTitle: "Next",
-            skillDescription: "The open-source JavaScript framework built on top of React.js for building web applications by Vercel.",
-            style: {backgroundImage: `url(${nextLogo})`}
+            skillTitle: "Redux",
+            skillDescription: "The library for managing the state of the application using tools that allow you to build the architecture of a web application and greatly simplify the transfer of data.",
+            style: {backgroundImage: `url(${reduxLogo})`}
         },
         {
             id: v1(),
@@ -198,12 +197,6 @@ function App() {
         },
         {
             id: v1(),
-            skillTitle: "ThreeJS",
-            skillDescription: "The cross-browser JavaScript library that helps to create animated 3D computer graphics when developing web applications. Three.js scripts can be used with CANVAS, SVG, or WebGL elements.",
-            style: {backgroundImage: `url(${threeJsLogo})`}
-        },
-        {
-            id: v1(),
             skillTitle: "PixiJS",
             skillDescription: "The JavaScript library for creating 2D graphics and animations for web applications. It provides high performance and the ability to work with various visual effects.",
             style: {backgroundImage: `url(${pixiJsLogo})`}
@@ -235,10 +228,10 @@ function App() {
         },
         {
             id: v1(),
-            projectTitle: "Evenbet Poker",
-            projectDescription: "Evenbet Poker is an online poker application that is used to play various types of poker games, tournaments and various casino games such as slots, roulette, blackjack and others.",
+            projectTitle: "Evenbet",
+            projectDescription: "Evenbet Poker is an online poker application A poker gaming platform that includes poker and popular card games, various types of tournaments and casino games such as slots, roulette, blackjack and more.",
             stackTechnology: "JavaScript, TypeScript, React, Redux, MVC, Less.",
-            viewLink: "https://poker.evenbetpoker.com/html5-evenbetpoker",
+            viewLink: "https://evenbetgaming.com/",
             style: {backgroundImage: `url(${evenBetImage})`}
         },
         {
@@ -270,7 +263,7 @@ function App() {
             projectTitle: "DBb2b - Affiliates and Partners",
             projectDescription: "The Telegram bot for DBbet partners. Here you can find information, get promo code banners, apply for a mobile cashier, and much more.",
             stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://t.me/db_banner_bot",
+            viewLink: "https://t.me/db_b2b_bot",
             style: {backgroundImage: `url(${dbBet})`}
         },
     ]
