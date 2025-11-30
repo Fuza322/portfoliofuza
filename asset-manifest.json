@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza/static/css/main.89d4337e.chunk.css",
-    "main.js": "/portfoliofuza/static/js/main.bdd7d0b7.chunk.js",
-    "main.js.map": "/portfoliofuza/static/js/main.bdd7d0b7.chunk.js.map",
+    "main.js": "/portfoliofuza/static/js/main.d595f040.chunk.js",
+    "main.js.map": "/portfoliofuza/static/js/main.d595f040.chunk.js.map",
     "runtime-main.js": "/portfoliofuza/static/js/runtime-main.867486ad.js",
     "runtime-main.js.map": "/portfoliofuza/static/js/runtime-main.867486ad.js.map",
     "static/js/2.252024f1.chunk.js": "/portfoliofuza/static/js/2.252024f1.chunk.js",
@@ -28,7 +28,7 @@
     "static/media/mobxLogo.aac3da38.png": "/portfoliofuza/static/media/mobxLogo.aac3da38.png",
     "static/media/mongodbLogo.a7ec7ad3.png": "/portfoliofuza/static/media/mongodbLogo.a7ec7ad3.png",
     "static/media/nestJsLogo.8cc42ce9.svg": "/portfoliofuza/static/media/nestJsLogo.8cc42ce9.svg",
-    "static/media/nextLogo.49309b4c.png": "/portfoliofuza/static/media/nextLogo.49309b4c.png",
+    "static/media/nextJsLogo.49309b4c.png": "/portfoliofuza/static/media/nextJsLogo.49309b4c.png",
     "static/media/reactLogo.d7c78a43.png": "/portfoliofuza/static/media/reactLogo.d7c78a43.png",
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza/static/media/reduxLogo.7b24d44a.png",
     "static/media/reduxToolkitLogo.6e66cd4f.png": "/portfoliofuza/static/media/reduxToolkitLogo.6e66cd4f.png",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.867486ad.js",
     "static/js/2.252024f1.chunk.js",
     "static/css/main.89d4337e.chunk.css",
-    "static/js/main.bdd7d0b7.chunk.js"
+    "static/js/main.d595f040.chunk.js"
   ]
 }
