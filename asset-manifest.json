@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza/static/css/main.89d4337e.chunk.css",
-    "main.js": "/portfoliofuza/static/js/main.d595f040.chunk.js",
-    "main.js.map": "/portfoliofuza/static/js/main.d595f040.chunk.js.map",
+    "main.js": "/portfoliofuza/static/js/main.b7a9978b.chunk.js",
+    "main.js.map": "/portfoliofuza/static/js/main.b7a9978b.chunk.js.map",
     "runtime-main.js": "/portfoliofuza/static/js/runtime-main.867486ad.js",
     "runtime-main.js.map": "/portfoliofuza/static/js/runtime-main.867486ad.js.map",
     "static/js/2.252024f1.chunk.js": "/portfoliofuza/static/js/2.252024f1.chunk.js",
@@ -13,15 +13,18 @@
     "static/css/main.89d4337e.chunk.css.map": "/portfoliofuza/static/css/main.89d4337e.chunk.css.map",
     "static/js/2.252024f1.chunk.js.LICENSE.txt": "/portfoliofuza/static/js/2.252024f1.chunk.js.LICENSE.txt",
     "static/media/antDesignLogo.49bec39f.svg": "/portfoliofuza/static/media/antDesignLogo.49bec39f.svg",
+    "static/media/bestGoldMiner.6434731e.png": "/portfoliofuza/static/media/bestGoldMiner.6434731e.png",
     "static/media/candyCrash.c89c16ba.jpg": "/portfoliofuza/static/media/candyCrash.c89c16ba.jpg",
+    "static/media/catchQuest.d4163420.png": "/portfoliofuza/static/media/catchQuest.d4163420.png",
     "static/media/circleBlack.b1030faa.png": "/portfoliofuza/static/media/circleBlack.b1030faa.png",
     "static/media/crashOnMars.053eba0d.jpg": "/portfoliofuza/static/media/crashOnMars.053eba0d.jpg",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza/static/media/css3Logo.96a4b4f3.jpg",
     "static/media/dbBet.acad2797.jpg": "/portfoliofuza/static/media/dbBet.acad2797.jpg",
+    "static/media/dorkShow.dbe7b91f.png": "/portfoliofuza/static/media/dorkShow.dbe7b91f.png",
     "static/media/evenbet.30ce4e1f.jpg": "/portfoliofuza/static/media/evenbet.30ce4e1f.jpg",
     "static/media/expressJsLogo.b16d26ef.png": "/portfoliofuza/static/media/expressJsLogo.b16d26ef.png",
+    "static/media/finalRitual.f9cb70d2.png": "/portfoliofuza/static/media/finalRitual.f9cb70d2.png",
     "static/media/gitLogo.140fa4d6.png": "/portfoliofuza/static/media/gitLogo.140fa4d6.png",
-    "static/media/learnCards.958a065b.png": "/portfoliofuza/static/media/learnCards.958a065b.png",
     "static/media/lessLogo.43de0391.png": "/portfoliofuza/static/media/lessLogo.43de0391.png",
     "static/media/mainPhoto.e7176d87.jpg": "/portfoliofuza/static/media/mainPhoto.e7176d87.jpg",
     "static/media/materialUiLogo.5b2d8a0a.png": "/portfoliofuza/static/media/materialUiLogo.5b2d8a0a.png",
@@ -43,6 +46,6 @@
     "static/js/runtime-main.867486ad.js",
     "static/js/2.252024f1.chunk.js",
     "static/css/main.89d4337e.chunk.css",
-    "static/js/main.d595f040.chunk.js"
+    "static/js/main.b7a9978b.chunk.js"
   ]
 }
