@@ -33,12 +33,15 @@ import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
 import antDesignLogo from "./assets/images/skills/antDesignLogo.svg"
 import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
 import gitLogo from "./assets/images/skills/gitLogo.png"
-import learnCardsImage from "./assets/images/projects/learnCards.png"
 import circleBlackImage from "./assets/images/projects/circleBlack.png"
 import evenBetImage from "./assets/images/projects/evenbet.jpg"
+import bestGoldMiner from "./assets/images/projects/bestGoldMiner.png"
 import wtVsEd from "./assets/images/projects/wtVsEd.png"
 import crashOnMars from "./assets/images/projects/crashOnMars.jpg"
 import candyCrash from "./assets/images/projects/candyCrash.jpg"
+import dorkShow from "./assets/images/projects/dorkShow.png"
+import finalRitual from "./assets/images/projects/finalRitual.png"
+import catchQuest from "./assets/images/projects/catchQuest.png"
 import dbBet from "./assets/images/projects/dbBet.jpg"
 
 function App() {
@@ -212,14 +215,6 @@ function App() {
     const projects: Array<ProjectType> = [
         {
             id: v1(),
-            projectTitle: "LearnCards",
-            projectDescription: "Web application with flashcards that are used to effectively memorize and review the material studied.",
-            stackTechnology: "TypeScript, React, NodeJS, Redux-thunk, Formik, Material UI, Sass.",
-            viewLink: "https://github.com/Fuza322/LearnCards",
-            style: {backgroundImage: `url(${learnCardsImage})`}
-        },
-        {
-            id: v1(),
             projectTitle: "CircleBlack",
             projectDescription: "CircleBlack is integrated advisor hub, that delivers portfolio management and performance reporting.",
             stackTechnology: "JavaScript, React, NodeJS, ExpressJS, MySQL, Liquibase, MongoDB.",
@@ -236,10 +231,18 @@ function App() {
         },
         {
             id: v1(),
+            projectTitle: "Best Gold Miner",
+            projectDescription: "BestGoldMiner is a mining-themed game. Players reveal hidden cells to increase their multiplier and potential winnings while avoiding hidden dynamites that end the round and result in a loss.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://game-server.arkana-gaming.com/pixi-games/en/best-gold-miner",
+            style: {backgroundImage: `url(${bestGoldMiner})`}
+        },
+        {
+            id: v1(),
             projectTitle: "West Tiger vs East Dragon",
             projectDescription: "The web application for the game \"coin toss\". The player makes a bet and tosses a coin - if the winning side comes up, he gets double the amount, otherwise he loses the bet.",
-            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://bgmprod.arkana-gaming.com/en/wt-vs-ed",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://game-server.arkana-gaming.com/pixi-games/en/wt-vs-ed",
             style: {backgroundImage: `url(${wtVsEd})`}
         },
         {
@@ -254,9 +257,33 @@ function App() {
             id: v1(),
             projectTitle: "Candy crash",
             projectDescription: "The web application challenges you to cash out your bet before the crashing plane wipes out your potential winnings. It's a simple yet tense game of risk and timing, where greed can be your downfall.",
-            stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
             viewLink: "https://game-server.arkana-gaming.com/crash-v1/en/candy-crash",
             style: {backgroundImage: `url(${candyCrash})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Dork Show",
+            projectDescription: "Dork Show is a circus-themed slot game featuring a unique duel mechanic. Clowns can trigger reel battles that transform entire columns into multiplier wilds.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://dork-show-prod.arkana-gaming.com/en",
+            style: {backgroundImage: `url(${dorkShow})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Final Ritual",
+            projectDescription: "Final Ritual is a slot game featuring a unique rune combination mechanic. Aligning the RI, TU, and AL symbols on the same row forms the word \"RITUAL\" and unlocks the opportunity for significant payouts.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://final-ritual-prod.arkana-gaming.com/en",
+            style: {backgroundImage: `url(${finalRitual})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Catch Quest",
+            projectDescription: "Catch Quest is a fishing-themed slot game featuring a unique symbol combination mechanic. Aligning the three fishing scene symbols on the same row triggers the main game feature and increases the potential for high payouts.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://catch-quest-prod.arkana-gaming.com/en",
+            style: {backgroundImage: `url(${catchQuest})`}
         },
         {
             id: v1(),
