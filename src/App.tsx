@@ -33,16 +33,16 @@ import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
 import antDesignLogo from "./assets/images/skills/antDesignLogo.svg"
 import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
 import gitLogo from "./assets/images/skills/gitLogo.png"
-import circleBlackImage from "./assets/images/projects/circleBlack.png"
-import evenBetImage from "./assets/images/projects/evenbet.jpg"
+import dorkShow from "./assets/images/projects/dorkShow.png"
 import bestGoldMiner from "./assets/images/projects/bestGoldMiner.png"
 import wtVsEd from "./assets/images/projects/wtVsEd.png"
 import crashOnMars from "./assets/images/projects/crashOnMars.jpg"
 import candyCrash from "./assets/images/projects/candyCrash.jpg"
-import dorkShow from "./assets/images/projects/dorkShow.png"
 import finalRitual from "./assets/images/projects/finalRitual.png"
 import catchQuest from "./assets/images/projects/catchQuest.png"
 import dbBet from "./assets/images/projects/dbBet.jpg"
+import evenBetImage from "./assets/images/projects/evenbet.jpg"
+import circleBlackImage from "./assets/images/projects/circleBlack.png"
 
 function App() {
 
@@ -215,19 +215,11 @@ function App() {
     const projects: Array<ProjectType> = [
         {
             id: v1(),
-            projectTitle: "CircleBlack",
-            projectDescription: "CircleBlack is integrated advisor hub, that delivers portfolio management and performance reporting.",
-            stackTechnology: "JavaScript, React, NodeJS, ExpressJS, MySQL, Liquibase, MongoDB.",
-            viewLink: "https://circleblack.com",
-            style: {backgroundImage: `url(${circleBlackImage})`}
-        },
-        {
-            id: v1(),
-            projectTitle: "Evenbet",
-            projectDescription: "Evenbet Poker is an online poker application A poker gaming platform that includes poker and popular card games, various types of tournaments and casino games such as slots, roulette, blackjack and more.",
-            stackTechnology: "JavaScript, TypeScript, React, Redux, MVC, Less.",
-            viewLink: "https://evenbetgaming.com/",
-            style: {backgroundImage: `url(${evenBetImage})`}
+            projectTitle: "Dork Show",
+            projectDescription: "Dork Show is a circus-themed slot game featuring a unique duel mechanic. Clowns can trigger reel battles that transform entire columns into multiplier wilds.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://dork-show-prod.arkana-gaming.com/en",
+            style: {backgroundImage: `url(${dorkShow})`}
         },
         {
             id: v1(),
@@ -263,14 +255,6 @@ function App() {
         },
         {
             id: v1(),
-            projectTitle: "Dork Show",
-            projectDescription: "Dork Show is a circus-themed slot game featuring a unique duel mechanic. Clowns can trigger reel battles that transform entire columns into multiplier wilds.",
-            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://dork-show-prod.arkana-gaming.com/en",
-            style: {backgroundImage: `url(${dorkShow})`}
-        },
-        {
-            id: v1(),
             projectTitle: "Final Ritual",
             projectDescription: "Final Ritual is a slot game featuring a unique rune combination mechanic. Aligning the RI, TU, and AL symbols on the same row forms the word \"RITUAL\" and unlocks the opportunity for significant payouts.",
             stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
@@ -292,6 +276,22 @@ function App() {
             stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
             viewLink: "https://t.me/db_b2b_bot",
             style: {backgroundImage: `url(${dbBet})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Evenbet",
+            projectDescription: "Evenbet Poker is an online poker application A poker gaming platform that includes poker and popular card games, various types of tournaments and casino games such as slots, roulette, blackjack and more.",
+            stackTechnology: "JavaScript, TypeScript, React, Redux, MVC, Less.",
+            viewLink: "https://evenbetgaming.com/",
+            style: {backgroundImage: `url(${evenBetImage})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "CircleBlack",
+            projectDescription: "CircleBlack is integrated advisor hub, that delivers portfolio management and performance reporting.",
+            stackTechnology: "JavaScript, React, NodeJS, ExpressJS, MySQL, Liquibase, MongoDB.",
+            viewLink: "https://circleblack.com",
+            style: {backgroundImage: `url(${circleBlackImage})`}
         },
     ]
 
