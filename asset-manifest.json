@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza/static/css/main.89d4337e.chunk.css",
-    "main.js": "/portfoliofuza/static/js/main.4f2b00cf.chunk.js",
-    "main.js.map": "/portfoliofuza/static/js/main.4f2b00cf.chunk.js.map",
+    "main.js": "/portfoliofuza/static/js/main.ed7f806e.chunk.js",
+    "main.js.map": "/portfoliofuza/static/js/main.ed7f806e.chunk.js.map",
     "runtime-main.js": "/portfoliofuza/static/js/runtime-main.867486ad.js",
     "runtime-main.js.map": "/portfoliofuza/static/js/runtime-main.867486ad.js.map",
     "static/js/2.252024f1.chunk.js": "/portfoliofuza/static/js/2.252024f1.chunk.js",
@@ -24,7 +24,6 @@
     "static/media/evenbet.30ce4e1f.jpg": "/portfoliofuza/static/media/evenbet.30ce4e1f.jpg",
     "static/media/expressJsLogo.b16d26ef.png": "/portfoliofuza/static/media/expressJsLogo.b16d26ef.png",
     "static/media/finalRitual.f9cb70d2.png": "/portfoliofuza/static/media/finalRitual.f9cb70d2.png",
-    "static/media/gitLogo.140fa4d6.png": "/portfoliofuza/static/media/gitLogo.140fa4d6.png",
     "static/media/lessLogo.43de0391.png": "/portfoliofuza/static/media/lessLogo.43de0391.png",
     "static/media/mainPhoto.e7176d87.jpg": "/portfoliofuza/static/media/mainPhoto.e7176d87.jpg",
     "static/media/materialUiLogo.5b2d8a0a.png": "/portfoliofuza/static/media/materialUiLogo.5b2d8a0a.png",
@@ -46,6 +45,6 @@
     "static/js/runtime-main.867486ad.js",
     "static/js/2.252024f1.chunk.js",
     "static/css/main.89d4337e.chunk.css",
-    "static/js/main.4f2b00cf.chunk.js"
+    "static/js/main.ed7f806e.chunk.js"
   ]
 }
