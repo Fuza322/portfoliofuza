@@ -32,7 +32,6 @@ import styledComponentsLogo from "./assets/images/skills/styledComponentsLogo.pn
 import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
 import antDesignLogo from "./assets/images/skills/antDesignLogo.svg"
 import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
-import gitLogo from "./assets/images/skills/gitLogo.png"
 import dorkShow from "./assets/images/projects/dorkShow.png"
 import bestGoldMiner from "./assets/images/projects/bestGoldMiner.png"
 import wtVsEd from "./assets/images/projects/wtVsEd.png"
@@ -204,12 +203,6 @@ function App() {
             skillDescription: "The JavaScript library for creating 2D graphics and animations for web applications. It provides high performance and the ability to work with various visual effects.",
             style: {backgroundImage: `url(${pixiJsLogo})`}
         },
-        {
-            id: v1(),
-            skillTitle: "Git",
-            skillDescription: "The distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.",
-            style: {backgroundImage: `url(${gitLogo})`}
-        }
     ]
 
     const projects: Array<ProjectType> = [
