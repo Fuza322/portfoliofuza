@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliofuza/static/css/main.89d4337e.chunk.css",
-    "main.js": "/portfoliofuza/static/js/main.ed7f806e.chunk.js",
-    "main.js.map": "/portfoliofuza/static/js/main.ed7f806e.chunk.js.map",
+    "main.js": "/portfoliofuza/static/js/main.724101c1.chunk.js",
+    "main.js.map": "/portfoliofuza/static/js/main.724101c1.chunk.js.map",
     "runtime-main.js": "/portfoliofuza/static/js/runtime-main.867486ad.js",
     "runtime-main.js.map": "/portfoliofuza/static/js/runtime-main.867486ad.js.map",
     "static/js/2.252024f1.chunk.js": "/portfoliofuza/static/js/2.252024f1.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/crashOnMars.053eba0d.jpg": "/portfoliofuza/static/media/crashOnMars.053eba0d.jpg",
     "static/media/css3Logo.96a4b4f3.jpg": "/portfoliofuza/static/media/css3Logo.96a4b4f3.jpg",
     "static/media/dbBet.acad2797.jpg": "/portfoliofuza/static/media/dbBet.acad2797.jpg",
+    "static/media/dockerLogo.c18b0ce0.svg": "/portfoliofuza/static/media/dockerLogo.c18b0ce0.svg",
     "static/media/dorkShow.dbe7b91f.png": "/portfoliofuza/static/media/dorkShow.dbe7b91f.png",
     "static/media/evenbet.30ce4e1f.jpg": "/portfoliofuza/static/media/evenbet.30ce4e1f.jpg",
     "static/media/expressJsLogo.b16d26ef.png": "/portfoliofuza/static/media/expressJsLogo.b16d26ef.png",
@@ -32,19 +33,22 @@
     "static/media/nestJsLogo.8cc42ce9.svg": "/portfoliofuza/static/media/nestJsLogo.8cc42ce9.svg",
     "static/media/nextJsLogo.49309b4c.png": "/portfoliofuza/static/media/nextJsLogo.49309b4c.png",
     "static/media/reactLogo.d7c78a43.png": "/portfoliofuza/static/media/reactLogo.d7c78a43.png",
+    "static/media/redisLogo.5d0c2e26.jpg": "/portfoliofuza/static/media/redisLogo.5d0c2e26.jpg",
     "static/media/reduxLogo.7b24d44a.png": "/portfoliofuza/static/media/reduxLogo.7b24d44a.png",
     "static/media/reduxToolkitLogo.6e66cd4f.png": "/portfoliofuza/static/media/reduxToolkitLogo.6e66cd4f.png",
     "static/media/sassLogo.56fca5c8.jpg": "/portfoliofuza/static/media/sassLogo.56fca5c8.jpg",
     "static/media/sqlLogo.69a805eb.png": "/portfoliofuza/static/media/sqlLogo.69a805eb.png",
     "static/media/styledComponentsLogo.086ad336.png": "/portfoliofuza/static/media/styledComponentsLogo.086ad336.png",
     "static/media/tailwindLogo.ff4327ea.png": "/portfoliofuza/static/media/tailwindLogo.ff4327ea.png",
+    "static/media/threeJSLogo.aa4fa409.png": "/portfoliofuza/static/media/threeJSLogo.aa4fa409.png",
     "static/media/tsLogo.2218cc17.png": "/portfoliofuza/static/media/tsLogo.2218cc17.png",
-    "static/media/wtVsEd.30c70af5.png": "/portfoliofuza/static/media/wtVsEd.30c70af5.png"
+    "static/media/wtVsEd.30c70af5.png": "/portfoliofuza/static/media/wtVsEd.30c70af5.png",
+    "static/media/zustandLogo.e4d3bda7.svg": "/portfoliofuza/static/media/zustandLogo.e4d3bda7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.867486ad.js",
     "static/js/2.252024f1.chunk.js",
     "static/css/main.89d4337e.chunk.css",
-    "static/js/main.ed7f806e.chunk.js"
+    "static/js/main.724101c1.chunk.js"
   ]
 }
