@@ -17,12 +17,15 @@ import reactLogo from "./assets/images/skills/reactLogo.png"
 import nextJsLogo from "./assets/images/skills/nextJsLogo.png"
 import reduxLogo from "./assets/images/skills/reduxLogo.png"
 import reduxToolkitLogo from "./assets/images/skills/reduxToolkitLogo.png"
+import zustandLogo from "./assets/images/skills/zustandLogo.svg"
 import mobxLogo from "./assets/images/skills/mobxLogo.png"
 import nodeJsLogo from "./assets/images/skills/nodeJsLogo.png"
 import expressJsLogo from "./assets/images/skills/expressJsLogo.png"
 import nestJsLogo from "./assets/images/skills/nestJsLogo.svg"
 import sqlLogo from "./assets/images/skills/sqlLogo.png"
 import mongodbLogo from "./assets/images/skills/mongodbLogo.png"
+import redisLogo from "./assets/images/skills/redisLogo.jpg"
+import dockerLogo from "./assets/images/skills/dockerLogo.svg"
 import liquibaseLogo from "./assets/images/skills/liquibaseLogo.png"
 import css3Logo from "./assets/images/skills/css3Logo.jpg"
 import sassLogo from "./assets/images/skills/sassLogo.jpg"
@@ -32,6 +35,7 @@ import styledComponentsLogo from "./assets/images/skills/styledComponentsLogo.pn
 import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
 import antDesignLogo from "./assets/images/skills/antDesignLogo.svg"
 import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
+import threeJsLogo from "./assets/images/skills/threeJSLogo.png"
 import dorkShow from "./assets/images/projects/dorkShow.png"
 import bestGoldMiner from "./assets/images/projects/bestGoldMiner.png"
 import wtVsEd from "./assets/images/projects/wtVsEd.png"
@@ -121,6 +125,12 @@ function App() {
         },
         {
             id: v1(),
+            skillTitle: "Zustand",
+            skillDescription: "The lightweight state management library for React with a hook-based API, selector-driven subscriptions, immutable updates, and pluggable middleware.",
+            style: {backgroundImage: `url(${zustandLogo})`}
+        },
+        {
+            id: v1(),
             skillTitle: "NodeJS",
             skillDescription: "The software platform based on the V8 engine (translating JavaScript into machine code).",
             style: {backgroundImage: `url(${nodeJsLogo})`}
@@ -154,6 +164,18 @@ function App() {
             skillTitle: "MongoDB",
             skillDescription: "The document-oriented database management system that does not require a description of the table schema.",
             style: {backgroundImage: `url(${mongodbLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "Redis",
+            skillDescription: "The in-memory data structure store used as a database, cache, and message broker, rich data types, replication and clustering.",
+            style: {backgroundImage: `url(${redisLogo})`}
+        },
+        {
+            id: v1(),
+            skillTitle: "Docker",
+            skillDescription: "The open-source containerization platform for building, shipping, and running applications in isolated environments, providing portable images, dependency bundling.",
+            style: {backgroundImage: `url(${dockerLogo})`}
         },
         {
             id: v1(),
@@ -203,6 +225,12 @@ function App() {
             skillDescription: "The JavaScript library for creating 2D graphics and animations for web applications. It provides high performance and the ability to work with various visual effects.",
             style: {backgroundImage: `url(${pixiJsLogo})`}
         },
+        {
+            id: v1(),
+            skillTitle: "Three.js",
+            skillDescription: "The JavaScript 3D library for browser-based graphics, providing a scene graph, camera and light systems, materials and geometries, animation, model loaders, post-processing effects, and WebGL/WebGPU renderers.",
+            style: {backgroundImage: `url(${threeJsLogo})`}
+        },
     ]
 
     const projects: Array<ProjectType> = [
@@ -211,7 +239,7 @@ function App() {
             projectTitle: "Dork Show",
             projectDescription: "Dork Show is a circus-themed slot game featuring a unique duel mechanic. Clowns can trigger reel battles that transform entire columns into multiplier wilds.",
             stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://dork-show-prod.arkana-gaming.com/en",
+            // viewLink: "https://dork-show-prod.arkana-gaming.com/en",
             style: {backgroundImage: `url(${dorkShow})`}
         },
         {
@@ -219,7 +247,7 @@ function App() {
             projectTitle: "Best Gold Miner",
             projectDescription: "BestGoldMiner is a mining-themed game. Players reveal hidden cells to increase their multiplier and potential winnings while avoiding hidden dynamites that end the round and result in a loss.",
             stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://game-server.arkana-gaming.com/pixi-games/en/best-gold-miner",
+            // viewLink: "https://game-server.arkana-gaming.com/pixi-games/en/best-gold-miner",
             style: {backgroundImage: `url(${bestGoldMiner})`}
         },
         {
@@ -227,7 +255,7 @@ function App() {
             projectTitle: "West Tiger vs East Dragon",
             projectDescription: "The web application for the game \"coin toss\". The player makes a bet and tosses a coin - if the winning side comes up, he gets double the amount, otherwise he loses the bet.",
             stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://game-server.arkana-gaming.com/pixi-games/en/wt-vs-ed",
+            // viewLink: "https://game-server.arkana-gaming.com/pixi-games/en/wt-vs-ed",
             style: {backgroundImage: `url(${wtVsEd})`}
         },
         {
@@ -235,7 +263,7 @@ function App() {
             projectTitle: "Crash on Mars",
             projectDescription: "The web application challenges you to cash out your bet before the crashing plane wipes out your potential winnings. It's a simple yet tense game of risk and timing, where greed can be your downfall.",
             stackTechnology: "TypeScript, Next, Redux, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://game-server.arkana-gaming.com/crash-v1/en/crash-on-mars",
+            // viewLink: "https://game-server.arkana-gaming.com/crash-v1/en/crash-on-mars",
             style: {backgroundImage: `url(${crashOnMars})`}
         },
         {
@@ -243,7 +271,7 @@ function App() {
             projectTitle: "Candy crash",
             projectDescription: "The web application challenges you to cash out your bet before the crashing plane wipes out your potential winnings. It's a simple yet tense game of risk and timing, where greed can be your downfall.",
             stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://game-server.arkana-gaming.com/crash-v1/en/candy-crash",
+            // viewLink: "https://game-server.arkana-gaming.com/crash-v1/en/candy-crash",
             style: {backgroundImage: `url(${candyCrash})`}
         },
         {
@@ -251,7 +279,7 @@ function App() {
             projectTitle: "Final Ritual",
             projectDescription: "Final Ritual is a slot game featuring a unique rune combination mechanic. Aligning the RI, TU, and AL symbols on the same row forms the word \"RITUAL\" and unlocks the opportunity for significant payouts.",
             stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://final-ritual-prod.arkana-gaming.com/en",
+            // viewLink: "https://final-ritual-prod.arkana-gaming.com/en",
             style: {backgroundImage: `url(${finalRitual})`}
         },
         {
@@ -259,7 +287,7 @@ function App() {
             projectTitle: "Catch Quest",
             projectDescription: "Catch Quest is a fishing-themed slot game featuring a unique symbol combination mechanic. Aligning the three fishing scene symbols on the same row triggers the main game feature and increases the potential for high payouts.",
             stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, ThreeJS, PixiJS, NestJS, MongoDB, Redis.",
-            viewLink: "https://catch-quest-prod.arkana-gaming.com/en",
+            // viewLink: "https://catch-quest-prod.arkana-gaming.com/en",
             style: {backgroundImage: `url(${catchQuest})`}
         },
         {
