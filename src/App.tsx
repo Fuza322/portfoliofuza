@@ -36,6 +36,8 @@ import materialUiLogo from "./assets/images/skills/materialUiLogo.png"
 import antDesignLogo from "./assets/images/skills/antDesignLogo.svg"
 import pixiJsLogo from "./assets/images/skills/pixiJsLogo.png"
 import threeJsLogo from "./assets/images/skills/threeJSLogo.png"
+import theApeOfWallStreet from "./assets/images/projects/theApeOfWallStreet.png"
+import menelaos from "./assets/images/projects/menelaos.png"
 import dorkShow from "./assets/images/projects/dorkShow.png"
 import bestGoldMiner from "./assets/images/projects/bestGoldMiner.png"
 import wtVsEd from "./assets/images/projects/wtVsEd.png"
@@ -234,6 +236,22 @@ function App() {
     ]
 
     const projects: Array<ProjectType> = [
+        {
+            id: v1(),
+            projectTitle: "The Ape of wall street",
+            projectDescription: "The Ape of Wall Street is a stock-market-themed slot with a Vault mechanic. Symbols lock inside the Vault, expanding it up to 3x3, and climb a multiplier ladder with each respin.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, TailwindCSS, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://stake.com/ru/casino/games/993games-the-ape-of-wall-street",
+            style: {backgroundImage: `url(${theApeOfWallStreet})`}
+        },
+        {
+            id: v1(),
+            projectTitle: "Menelaos",
+            projectDescription: "Menelaos is a Trojan War-themed slot with hidden gift mechanics. Wooden horses at the gates conceal unpredictable rewards, while a bronze serpent coils around temple columns. With each captured treasure, the king's treasury grows, multiplying every hard-won victory.",
+            stackTechnology: "TypeScript, Next, Redux, RTK Query, PixiJS, NestJS, MongoDB, Redis.",
+            viewLink: "https://stake.com/ru/casino/games/993games-menelaos",
+            style: {backgroundImage: `url(${menelaos})`}
+        },
         {
             id: v1(),
             projectTitle: "Dork Show",
